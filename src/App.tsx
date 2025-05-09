@@ -1,26 +1,33 @@
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import { Flex } from "../styled-system/jsx";
 import MainMenu from "./features/quizzing/MainMenu";
 import { QuizDataProvider } from "./features/quizzing/QuizDataContext";
+import QuizScreen from "./features/quizzing/QuizScreen";
+import AppLayout from "./pages/AppLayout";
 
-const router = createBrowserRouter;
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      {
+        path: "/main-menu",
+        element: <MainMenu />,
+      },
+      {
+        path: "/play",
+        element: <QuizScreen />,
+      },
+    ],
+  },
+]);
 
 function App() {
   document.documentElement.classList.add("dark");
 
   return (
     <QuizDataProvider>
-      <Flex
-        justifyContent={"center"}
-        alignItems={"center"}
-        width={"100%"}
-        h={"100dvh"}
-        maxH={"100dvh"}
-        pb={"4xl"}
-        bg={"surface.s0"}
-        overflow={"hidden"}
-      >
-        <MainMenu />
-      </Flex>
+      <RouterProvider router={router} />
     </QuizDataProvider>
   );
 }
