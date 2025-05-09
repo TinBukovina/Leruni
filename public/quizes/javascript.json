@@ -1,0 +1,610 @@
+[
+  {
+    "id": "1",
+    "topic": "bazne tehnologije web-a",
+    "question": "Koje su tri bazne tehnologije na web-u?",
+    "answer": "HTML, CSS i JavaScript.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "2",
+    "topic": "pravila imenovanja varijabli",
+    "question": "Koja su pravila imenovanja varijabli u JavaScript-u?",
+    "answer": "Koristi se cammelCase konvencija, imena varijabli ne mogu počinjati s brojevima, varijable smiju sadržavati: slova, brojeve, donje crtice i dolar znak. Također varijable ne mogu imati rezervirana imena.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "3",
+    "topic": "vrijednosti i varijable",
+    "question": "Što je to drugačije u JavaScript-u što se tiče vrijednosti, varijabli i njihovih tipova?",
+    "answer": "U JavaScript vrijednosti su te koje imaju tip, a ne varijable kao u drugim programskim jezicima.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "4",
+    "topic": "tipovi vrijednosti",
+    "question": "Koji sve tipovi vrijednosti postoje u JavaScript-u?",
+    "answer": "Number, string, boolean, undefined, null, symbol, bigint, objekt.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "5",
+    "topic": "referentni tipovi u JavaScript-u",
+    "question": "Čime se predstavljaju svi referentni tipovi podatak u JavaScript-u?",
+    "answer": "Objektima.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "6",
+    "topic": "deklaracija varijabli",
+    "question": "Na koje načine možemo deklarirati varijable u JavaScript-u?",
+    "answer": "Let, var, const.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "7",
+    "topic": "deklaracija var",
+    "question": "U čemu se razliku deklaracija var od deklaracije let u JavaScript-u?",
+    "answer": "Var deklaracije je function-scoped i nad njom se vrši proces hoisting-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "8",
+    "topic": "tamplate literals",
+    "question": "Što je to template literals u kontekstu JavaScript-a?",
+    "answer": "Načini pisanja stringova koji omogućava fleksiblinije formatiranje teksta i jednostavnije umetanje varijabli u njega.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "9",
+    "topic": "type conversion",
+    "question": "Što je to type conversion u kontekstu JavaScript-a?",
+    "answer": "Proces u kojem mi ručno mijenjamo jedan tip podataka u drugi preko nekih funkcija/metoda.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "10",
+    "topic": "type coercion",
+    "question": "Što je to type coercion u kontekstu JavaScript-a?",
+    "answer": "Proces u kojem JavaScript automatski pretvara jedan tip podataka u drugi.",
+    "sub_questions": [11],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "11",
+    "topic": "type coercion",
+    "question": "Kada se događa type corecion?",
+    "answer": "Događa se svaki put kada JavaScript odradi operaciju nad dvije različite vrijednosti.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "12",
+    "topic": "strict mode",
+    "question": "Što je strict mode u JavaScript-u i čemu služi?",
+    "answer": "Strict mode omogućuje pisanje sigurnijeg koda tako što pomaže programerima da lakše uoče greške (krivo pisanje imena, korištenje nedefiniranih varijabli). Uveden je u ES5.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "12",
+    "topic": "funkcije",
+    "question": "Kako se tretiraju funkcije u JavaScript-u?",
+    "answer": "Tretiraju se kao vrijednosti (first-class-citizens).",
+    "sub_questions": [13, 15],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "13",
+    "topic": "funkcije, first-class-citizen",
+    "question": "Što znači da su funkcije first-class-citizen?",
+    "answer": "To znači da funkcije možemo spremati u varijable, predavati ih kao argument u druge funkcije, vraćati ih iz funkcija ili oboje.",
+    "sub_questions": [14],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "14",
+    "topic": "funkcije, higher-order",
+    "question": "Što su higher-order funkcije?",
+    "answer": "To su funkcije koje primaju drugu funkciju kao argument, vraćaju funkciju ili oboje.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "15",
+    "topic": "definiranje funkcija",
+    "question": "Kako se mogu definirati funkcije u JavaScript-u?",
+    "answer": "Function declaration: function name(){}, function expression: const name = function(){}, i arrow function: ()=>{}",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "16",
+    "topic": "closure",
+    "question": "Što je closure u JavaScript-u?",
+    "answer": "Closure je koncept koji omogužava da funkcija 'zapamti' i pristupi varijablama iz vanjskog opsega, čak i nakon što je vanjska funkcija završila izvršavanje. Radi na način da Variable Enviroment roditeljske funkcije prikvačen na funkciju u trenutku kada je funkcija kreirana.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "17",
+    "topic": "slice",
+    "question": "Čemu služi metoda .slice(), šta vraća, dali se može koristiti nad stringovima i navedi kako se koristi?",
+    "answer": "Koristi se za izvlačenje dijelova niza. Vraća novi niz bez promjene orginalnog i može se koristiti nad stringovima, koristi se: array.slice(start, end).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "18",
+    "topic": "splice",
+    "question": "Čemu služi metoda .splice()?",
+    "answer": "Koristi se za brisanje elemenata (najčešće), dodavanje elemenata ili zamjenu. Mijenja orginalni niz i vraća izbrisane elemente, ne može se koristiti nad stringovima jer su oni nepromijenjivi, koristi se: array.splice(start, deleteCount, itemToAdd1, itemToAdd2, ...).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "19",
+    "topic": "objekti",
+    "question": "Što su objekti u JavaScriptu i na koje načine možemo pristupati njihovim vrijendostima?",
+    "answer": "Objekti su struktura podataka koja pohranjuje podatke u obliku ključ-vrijednost. Njihovim vrijednostima se pristupa: točkom (dot notation, objekt.svojstvo) ili zagradama ([], bracket notation, objekt['svojstvo'])",
+    "sub_questions": [20],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "20",
+    "topic": "kreiranje objektata",
+    "question": "Na koje načine možemo kreirati objekte u JavaScript-u?",
+    "answer": "new Object(), Object.create() ili object literal {}",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "21",
+    "topic": "DOM",
+    "question": "Što je DOM?",
+    "answer": "DOM (Document Object Model) je programsko sučelje (API) za HTML i XML dokumente koji predstavlja strukturu web stranice u obliku hijerarhijske strukture podataka (strukura podataka stablo). Omogućuje JavaScript-u da manipulira web stranicom.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "22",
+    "topic": "document objekt",
+    "question": "Što je document objekt?",
+    "answer": "Specifičan objekt u JS-u koji služi kao ulazna točka u DOM. Predstavlja cijelu HTML stranicu koja je učitana u preglednik i dostupan je kroz window.document ili samo document.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "23",
+    "topic": "events (događaji)",
+    "question": "Što su događaji (events) u JavaScript-u?",
+    "answer": "Predstavljaju akcije ili pojave u pregledniku, na koje JavaScript može reagirati. Omogućavaju da reagiramo na interakcije korisnika i druge promjene na web stranici.",
+    "sub_questions": [24, 25],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "24",
+    "topic": "events (događaji)",
+    "question": "Što su event listeneri?",
+    "answer": "Funkcije koje 'osluškuju' određene događaje na web stranici i izvršavaju kod kada se ti događaji dogode.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "25",
+    "topic": "event propagation (propagacija događaja)",
+    "question": "Što je propagacija događaja (event propagation) i koje faze uključjuje?",
+    "answer": "Propagacija događaja je proces kretanja događaja kroz DOM stablo. Uključuje tri faze: capturing phase (od root-a do ciljanog elementa), target phase (na ciljanom elementu) i bubbling phase (povratak od ciljanog elementa prema root-u).",
+    "sub_questions": [26, 27, 28, 9],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "26",
+    "topic": "event propagation (propagacija događaja)",
+    "question": "Po default-u, u kojim fazama možemo osluškivati događaje (registrirati event listnere) i kako to možemo promjeniti?",
+    "answer": "Inicijanlno u target i bubbling fazi, ali možemo podesiti event listenere da osluškuju i u capturing fazi, ali moramo predati treći parametar true ili objekt {capture: true} jer je inicialno false.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "27",
+    "topic": "event propagation (propagacija događaja)",
+    "question": "Dali događaji staju sa propagacijom nakon što smo reagirali na njega?",
+    "answer": "Ne, po defaultu događaj će propagirati kroz sve tri faze ako ga ne zaustavimo.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "28",
+    "topic": "event propagation (propagacija događaja)",
+    "question": "Kako možemo zaustaviti daljnju propagaciju događaja, odnosno kada se na događaj odreagira da ne propagira dalje?",
+    "answer": "Možemo spriječiti pozivom metode .stopPropagation() na event objekt unutar event listener metode.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "29",
+    "topic": "event metode",
+    "question": "Koja je razlika između e.target i e.currentTarget?",
+    "answer": "e.target predstavlja element koji je prouzrokovao događaj, dok e.currentTarget predstavlja element koji je ulovio taj događaj.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "30",
+    "topic": "učitavanje JS skripte",
+    "question": "Koja je razlika između defer i async atributa kod učitavanja JavaScript skripte?",
+    "answer": "Async omogućava asinkrono učitavanje JS datoteke bez blokiranja parsiranja HTML-a, ali izvršava skriptu čim je spremna. Defer omogućava asinkrono učitavanje, ali izvršava skriptu tek kad je cijeli HTML parsiran, održavajući redoslijed skripti.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "31",
+    "topic": "JIT kompailacija",
+    "question": "Što je to Just-In-Time (JIT) kompailacija u kontekstu JavaScript-a?",
+    "answer": "JIT je hibridni pristup koji kombinira prednosti interpretacije i kompilacije. Inicijalno kod se interpretira, ali tokom izvršavanja programa se vrši optimizacija kojima se ubrzava izvođenje programa prevođenjem često korištenih dijelova u strojni kod.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "32",
+    "topic": "signle-thread jezik",
+    "question": "Što znači da je JavaScrip single-threaded jezik?",
+    "answer": "To znači da JS može izvršavati samo jednu operaciju u jednom trenutku.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "33",
+    "topic": "event loop",
+    "question": "Što je Event loop i koja mu je uloga?",
+    "answer": "Event Loop je mehanizam koji omogućava asinkrono izvršavanje koda, stvarajući iluziju istovremenog izvršavanja više zadataka. On kontinuirano provjerava je li Call Stack prazan, te premješta funkcije iz Callback Queue-a na Call Stack.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "34",
+    "topic": "JavaScript runtime",
+    "question": "Što je JavaScript runtime?",
+    "answer": "JS runtime je sve što nam je potrebno da koristimo i izvršavamo JavaScript.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "35",
+    "topic": "JavaScript engine",
+    "question": "Što je JavaScript engine?",
+    "answer": "Program koji se vrti na nekom računalu i izvršava JavaScript kod. Svaki preglednik ima svoj JS engine i implmentira ga.",
+    "sub_questions": [36],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "36",
+    "topic": "JavaScript engine?",
+    "question": "Od čega se sastoji JavaScript engine?",
+    "answer": "Call stack i heap.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "37",
+    "topic": "JavaScript runtime",
+    "question": "Od čega se sastoji JavaScript runtime?",
+    "answer": "JS engine, web APIs, callback queue (i microtasks queue) i Event Loop.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "38",
+    "topic": "execution context",
+    "question": "Što je execution context (EC) i što sadrži?",
+    "answer": "Execution Context sadrži sve potrebne informacije za izvršavanje određenog dijela koda. Sadrži variable environment (varijable, funkcije, arguments object), scope chain i this keyword.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "39",
+    "topic": "hoisting i TDZ",
+    "question": "Što je hoisting u Javascript-u?",
+    "answer": "Hoisting je proces koji omogućava korištenje određenih tipova deklaracija (var, function declarations) prije što su zapravo deklarirane u kodu. JS podiže njihovu deklaraciju na vrh, ali ne i inicijalizaciju.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "40",
+    "topic": "this keyword",
+    "question": "Što je this keyword u JavaScript-u?",
+    "answer": "This je specialna varijabla koja se kreira za svaki EC i pokazuje na vlasnika funkcije (onaj koji ju je pozvao). Vrijednost ovisi o načinu pozivanja.",
+    "sub_questions": [41],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "41",
+    "topic": "this keyword",
+    "question": "Kako se this ponaša u različitim kontekstima?",
+    "answer": "U metodama htis pokazuje na objekt nad kojim se metoda pozvala. U jednostavim funkcijama this je unefined (u strict modu). U arrow funkcijama this uzima vrijednost iz roditeljske funkcije. U event listeneru this pokazuje na DOM element na koji je handler povezan.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "42",
+    "topic": "garbage collector",
+    "question": "Što je garbage collector?",
+    "answer": "Mehanizam kojim se čiste stari i nekorišteni objekti s Heap-a. Pokreče ga JS engine kada procjeni da je potrebno.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "43",
+    "topic": "memory leak",
+    "question": "Što je memory leak u JavaScript-u?",
+    "answer": "Memory leak je pojava gdje program nenamjerno zadržava refernce na objekte u memoriji koji više nisu potrebni, spriječavajući JavaScript engine da oslobodi tu memoriju kroz garabage collector.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "44",
+    "topic": "destructuring",
+    "question": "Što je destructuring u JavaScript-u i kako se koristi za nizove i objekte?",
+    "answer": "Desturcturing je način raspakriavanja vrijednosti iz struktura podataka u druge varijable. Za nizove: const [a, b, c] = arr. Za objekte: const {name} = obj.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "45",
+    "topic": "rest pattern i parametri",
+    "question": "Što je rest pattern i kada se koristi?",
+    "answer": "Rest pattern ima suprotnu funkciju od spread operatora - sakuplja više elementa u niz. Primjeri: cconst [a, ...others] = arr.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "46",
+    "topic": "short circuting",
+    "question": "Kako funkcionira short circuting kod logičkih operatora?",
+    "answer": "OR (||) vraća prvu istinitu vrijednost ili zadnju ako su sve neistinite. AND (&&) vraća prvu neistinitu vrijednost ili zadnju ako su sve istinite.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "47",
+    "topic": "nulish coalescing operator",
+    "question": "Što je nullish coalescing operator (??) i kako se razlikuje od OR operatora?",
+    "answer": "?? operator funkcionira slično kao OR, ali reagira samo na nullish vrijendosti (null, undefined), a ne na sve falsy vrijendosti (0, '', null, undefined).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "48",
+    "topic": "optional chaining",
+    "question": "Što je optional chaining i kada se koristi?",
+    "answer": "Optional chaining (?.) omogućava brz način provjere postoji li neko svojstvo unutar objekta prije daljnjeg ulančavanja metoda i svojstava. Ako je vrijednost prije ?. undefined ili null, neće se nastaviti s pozivima.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "49",
+    "topic": "iteriranje kroz objekte",
+    "question": "Kako sve možemo iterirati kroz svojstva nekog objekta?",
+    "answer": "Možemo preko: for...in petlje, Object.keys(), Object.values() ili Object.entries().",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "50",
+    "topic": "setovi",
+    "question": "Što su setovi i koje su njihove karakteristike?",
+    "answer": "Setovi su strukture podataka slične nizovima, ali ne mogu sadržavati duplikate i ne pamte poredak elemenata.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "51",
+    "topic": "mape",
+    "question": "Što su mape i kako se razlikuju od objekata?",
+    "answer": "Mape su strukture podataka koje spremaju podatke u obliku ključ-vrijednost. Razlika između mapa i objekata je ta da ključevi u mapama mogu biti bilo koji tip podatka.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "52",
+    "topic": "sinkroni vs asinkroni kod",
+    "question": "Koja je razlika između sinkronog i asinkronog koda?",
+    "answer": "Sinkroni kod se izvršava liniju po liniju, gdje nova linija počinje izvršavanje tek kada se prethodna završi. Asinkroni kod se izvršava tek kada se neki zadatak u pozadini završi, ne blokirajući izvođenje glavnog koda.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "53",
+    "topic": "AJAX",
+    "question": "Što je AJAX?",
+    "answer": "AJAX (Asynchronous JavaScript And XML) omogućava komuniciranje s udaljenim serverom na asinkroni način. Pomoću AJAX poziva možemo zatražiti podatke s udaljenog servera dinamički.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "54",
+    "topic": "API",
+    "question": "Što je API i što je Web API?",
+    "answer": "API (Application Programming Interface) je komad softvera koji može koristiti drugi softver za međusobnu komunikaciju. Web API je aplikacija na serveru koja prima zahtjeve za podacima i šalje odgovore.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "55",
+    "topic": "promise",
+    "question": "Što je Promise u JavaScript-u?",
+    "answer": "Promise je objekt koji se koristi za spremanje budućih podataka, odnosno podataka koji se tek trebaju pojaviti iz asinkronih operacija.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "56",
+    "topic": "promise lifecycle",
+    "question": "Koja su stanja u životnom ciklusu Promise-a?",
+    "answer": "Pending (prije nego je buduća vrijednost dostupna), Settled (asinkroni zadatak se izvršio), te Fulfilled (uspješno izvršeno) ili Rejected (neuspješno izvršeno).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "57",
+    "topic": "fetch API",
+    "question": "Što vraća fetch() metoda?",
+    "answer": "fetch() metoda vraća Promise.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "58",
+    "topic": ".then metoda",
+    "question": "Što radi .then() metoda i koje funkcije primamo kao argumente?",
+    "answer": "Metoda .then() se poziva na Promise objektu. U nju predajemo dvije funkcije: prva se pokreće ako je promise fulfilled (uspješno izvršen), a druga ako je promise rejected (neuspješno izvršen).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "59",
+    "topic": ".then metoda",
+    "question": "Što je defaultni parametar u fulfillment funkciji .then() metode kada koristimo fetch?",
+    "answer": "Defaultni parametar je objekt koji predstavlja response. Da bismo došli do podataka, trebamo pozvati .json() metodu nad tim objektom, što vraća novi Promise s podacima.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "60",
+    "topic": ".catch metoda",
+    "question": "Koja je svrha .catch() metode kod Promise-a?",
+    "answer": "Metoda .catch() služi kao centralno mjesto za hvatanje grešaka, tako da ne moramo u svaki .then() predavati funkciju koja se pokreće kada se pojavi greška.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "61",
+    "topic": ".finally metoda",
+    "question": "Kada se poziva .finally() metoda i čemu služi?",
+    "answer": "Metoda .finally() poziva se zadnja u procesu obrade Promise-a i sadrži kod koji želimo da se uvijek izvrši, bez obzira je li Promise uspješno izvršen ili ne.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "62",
+    "topic": "Concurrency model",
+    "question": "Što je Concurrency model u JavaScript-u?",
+    "answer": "Concurrency model je način na koji JavaScript upravlja s više zadataka koji se izvršavaju u isto vrijeme.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "63",
+    "topic": "Callback Queue vs Microtasks Queue",
+    "question": "Koja je razlika između Callback Queue i Microtasks Queue?",
+    "answer": "Microtasks Queue je namijenjen samo za callbackove koji imaju veze s Promise-ima, a Callback Queue za ostale asinkrone operacije. Microtasks Queue ima prednost nad Callback Queue-om.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "64",
+    "topic": "Async/await",
+    "question": "Što su async/await ključne riječi u JavaScript-u?",
+    "answer": "Async/await je novi način (od ES2017) za rukovanje Promise-ima. To je sintaktički 'sugar' iznad .then() metode. Ključna riječ async definira asinkronu funkciju, a await pauzira izvršavanje te funkcije dok se Promise ne riješi.",
+    "sub_questions": [14, 15],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "65",
+    "topic": "async funkcija",
+    "question": "Što vraća funkcija definirana s async ključnom riječi?",
+    "answer": "Funkcija definirana ključnom riječju async uvijek vraća Promise, koji je inicijalno u stanju pending. Vrijednost koju vratimo iz te funkcije postaje fulfillment vrijednost tog Promise-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "66",
+    "topic": "Await ključna riječ",
+    "question": "Što se događa kada se koristi await ključna riječ?",
+    "answer": "Await pauzira izvršavanje asinkrone funkcije sve dok se Promise ne riješi (resolve ili reject). Funkcija se miče s Call Stack-a i kasnije se stavlja na Microtasks Queue gdje se nastavlja izvršavati kada Call Stack postane prazan.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "67",
+    "topic": "Paralelno izvršavanje Promise-a",
+    "question": "Kako možemo postići paralelno izvršavanje Promise-a s async/await?",
+    "answer": "Promise se počinje izvršavati čim ga funkcija kreira/pozove. Možemo kreirati više Promise-a istovremeno i onda koristiti await za dohvaćanje njihovih rezultata, omogućujući paralelno izvršavanje.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "68",
+    "topic": "Promise.all()",
+    "question": "Što radi Promise.all() metoda?",
+    "answer": "Promise.all() čeka dok se svi ubačeni Promise-i riješe (resolve). Ako bilo koji od Promise-a ne uspije (reject), cijeli Promise.all() neće uspjeti.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "69",
+    "topic": "Promise.race()",
+    "question": "Što radi Promise.race() metoda?",
+    "answer": "Promise.race() vraća rezultat prvog riješenog (resolved) ili odbijenog (rejected) Promise-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "70",
+    "topic": "Promise.allSettled()",
+    "question": "Što radi Promise.allSettled() metoda?",
+    "answer": "Promise.allSettled() čeka dok se svi Promise-i završe (bilo uspješno ili neuspješno) i vraća svaki pojedini status Promise-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "71",
+    "topic": "pPromise.any()",
+    "question": "Što radi Promise.any() metoda?",
+    "answer": "Promise.any() vraća prvi uspješno završeni Promise. Ne uspije jedino kada svi Promise-i ne uspiju.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "34",
+    "topic": "",
+    "question": "?",
+    "answer": ".",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "34",
+    "topic": "",
+    "question": "?",
+    "answer": ".",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "34",
+    "topic": "",
+    "question": "?",
+    "answer": ".",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "34",
+    "topic": "",
+    "question": "?",
+    "answer": ".",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  }
+]

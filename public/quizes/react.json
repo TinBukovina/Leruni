@@ -1,0 +1,426 @@
+[
+  {
+    "id": "1",
+    "topic": "frontend okviri(frontend frameworks)",
+    "question": "Šta nam omogućavaju frontend okviri?",
+    "answer": "Omogućavaju da održavamo korisnička sučelja sinkronizirana s nadolazećim podacima na puno jednostavniji način nego korištenje samoga vanilla JS-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "2",
+    "topic": "react",
+    "question": "Koja je službena definicija React-a?",
+    "answer": "JavaScript biblioteka za izgradnju korisničkog sučelja.",
+    "sub_questions": [3, 4, 5],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "3",
+    "topic": "react",
+    "question": "Tko je napravio React?",
+    "answer": "Facebook.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "4",
+    "topic": "react",
+    "question": "Koji je osnovni koncept React-a?",
+    "answer": "Osnovni koncept React-a je taj, da mi opisujemo kako komponente izgledaju i kako rade korištenjem deklarativne sintakse, odnosno JSX-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "5",
+    "topic": "react",
+    "question": "Pod šta se misli kada se kaže da React ima deklarativan pristup?",
+    "answer": "U React-u mi nikada ne diramo DOM, sve je apstraktno, govorimo da hoćemo promjenu, ali ne i kako se ona realizira.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "6",
+    "topic": "komponente(components)",
+    "question": "Od čega se sastoji React aplikacije i što one točno predstavljaju?",
+    "answer": "React aplikacije su u cjelovitosti napravljene od komponenti. One predstavljaju gradivne blokove korisničkog sučelja u React-u.",
+    "sub_questions": [7, 8, 9, 11],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "7",
+    "topic": "komponente(components)",
+    "question": "Što sve sadrži jedan komponenta?",
+    "answer": "Podatke, logiku i izgled (šta pamti, kako radi i kako izgleda).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "8",
+    "topic": "komponente(components)",
+    "question": "Koja su pravila kod pisanja komponenti?",
+    "answer": "1. Imena komponenti započinju velikim slovom. 2. Komponente moraju vratiti niki 'markup' najčešće JSX, ali može i null vrijednost. 3. Deklariraju se u top-level kodu.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "9",
+    "topic": "komponente(components)",
+    "question": "Kako možemo kreirati komponente i koji način se danas skoro uvijek koristi? Također kada se koristi komponenta na šta se tu točno misli?",
+    "answer": "Možemo ih kreirati preko funkcija i klasa. Danas se većinski kreiraju preko funkcija. Tako da kada pričamo o komponenti mi mislimo na neku funkciju koja je imenovana velikim početnim slovom i vača neki JSX (ili null vrijendost).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "10",
+    "topic": "stable komponenti(component tree)",
+    "question": "Što prikazuje stablo komponenti?",
+    "answer": "Prikazuje hijerarhiju između komponenti koja izgrađuje grafičko sučelje.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "11",
+    "topic": "komponente(components)",
+    "question": "Što moraju vraćati React komponente?",
+    "answer": "Moraju vratiti blok JSX-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "12",
+    "topic": "JSX",
+    "question": "Što je JavaScript XML (JSX)?",
+    "answer": "Deklarativna sintaksa koja opisuje kako komponente izgledaju i kako funkcioniraju (rade).",
+    "sub_questions": [13],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "13",
+    "topic": "JSX",
+    "question": "U šta se pretvara svaki JSX element i opiši mi proces kako to izgleda?",
+    "answer": "Svaki JSX element se pretvara u JavaScript preko Babel biblioteke koja se pokreće pri pozivanju komande create-react-app. Proces izgleda ovako: JSX se pretvara u React.create, koja prima tri parametra (1) tip elementa, 2) props, 3) djecu), rezultat te funkcije je JavaScript objekt (React element) kojega React koristi za stvaranje virtualnog DOM-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "14",
+    "topic": "stiliziranje komponenti",
+    "question": "Prko kojeg atributa dodajemo stilove na komponente i zašto?",
+    "answer": "Preko atributa className dodajemo stilove na komponente jer je ključna riječ class već rezervirana u JavaScript-u (isto kao i for, forHtml).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "15",
+    "topic": "props",
+    "question": "Što su props-ovi u kontekstu React-a?",
+    "answer": "Način prosljeđivanja podataka između komponenti, točnije prosljeđivanje podataka između komponente roditelja prema komponentama djece.",
+    "sub_questions": [16, 17],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "16",
+    "topic": "props",
+    "question": "Po čemu su props-ovi specifični u odnosu na ostale izvore podataka u komponenti?",
+    "answer": "Specifični su po tome jer dolaze izvana i mogu biti ažurirani samo izvan u roditeljskoj komponenti (ili tako treba biti).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "17",
+    "topic": "props",
+    "question": "Koje je strogo pravilo u kontekstu props-ova?",
+    "answer": "Propsovi su nepromjenjivi, ako ih trebamo mijenjati, onda trebamo koristiti state.",
+    "sub_questions": [18],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "18",
+    "topic": "props",
+    "question": "Koja su dva razloga zašto su props-ovi nepromjenjivi, odnosno ne bi ih smjeli mijenjati?",
+    "answer": "Prvi je taj da je props običan objekt te kada promijenimo taj objekt, promjeni će se i u svim roditeljskim funkcijama koje ga koriste. Drugi razlog je taj što u Reactu poštujemo pravilo, odnosno pišemo 'pure function', tj. funkcije bez nuspojava (side effects). To znači da funkcije ne mijenjaju vrijednosti koje se nalaze izvan njih samih.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "19",
+    "topic": "jednosmjerni tok podataka (ona-way data flow)",
+    "question": "Što znači jednosmjerni tok podataka (one-way data flow) u React-u?",
+    "answer": "To znači da se prijenost podataka događa samo iz smjera roditelja prema djetetu, ne može obratno. Prednosti toga su: predvidivost, lakše razumijevanje, bolje performanse, lakše nalaženje grešaka.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "17",
+    "topic": "react fragment",
+    "question": "Što nam omogućava React fragment, zašto on postoji, navedi njegovu sintaksu?",
+    "answer": "Omogućava nam grupiranje više elemenata bez korištenja dodatnih HTML elemenata. To je potrebno jer nas React forsira da jedna komponenta vraća jedan element. Sintaksa: <></> ili <React.Fragment></React.Fragment> (koristi se ako je potreban key atribut).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "17",
+    "topic": "događaji(events)",
+    "question": "Što koristi u React-u za upravljanje događajima?",
+    "answer": "Koristimo atribute na elemente (poput onClick) i njimva predajemo funkcije koje hoćemo da se izvrše prilikom pojavljivanja nekog događaja.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "18",
+    "topic": "događaji(events)",
+    "question": "Zašto ne koristimo .addEventListener u React-u?",
+    "answer": "Ne koristimo ih jer je to imperativni način rukovanja događajima. Dok u React-u koristimo deklarativne sintakse.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "19",
+    "topic": "state",
+    "question": "Što je state u React-u?",
+    "answer": "Podaci kokje komponenta drži kroz vrijeme, odnosno životni vijek aplikacije. Memorija komponente.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "20",
+    "topic": "state",
+    "question": "Što predstavlja 'piece of state'?",
+    "answer": "Predstavlja jednu varijablu u komponenti koja sadrži neki state.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "21",
+    "topic": "state",
+    "question": "Što se događa kada mijenjamo ili ažuriramo state?",
+    "answer": "Kada to radimo, trigeramo React da ponovno učita tu komponentu.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "22",
+    "topic": "state",
+    "question": "Opiši mi postupak kreiranja state-a u React komponenti?",
+    "answer": "State se kreira pomoću funkcije useState(), u koju predajemo inicialnu vrijednost state-a. Ta funkcija vraća niz od dva elementa, prvi je sama vrijednost state-a, dok je druga funkcija kojom mijenjamo vrijednost state-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "23",
+    "topic": "state",
+    "question": "Kako izgleda kod kada želimo mijenjati state ovisno o prethodnoj vrijednosti state-a?",
+    "answer": "setState(prev => prev + 1).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "24",
+    "topic": "state",
+    "question": "Gdje se state nikada ne mijenja i zašto?",
+    "answer": "State se nikada ne mijenja u top-level kodu jer to izaziva beskonačnu petlju koja stalno re-renderira (ponovno učitava) komponentu.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "25",
+    "topic": "react hukovi",
+    "question": "Kako prepoznajemo React hukova i koje je pravilo vrijedi za njih kod pozivanja?",
+    "answer": "React hukovi počinju sa riječ 'use' i njihovo pozivanje je dozvoljeno samo u top-level kodu.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "26",
+    "topic": "state",
+    "question": "Kada koristimo state u komponentama?",
+    "answer": "Koristimo kada želimo da se komponenta dinamički mijenja ovisno o podacima i kada želimo da komponenta pamti podatke u komponenti (ne želimo da svako ponovno učitavanje komponente ponovno deklarira i inicijalizira neki podataka, čuvanje vrijednosti kroz re-renderanje).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "27",
+    "topic": "kontrolirani elementi (controlled elements)",
+    "question": "Što su kontrolirani elementi (controller elements) u React-u, i zbog čega se javila njihova potreba?",
+    "answer": "Kontrolirani elementi su form elementi čija je vrijednost kontrolirana React state-om. To je potrebno jer input elementi po default-u  pamte svoj state (podatke) u samom DOM-u. React to ne želi jer on želi sve podatke imati na jednom centralnom mjestu, odnosno u React aplikaciji, a ne unutar DOM-a.",
+    "sub_questions": [28],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "28",
+    "topic": "kontrolirani elementi (controlled elements)",
+    "question": "Navedi korake kreiranja kontroliranog elementa?",
+    "answer": "Prvi je korak definiranje state-a. Drugi je korak iskoristiti definirani state na input elementu koji želimo kontrolirati na način da postavimo vrijednost tog elementa na definirani state. Treći je korak da ažuriramo vrijednost predanog state-a preko onChange događaja (eventa).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "29",
+    "topic": "upravljanjem state-om (state management)",
+    "question": "Što je to state management?",
+    "answer": "Odlučivanje kada je potreban state, koji tip state-a, gdje ga smjestiti, te kako će on putovati kroz aplikaciju.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "30",
+    "topic": "lokalni state (local state)",
+    "question": "Što je to local state?",
+    "answer": "State koji je potreban samo u jednoj komponenti, može mu se pristupati samo iz komponente u kojoj je definiran i iz djece te komponente.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "31",
+    "topic": "globalni state (gloval state)",
+    "question": "Što je to globalni state?",
+    "answer": "State koji je potreban u više različitih komponenti kroz cijelu aplikaciju. Ovaj state je dostupan u svakoj komponenti unutar aplikacije.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "32",
+    "topic": "kategorije komponenti",
+    "question": "Koje su kategorije komponenti?",
+    "answer": "Stateless/presentational (prezentacijska), stateful i structural komponente.",
+    "sub_questions": [33, 34, 35],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "33",
+    "topic": "ktegorije komponenti",
+    "question": "Što je to prezentacijska (stateless/presentational) komponenta?",
+    "answer": "Komponenta koja nema state, mogu primati props-ove i prezentirati neke podatke. Većinski su male i ponovno iskoristive.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "34",
+    "topic": "ktegorije komponenti",
+    "question": "Što je to stateful komponenta?",
+    "answer": "Komponente koje imaju state, mogu biti ponovno iskoristive.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "35",
+    "topic": "ktegorije komponenti",
+    "question": "Što je structural komponenta?",
+    "answer": "Komponente koje su proizvod komponiranja manjih komponenti zajedno i nisu ponovno iskoristive.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "36",
+    "topic": "kompozicija komponenti",
+    "question": "Što je to kompozicija komponenti?",
+    "answer": "Tehnika kombiniranja različitih komponenti korištenjem 'children' props-a. Ona nam omogućava veću fleksibilnost i rješavanje problema zvanog 'prop drilling'.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "37",
+    "topic": "komponente, instance i elementi",
+    "question": "Navedi mi razlike između komponenti, instanca komponente i React elemenata?",
+    "answer": "Komponente su funkcije (nacrt) koji opisuje dio korisničkog sučelja i vraća React element, obično preko JSX formata.\n Instanca komponente se kreira kada koristimo same komponente (pozivamo funkcije komponente) i one predstavljaju fizičku reprezentaciju komponente koja sadrži state i props-ove. One same po sebi imaju životni vijek.\n React element je rezultat pozivanja React.createElement() funkcije koje se dobiva prevođenjem JSX sintakse koja se vraća iz funkcije komponente. Ona sadrži sve potrebne podatke za kreiranje DOM elementa.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "38",
+    "topic": "renderiranje",
+    "question": "Što NE znači renderiranja u kontekstu React-a?",
+    "answer": "U React-u, renderiranje ne znači ažuriranje DOM-a ili prikazivanje elemenata na ekran.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "39",
+    "topic": "renderiranje",
+    "question": "Što znači renderiranje u kontekstu React-a?",
+    "answer": "U React-u, renderiranja znači ponovno pozivanje funkcija komponenti i kalkuliranja koji DOM element se treba ubaciti, izbrisati ili ažurirati bez vršenja tih radnji nad DOM-om. To se sve događa interno unutar React-a i ne proizvodi nikakve vizualne promjene.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "40",
+    "topic": "renderiranje",
+    "question": "Što uzrokuje renderiranje?",
+    "answer": "Inicialno pokretanje aplikacije i ažuriranje state-a (re-render).",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "41",
+    "topic": "virtualni DOM (virtual DOM)",
+    "question": "Što je virtualni DOM?",
+    "answer": "Lagani JavaScript objekt, odnosno stablasta struktura koja se sastoji od svih React elemenata dobivenih iz instanci React komponenti.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "42",
+    "topic": "virtualni DOM (virtual DOM)",
+    "question": "Čemu služi virtualni DOM, objasni?",
+    "answer": "Služi za optimizaciju performansi prilikom ažuriranja korisničkog sučelja. Prilikom re-renderiranja React ne kreira cijli DOM iznova jer bi to jako naškodilo performansama (najčešće je potrebno samo mali dio DOM-a da se ažurira kada se neki state promijeni). Virtualni dom je brzo i efikasno kreirati i on se koristi kako bi React otkrio samo nužne promijene koje mora napraviti nad DOM-om kako bi prikazao nastale promjene u aplikaciji. To se događa u procesu Reconciliation-a.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "43",
+    "topic": "virutalni DOM (virtual DOM)",
+    "question": "Šta se re-renderira (u virtualnom DOM-u) prilikom pomjena state-a u nekoj komponenti?",
+    "answer": "Kada se neka komponente re-renderira u virutalnom DOM-u, onda se i sva njena djeca re-renderiraju u virtualnom DOM. No to ne znači nužno da će se promijeniti u samom DOM zbog procesa zvan reconciliation.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "44",
+    "topic": "reconciliation",
+    "question": "Što je reconciliation?",
+    "answer": "Proces u kojem se odlučuje koji DOM elementi zapravo trebaju biti promijenjeni, dodani ili maknuti da odraze promijene koje su se dogodili u aplikaciji. Vraća niz naredbi koji ",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "45",
+    "topic": "reconciliation",
+    "question": "Kako izgleda proces reconciliation-a u praksi?",
+    "answer": " Pomoću virtualnog DOM-a se rade promijene na fiber stablu iz kojega proizlazi novo fiber stablo.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "46",
+    "topic": "reconciliation",
+    "question": "Tko izvršava proces reconciliation-a i koja je njegova glavna karakteristika?",
+    "answer": "Izvršava ga Reconciler ili Fiber (srce React-a), a njegova glavna karakteristika je da se izvršava asinkrono, to nam omogućava da proces renderiranja bude odvojen u dijelove i zadatke koji mogu biti prioritizirani, pauzirani, ponovno iskoristivi ili odbačeni.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "47",
+    "topic": "fiber tree",
+    "question": "Što je fiber tree?",
+    "answer": "Interna nepromjenjiva (kreira se samo na incialnom renderu, a ažurira se kroz vijek aplikacije) struktura podataka (povezana lista) koja sadrži fiber za svaku instancu DOM elemnta.",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "48",
+    "topic": "fiber",
+    "question": "Što predstavlja fiber unutar fiber stabla?",
+    "answer": "Oni predstavljaju instancu DOM elementa i nisu rekreirani za svaki render, nego se samo mijenjaju kroz vijek apliakcije i zbog tog razloga se u njima spremaju state-ovi, props-ovi, hook-ovi, side efekti, itd...",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  },
+  {
+    "id": "16",
+    "topic": "",
+    "question": "?",
+    "answer": ".",
+    "sub_questions": [],
+    "has_been_drawn": "false"
+  }
+]
