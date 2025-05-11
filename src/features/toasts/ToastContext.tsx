@@ -4,7 +4,6 @@ import {
   ReactNode,
   useCallback,
   useContext,
-  useEffect,
   useRef,
   useState,
 } from "react";
@@ -14,7 +13,6 @@ interface ToastContextType {
   toasts: ToastInterface[];
   addNewToast: (message: string, type: ToastStatus, duration?: number) => void;
   handleToastComplete: (id: number) => void;
-  startDisplayingToasts: () => void;
   displayToastsSignal: boolean;
 }
 
@@ -22,7 +20,6 @@ const ToastContext = createContext<ToastContextType>({
   toasts: [],
   addNewToast: () => {},
   handleToastComplete: () => {},
-  startDisplayingToasts: () => {},
   displayToastsSignal: false,
 });
 
@@ -41,7 +38,7 @@ interface ToastInterface {
 export const ToastProvider: React.FC<ToastProviderProps> = ({ children }) => {
   const [toasts, setToasts] = useState<ToastInterface[]>([]);
   const [displayToastsSignal] = useState<boolean>(false);
-  const [activeToastId, setActiveToastId] = useState<number | null>(null);
+  const [, setActiveToastId] = useState<number | null>(null);
 
   const TOAST_DURATION = 5;
   const BUFFER_TIME = 1000;
@@ -115,38 +112,10 @@ export const ToastProvider: React.FC<ToastProviderProps> = ({ children }) => {
     });
   }, []);
 
-  const startDisplayingToasts = useCallback(() => {
-    /* setDisplayToastsSignal(true);
-
-    setToasts((prevToasts) => {
-      if (prevToasts.length > 0) {
-        setActiveToastId(prevToasts[0].id);
-        return prevToasts.map((toast, index) => ({
-          ...toast,
-          isActive: index === 0,
-        }));
-      }
-      return prevToasts;
-    }); */
-  }, []);
-
-  useEffect(() => {
-    /* if (activeToastId === null && toasts.length > 0 && displayToastsSignal) {
-      setActiveToastId(toasts[0].id);
-      setToasts((prevToasts) =>
-        prevToasts.map((toast, index) => ({
-          ...toast,
-          isActive: index === 0,
-        }))
-      );
-    } */
-  }, [activeToastId, toasts, displayToastsSignal]);
-
   const contextValue: ToastContextType = {
     toasts,
     addNewToast,
     handleToastComplete,
-    startDisplayingToasts,
     displayToastsSignal,
   };
 

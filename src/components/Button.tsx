@@ -13,6 +13,7 @@ interface ButtonProps {
   children?: ReactNode;
   style?: StyleInterface;
   type?: "default" | "primaryAction";
+  isDisabled?: boolean;
   handleOnClick?: () => void;
   svgFunction?: () => SvgReturnType;
 }
@@ -21,6 +22,7 @@ export default function Button({
   children,
   style = !children ? { padding: "0.75rem" } : {},
   type = "default",
+  isDisabled = false,
   handleOnClick,
   svgFunction = () => {
     return { path: "", viewBox: "" };
@@ -28,19 +30,26 @@ export default function Button({
 }: ButtonProps) {
   const [isHover, setIsHover] = useState<boolean>(false);
   const [isActive, setIsActive] = useState<boolean>(false);
-  const [state, setState] = useState<"default" | "hover" | "active">("default");
+  const [isFocus, setIsFocus] = useState<boolean>(false);
+  const [styleState, setStyleState] = useState<
+    "default" | "hover" | "active" | "focus" | "disabled"
+  >("default");
 
   const svgInfo = useMemo(() => svgFunction(), [svgFunction]);
 
   useEffect(() => {
-    if (isActive) {
-      setState("active");
+    if (isDisabled) {
+      setStyleState("disabled");
+    } else if (isActive) {
+      setStyleState("active");
     } else if (isHover) {
-      setState("hover");
+      setStyleState("hover");
+    } else if (isFocus) {
+      setStyleState("focus");
     } else {
-      setState("default");
+      setStyleState("default");
     }
-  }, [isHover, isActive]);
+  }, [isHover, isActive, isFocus, isDisabled]);
 
   const handleMouseEnter = () => {
     setIsHover(true);
@@ -48,6 +57,7 @@ export default function Button({
 
   const handleMouseLeave = () => {
     setIsHover(false);
+    setIsActive(false);
   };
 
   const handleMouseDown = () => {
@@ -58,26 +68,42 @@ export default function Button({
     setIsActive(false);
   };
 
+  const handleFocuseOn = () => {
+    setIsFocus(true);
+  };
+
+  const handleFocuseOff = () => {
+    setIsFocus(false);
+  };
+
   return (
     <button
-      onClick={handleOnClick}
+      onClick={() => {
+        setIsFocus(false);
+        setIsActive(false);
+
+        if (!handleOnClick) return;
+        handleOnClick();
+      }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
-      className={buttonCva({ type, state })}
+      onFocus={handleFocuseOn}
+      onBlur={handleFocuseOff}
+      disabled={isDisabled}
+      className={buttonCva({ type, state: styleState })}
       style={style}
     >
       {svgInfo.path != "" ? (
         <span
           className={css({
-            paddingTop: "0.1rem",
-            width: "3rem",
-            height: "3rem",
+            maxW: "1.5rem",
+            maxH: "1.5rem",
           })}
         >
           <IconTemplate
-            width={!children ? "100%" : "1rem"}
+            width={!children ? "1.5rem" : "1rem"}
             path={svgInfo.path}
             viewBox={svgInfo.viewBox}
           />

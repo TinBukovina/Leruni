@@ -1,15 +1,17 @@
-import React, { ReactNode, useContext, useState } from "react";
+import React, { ReactNode, useContext, useEffect, useState } from "react";
 
 export interface QuestionInterface {
   fileName: string;
   question_object: {
-    id: string;
-    topic: string;
-    question: string;
-    answer: string;
-    subQuestions: string[];
-    has_been_drawn: boolean;
-  };
+    id?: string;
+    topic?: string;
+    question?: string;
+    answer?: string;
+    subQuestions?: string[];
+    has_been_drawn?: boolean;
+  }[];
+  startTime?: number | null;
+  endTime?: number | null;
 }
 
 interface QuizDataContextContextInterface {
@@ -17,6 +19,12 @@ interface QuizDataContextContextInterface {
   setQuestionFileObject: React.Dispatch<
     React.SetStateAction<QuestionInterface | null>
   >;
+  correctAnswers: number;
+  incrementCorrectAnswers: () => void;
+  resetCorrectAnswers: () => void;
+  questionIndex: number;
+  setQuestionIndex: React.Dispatch<React.SetStateAction<number>>;
+  resetQuizData: () => void;
 }
 
 const QuizDataContext =
@@ -29,10 +37,73 @@ interface QuizDataProviderProps {
 export function QuizDataProvider({ children }: QuizDataProviderProps) {
   const [questionFileObject, setQuestionFileObject] =
     useState<QuestionInterface | null>(null);
+  const [correctAnswers, setCorrectAnswers] = useState<number>(0);
+  const [questionIndex, setQuestionIndex] = useState<number>(0);
+  const [initialCatch, setInitialCatch] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (initialCatch) {
+      localStorage.setItem(
+        "leruni_quiz_object",
+        JSON.stringify({ questionIndex, questionFileObject, correctAnswers })
+      );
+    }
+  }, [questionFileObject, questionIndex, initialCatch, correctAnswers]);
+
+  useEffect(() => {
+    try {
+      if (typeof window === "undefined" || !window.localStorage) {
+        throw new Error("localStorage is not available.");
+      }
+
+      const lsQuestionObjString = localStorage.getItem("leruni_quiz_object");
+
+      if (!lsQuestionObjString) {
+        return;
+      }
+
+      let lsQuestionObj;
+      try {
+        lsQuestionObj = JSON.parse(lsQuestionObjString);
+      } catch (parseErr) {
+        console.log(parseErr);
+      }
+
+      if (typeof lsQuestionObj !== "object" || lsQuestionObj === null) {
+        return;
+      }
+
+      setQuestionFileObject(lsQuestionObj.questionFileObject);
+      setQuestionIndex(lsQuestionObj.questionIndex);
+      setCorrectAnswers(lsQuestionObj.correctAnswers);
+      setInitialCatch(true);
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+
+  const incrementCorrectAnswers = () => {
+    setCorrectAnswers((prev) => prev + 1);
+  };
+
+  const resetCorrectAnswers = () => {
+    setCorrectAnswers(0);
+  };
+
+  const resetQuizData = () => {
+    setCorrectAnswers(0);
+    setQuestionIndex(0);
+  };
 
   const value = {
     questionFileObject,
     setQuestionFileObject,
+    correctAnswers,
+    incrementCorrectAnswers,
+    resetCorrectAnswers,
+    questionIndex,
+    setQuestionIndex,
+    resetQuizData,
   };
 
   return (

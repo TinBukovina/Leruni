@@ -9,7 +9,7 @@ const IconButtonStyle = styled("div", {
     justifyContent: "center",
     alignItems: "center",
 
-    padding: "1rem",
+    padding: "0.75rem",
 
     bg: "surface.s0",
     borderRadius: "999",
@@ -93,7 +93,6 @@ export default function PredefinedQuizeses() {
 
       <Button
         svgFunction={javascriptSvgInfo}
-        style={{ padding: "1rem" }}
         handleOnClick={handleJavaScriptQuestionFetch}
       />
     </Flex>

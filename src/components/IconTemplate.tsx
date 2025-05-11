@@ -23,9 +23,9 @@ const IconTemplate: React.FC<IconTemplateProps> = ({
       height={height}
       viewBox={viewBox}
       fill={fill}
-      style={{
+      /* style={{
         maxWidth: "32px",
-      }}
+      }} */
       xmlns="http://www.w3.org/2000/svg"
     >
       {path ? <path d={path} fill="inherit" /> : svgContent}

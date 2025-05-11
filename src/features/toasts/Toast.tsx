@@ -1,11 +1,11 @@
 import { ReactNode, useCallback, useEffect, useRef, useState } from "react";
 import { css } from "../../../styled-system/css";
-import IconTemplate from "../secondaryNavigation/IconTemplate";
 import {
   checkmarkSvgInfo,
   closeSvgInfo,
   SvgReturnType,
 } from "../../utils/svgPaths";
+import IconTemplate from "../../components/IconTemplate";
 
 export type ToastStatus = "positive" | "negative";
 
@@ -97,7 +97,8 @@ export default function Toast({
           padding: "1rem 1.5rem",
           width: "fit-content",
           height: "fit-content",
-          backgroundColor: type === "positive" ? "#0AA480" : "#D82222",
+          backgroundColor:
+            type === "positive" ? "actions.postive" : "actions.negative",
           borderRadius: "md",
           fontSize: "lg",
           overflow: "hidden",
@@ -130,7 +131,7 @@ export default function Toast({
         <div
           className={css({
             height: "4px",
-            backgroundColor: "typography.text",
+            backgroundColor: "base.black",
             position: "absolute",
             bottom: "0",
             left: "0",
