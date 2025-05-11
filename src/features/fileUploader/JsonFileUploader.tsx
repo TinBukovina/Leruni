@@ -61,7 +61,11 @@ const JsonFileUploader = () => {
       </Box>
       <Flex flexDirection={"column"} gap={"sm"}>
         <Box>Supports: json</Box>
-        <Box color={"text.secondary"}>Add files to start learning</Box>
+        {!questionFileObject?.fileName ? (
+          <Box color={"text.secondary"}>Add files to start learning</Box>
+        ) : (
+          <Box color={"transparent"}>.</Box>
+        )}
       </Flex>
     </Flex>
   );

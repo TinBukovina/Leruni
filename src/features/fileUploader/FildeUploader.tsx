@@ -158,7 +158,7 @@ const FileUploader = ({
           h={"60px"}
           bg={"surface.s0"}
           borderRadius={"md"}
-          fill={"base.black"}
+          fill={"text.normal"}
         >
           <IconTemplate
             width={"2rem"}

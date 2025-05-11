@@ -6,11 +6,19 @@ import { settingSvgInfo } from "../../utils/svgPaths";
 import JsonFileUploader from "../fileUploader/JsonFileUploader";
 import PredefinedQuizeses from "./PredefinedQuizeses";
 import { useQuizDataContext } from "./QuizDataContext";
+import { useNavigate } from "react-router-dom";
+import { useToast } from "../toasts/ToastContext";
+import { usePopupWindowContext } from "../popupWindow/PopupWindowContext";
 
 export default function MainMenu() {
-  const { questionFileObject } = useQuizDataContext();
+  const navigation = useNavigate();
+
   const [isPredefinedQuizesDisplayed, setIsPredefinedQuizesDisplayed] =
     useState<boolean>(false);
+
+  const { questionFileObject, setQuestionIndex } = useQuizDataContext();
+  const { addNewToast } = useToast();
+  const { addNewPopupWindow } = usePopupWindowContext();
 
   return (
     <Flex flexDirection={"column"} gap={"lg"} w={"800px"}>
@@ -36,7 +44,44 @@ export default function MainMenu() {
               width: "100%",
             }}
             handleOnClick={() => {
-              console.log(questionFileObject);
+              if (!questionFileObject) {
+                addNewToast(
+                  "You need to input a file or select one.",
+                  "negative"
+                );
+
+                return;
+              }
+
+              const pausedQuizNameString = localStorage.getItem(
+                "leruni_started_quiz"
+              );
+
+              if (pausedQuizNameString && pausedQuizNameString != "undefined") {
+                const pausedQuizName = JSON.parse(pausedQuizNameString || "");
+
+                if (pausedQuizName === questionFileObject.fileName) {
+                  addNewPopupWindow({
+                    mainText:
+                      "Do you want to continue where you last time quit?",
+                    subText: `Last quiz: ${(questionFileObject.fileName || "").split(".")[0]}`,
+                    onClickYes: () => {
+                      navigation("/play");
+                    },
+                    onClickNo: () => {
+                      localStorage.removeItem("leruni_started_quiz");
+                      setQuestionIndex(0);
+                      navigation("/play");
+                    },
+                  });
+
+                  return;
+                } else {
+                  setQuestionIndex(0);
+                }
+              }
+
+              navigation("/play");
             }}
           >
             Start

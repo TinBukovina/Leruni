@@ -2,9 +2,15 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
+import { ToastProvider } from "./features/toasts/ToastContext.tsx";
+import { PopupWindowProvider } from "./features/popupWindow/PopupWindowContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <PopupWindowProvider>
+      <ToastProvider>
+        <App />
+      </ToastProvider>
+    </PopupWindowProvider>
   </StrictMode>
 );
