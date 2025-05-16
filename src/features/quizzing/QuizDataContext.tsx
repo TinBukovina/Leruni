@@ -1,14 +1,36 @@
 import React, { ReactNode, useContext, useEffect, useState } from "react";
 
+export interface QuestionTypeInterface {
+  singleAnswer: {
+    question: string;
+    correctAnswer: string;
+    isEnumeratable: false;
+    answerItems: string[];
+  };
+  multipleChoiceAnswer: {
+    question: string;
+    correctAnswer: string;
+    falseAnswers: string[];
+  };
+}
+
+export interface QuestionLanguagePropertyInterface {
+  en: {
+    topic: string;
+    type: QuestionTypeInterface;
+  };
+  hr: {
+    topic: string;
+    type: QuestionTypeInterface;
+  };
+}
+
 export interface QuestionInterface {
   fileName: string;
   question_object: {
-    id?: string;
-    topic?: string;
-    question?: string;
-    answer?: string;
-    subQuestions?: string[];
-    has_been_drawn?: boolean;
+    id: string;
+    lang: QuestionLanguagePropertyInterface;
+    has_been_drawn: boolean;
   }[];
   startTime?: number | null;
   endTime?: number | null;

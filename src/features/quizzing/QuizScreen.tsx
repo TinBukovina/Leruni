@@ -127,13 +127,17 @@ export default function QuizScreen() {
           >
             <Box>{questionIndex + 1}.</Box>
             <Box>
-              {questionFileObject?.question_object[questionIndex]?.question ||
-                ""}
+              {
+                questionFileObject.question_object[questionIndex].lang.hr.type
+                  .singleAnswer.question
+              }
             </Box>
             {showAnswerMode ? (
               <Box gridColumnStart={2} fontSize={"md"}>
-                {questionFileObject?.question_object[questionIndex]?.answer ||
-                  ""}
+                {
+                  questionFileObject.question_object[questionIndex].lang.hr.type
+                    .singleAnswer.correctAnswer
+                }
               </Box>
             ) : (
               ""
@@ -216,8 +220,8 @@ export default function QuizScreen() {
                     localStorage.removeItem("leruni_started_quiz");
                   } else {
                     if (
-                      questionFileObject.question_object[questionIndex]
-                        .answer === inputValue
+                      questionFileObject.question_object[questionIndex].lang.hr
+                        .type.singleAnswer.correctAnswer === inputValue
                     ) {
                       setCurrentCorrectAnswer(true);
                     } else {
