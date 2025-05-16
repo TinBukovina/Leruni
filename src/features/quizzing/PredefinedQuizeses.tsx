@@ -105,13 +105,13 @@ export default function PredefinedQuizeses() {
 
       <IconButtonStyle
         style={{
+          paddingTop: "14px",
           border:
-            questionFileObject?.fileName === "HTLM/CSS"
+            questionFileObject?.fileName === "HTML/CSS"
               ? "2px solid #57C4DC"
               : "",
         }}
         onClick={() => handleQuestionFetch("/quizes/html_css.json", "HTML/CSS")}
-        style={{ paddingTop: "14px" }}
       >
         <img width={"21px"} height={"20px"} src={"/svgs/css_logo.svg"} />
       </IconButtonStyle>
