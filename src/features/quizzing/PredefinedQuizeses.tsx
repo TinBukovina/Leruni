@@ -1,6 +1,4 @@
 import { Flex, styled } from "../../../styled-system/jsx";
-import Button from "../../components/Button";
-import { javascriptSvgInfo } from "../../utils/svgPaths";
 import { useQuizDataContext } from "./QuizDataContext";
 
 const IconButtonStyle = styled("div", {
@@ -38,37 +36,21 @@ const IconButtonStyle = styled("div", {
 });
 
 export default function PredefinedQuizeses() {
-  const { setQuestionFileObject } = useQuizDataContext();
+  const { setQuestionFileObject, questionFileObject } = useQuizDataContext();
 
-  const handleReactQuestionFetch = () => {
-    fetch("/quizes/react.json")
+  const handleQuestionFetch = (questionUrl: string, fileName: string) => {
+    fetch(questionUrl)
       .then((response) => {
         if (!response.ok) {
-          throw new Error("There was a error fetching react quiz questions.");
+          throw new Error(`There was a error fetching: ${questionUrl}.`);
         }
 
         return response.json();
       })
       .then((data) => {
+        console.log("Bok");
         setQuestionFileObject({
-          fileName: "react.json",
-          question_object: data,
-        });
-      });
-  };
-
-  const handleJavaScriptQuestionFetch = () => {
-    fetch("/quizes/javascript.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("There was a error fetching react quiz questions.");
-        }
-
-        return response.json();
-      })
-      .then((data) => {
-        setQuestionFileObject({
-          fileName: "javascript.json",
+          fileName,
           question_object: data,
         });
       });
@@ -87,14 +69,52 @@ export default function PredefinedQuizeses() {
       borderRadius={"md"}
       zIndex={"1"}
     >
-      <IconButtonStyle onClick={handleReactQuestionFetch}>
-        <img src={"/svgs/react_logo.svg"} />
+      <IconButtonStyle
+        style={{
+          border:
+            questionFileObject?.fileName === "React" ? "2px solid #57C4DC" : "",
+        }}
+        onClick={() => handleQuestionFetch("/quizes/react.json", "React")}
+      >
+        <img width={"24px"} height={"24px"} src={"/svgs/react_logo.svg"} />
       </IconButtonStyle>
 
-      <Button
-        svgFunction={javascriptSvgInfo}
-        handleOnClick={handleJavaScriptQuestionFetch}
-      />
+      <IconButtonStyle
+        style={{
+          border:
+            questionFileObject?.fileName === "JavaScript"
+              ? "2px solid #57C4DC"
+              : "",
+        }}
+        onClick={() =>
+          handleQuestionFetch("/quizes/javascript.json", "JavaScript")
+        }
+      >
+        <img width={"24px"} height={"24px"} src={"/svgs/javascript_logo.svg"} />
+      </IconButtonStyle>
+
+      <IconButtonStyle
+        style={{
+          border:
+            questionFileObject?.fileName === "Git" ? "2px solid #57C4DC" : "",
+        }}
+        onClick={() => handleQuestionFetch("/quizes/git.json", "Git")}
+      >
+        <img width={"24px"} height={"24px"} src={"/svgs/github_logo.svg"} />
+      </IconButtonStyle>
+
+      <IconButtonStyle
+        style={{
+          border:
+            questionFileObject?.fileName === "HTLM/CSS"
+              ? "2px solid #57C4DC"
+              : "",
+        }}
+        onClick={() => handleQuestionFetch("/quizes/html_css.json", "HTML/CSS")}
+        style={{ paddingTop: "14px" }}
+      >
+        <img width={"21px"} height={"20px"} src={"/svgs/css_logo.svg"} />
+      </IconButtonStyle>
     </Flex>
   );
 }

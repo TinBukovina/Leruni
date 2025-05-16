@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "1",
+    "lang": {
+      "en": {
+        "topic": "Basics",
+        "type": {
+          "singleAnswer": {
+            "question": "What are the three languages that browsers understand (basic technologies)?",
+            "correctAnswer": "HTML, CSS, and JavaScript.",
+            "isEnumeratable": true,
+            "answerItems": ["HTML", "CSS", "JavaScript"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which three languages are considered the basic technologies that browsers understand?",
+            "correctAnswer": "HTML, CSS, and JavaScript.",
+            "falseAnswers": [
+              "Python, Ruby, and PHP.",
+              "Java, C++, and C#.",
+              "SQL, XML, and JSON."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "osnove",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje su tri jezika koja razumiju preglednici (bazne tehnologije)?",
+            "correctAnswer": "HTML, CSS i JavaScript.",
+            "isEnumeratable": true,
+            "answerItems": ["HTML", "CSS", "JavaScript"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja tri jezika se smatraju baznim tehnologijama koje preglednici razumiju?",
+            "correctAnswer": "HTML, CSS i JavaScript.",
+            "falseAnswers": [
+              "Python, Ruby i PHP.",
+              "Java, C++ i C#.",
+              "SQL, XML i JSON."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "2",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the abbreviation HTML stand for?",
+            "correctAnswer": "HyperText Markup Language.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the full form of HTML?",
+            "correctAnswer": "HyperText Markup Language.",
+            "falseAnswers": [
+              "High-level Text Management Language.",
+              "Hyper Transfer Machine Language.",
+              "Home Tool Markup Language."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Koji naziv stoji iza oznake HTML?",
+            "correctAnswer": "HyperText Markup Language.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što znači kratica HTML?",
+            "correctAnswer": "HyperText Markup Language.",
+            "falseAnswers": [
+              "High-level Text Management Language.",
+              "Hyper Transfer Machine Language.",
+              "Home Tool Markup Language."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "3",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "What is HTML?",
+            "correctAnswer": "A markup language, or a set of tags that define the structure and content of a web page.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which statement best describes HTML?",
+            "correctAnswer": "A markup language for defining the structure and content of web pages.",
+            "falseAnswers": [
+              "A programming language for creating dynamic web pages.",
+              "A styling language for web page appearance.",
+              "A database language for storing web content."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je HTML?",
+            "correctAnswer": "Jezik za označavanje, odnosno skup oznaka koje definiraju strukturu i sadržaj web stanice.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja izjava najbolje opisuje HTML?",
+            "correctAnswer": "Jezik za označavanje za definiranje strukture i sadržaja web stranica.",
+            "falseAnswers": [
+              "Programski jezik za stvaranje dinamičkih web stranica.",
+              "Jezik za stiliziranje izgleda web stranica.",
+              "Jezik baze podataka za pohranu web sadržaja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "4",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "What does an HTML element consist of?",
+            "correctAnswer": "An opening tag, content, and a closing tag.",
+            "isEnumeratable": true,
+            "answerItems": ["Opening tag", "Content", "Closing tag"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "What are the main parts of an HTML element?",
+            "correctAnswer": "Opening tag, content, and closing tag.",
+            "falseAnswers": [
+              "Selector and declaration.",
+              "Property and value.",
+              "Attribute and method."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Od čega se sastoji HTML element?",
+            "correctAnswer": "Otvarajuće oznake, sadržaja i zatvarajuće oznake.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Otvarajuće oznake",
+              "Sadržaja",
+              "Zatvarajuće oznake"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji su glavni dijelovi HTML elementa?",
+            "correctAnswer": "Otvarajuća oznaka, sadržaj i zatvarajuća oznaka.",
+            "falseAnswers": [
+              "Selektor i deklaracija.",
+              "Svojstvo i vrijednost.",
+              "Atribut i metoda."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "5",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `<!doctype html>` tag tell the browser?",
+            "correctAnswer": "It tells the browser that this document uses HTML.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of the `<!doctype html>` declaration?",
+            "correctAnswer": "To specify that the document is an HTML5 document.",
+            "falseAnswers": [
+              "To link a CSS file.",
+              "To define the title of the page.",
+              "To include a JavaScript file."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Šta govori ova oznaka pregledniku <!doctype html>?",
+            "correctAnswer": "Govori da taj dokument koristi HTML.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha deklaracije `<!doctype html>`?",
+            "correctAnswer": "Određivanje da je dokument HTML5 dokument.",
+            "falseAnswers": [
+              "Povezivanje CSS datoteke.",
+              "Definiranje naslova stranice.",
+              "Uključivanje JavaScript datoteke."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "6",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Which tags are (generally) mandatory in every HTML document?",
+            "correctAnswer": "Doctype, html, head, title, body.",
+            "isEnumeratable": true,
+            "answerItems": ["Doctype", "html", "head", "title", "body"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which set of tags is generally mandatory in every HTML document?",
+            "correctAnswer": "doctype, html, head, title, body.",
+            "falseAnswers": [
+              "header, nav, main, footer.",
+              "div, span, p, a.",
+              "script, style, link, meta."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Koji tagovi su (u pravilu) obavezni u svakom HTML dokumentu ?",
+            "correctAnswer": "Doctype, html, head, title, body.",
+            "isEnumeratable": true,
+            "answerItems": ["Doctype", "html", "head", "title", "body"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji skup tagova je općenito obavezan u svakom HTML dokumentu?",
+            "correctAnswer": "doctype, html, head, title, body.",
+            "falseAnswers": [
+              "header, nav, main, footer.",
+              "div, span, p, a.",
+              "script, style, link, meta."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "7",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "What goes inside the head tags of an HTML document?",
+            "correctAnswer": "Things that are not visible in the browser and metadata.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What kind of content is typically placed within the `<head>` tags of an HTML document?",
+            "correctAnswer": "Metadata and elements not visible in the browser body.",
+            "falseAnswers": [
+              "The main content of the web page.",
+              "Scripts that modify the page's content.",
+              "Styling rules for the page."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Šta ide u u head tagove HTML dokumenta?",
+            "correctAnswer": "Ono što nije vidljivo u pregledniku i metapodaci.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kakav sadržaj se obično stavlja unutar `<head>` tagova HTML dokumenta?",
+            "correctAnswer": "Metapodaci i elementi koji nisu vidljivi u tijelu preglednika.",
+            "falseAnswers": [
+              "Glavni sadržaj web stranice.",
+              "Skripte koje mijenjaju sadržaj stranice.",
+              "Pravila stiliziranja za stranicu."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "8",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "What goes inside the body tags of an HTML document?",
+            "correctAnswer": "What is visible in the browser.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What kind of content is typically placed within the `<body>` tags of an HTML document?",
+            "correctAnswer": "The visible content of the web page.",
+            "falseAnswers": [
+              "Metadata and external resource links.",
+              "Styling rules for the page.",
+              "Scripts that load before the page content."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Što ide u body tagove HTML dokumenta?",
+            "correctAnswer": "Ono što je vidljivo u pregledniku.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kakav sadržaj se obično stavlja unutar `<body>` tagova HTML dokumenta?",
+            "correctAnswer": "Vidljivi sadržaj web stranice.",
+            "falseAnswers": [
+              "Metapodaci i linkovi na vanjske resurse.",
+              "Pravila stiliziranja za stranicu.",
+              "Skripte koje se učitavaju prije sadržaja stranice."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "9",
+    "lang": {
+      "en": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "What are semantic elements?",
+            "correctAnswer": "Elements that have some value or meaning associated with them (strong, em, nav, header, footer, etc.).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What are semantic HTML elements?",
+            "correctAnswer": "Elements that have a meaning associated with their content.",
+            "falseAnswers": [
+              "Elements used only for styling purposes.",
+              "Elements that contain executable scripts.",
+              "Elements that are hidden from the user."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "HTML",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su semantički elementi?",
+            "correctAnswer": "Elementi koji imaju neku vrijednosti ili značenje vezano uz njih (strong, em, nav, header, footer, itd...).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što su semantički HTML elementi?",
+            "correctAnswer": "Elementi koji imaju značenje povezano sa svojim sadržajem.",
+            "falseAnswers": [
+              "Elementi koji se koriste samo za stiliziranje.",
+              "Elementi koji sadrže izvršne skripte.",
+              "Elementi koji su skriveni od korisnika."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "10",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the full name of the abbreviation CSS?",
+            "correctAnswer": "Cascading Style Sheets.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does CSS stand for?",
+            "correctAnswer": "Cascading Style Sheets.",
+            "falseAnswers": [
+              "Creative Style Sheets.",
+              "Computer Style Sheets.",
+              "Cascading Script Syntax."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Koji je puni naziv kratice CSS?",
+            "correctAnswer": "Cascading Style Sheets.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što znači kratica CSS?",
+            "correctAnswer": "Cascading Style Sheets.",
+            "falseAnswers": [
+              "Creative Style Sheets.",
+              "Computer Style Sheets.",
+              "Cascading Script Syntax."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "11",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is CSS?",
+            "correctAnswer": "A language for defining visual styles and how content written in HTML is presented.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary role of CSS?",
+            "correctAnswer": "To define the visual presentation of HTML content.",
+            "falseAnswers": [
+              "To define the structure of web pages.",
+              "To add interactivity to web pages.",
+              "To manage server-side logic."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je CSS?",
+            "correctAnswer": "Jezik za definiranje vizualnih stilova i način prezentiranja sadržaja napisanog u HTML-u.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna uloga CSS-a?",
+            "correctAnswer": "Definiranje vizualne prezentacije HTML sadržaja.",
+            "falseAnswers": [
+              "Definiranje strukture web stranica.",
+              "Dodavanje interaktivnosti web stranicama.",
+              "Upravljanje logikom na strani servera."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "12",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "List all parts of a CSS rule.",
+            "correctAnswer": "Selector, declaration block, declaration, property, and declaration value.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Selector",
+              "Declaration block",
+              "Declaration",
+              "Property",
+              "Declaration value"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT a part of a CSS rule?",
+            "correctAnswer": "Element.",
+            "falseAnswers": ["Selector.", "Declaration block.", "Property."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Nabroji sve dijelove CSS pravila?",
+            "correctAnswer": "Selektor, deklaracijski blok, deklaracija, svojstvo i deklaracijska vrijednost.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Selektor",
+              "Deklaracijski blok",
+              "Deklaracija",
+              "Svojstvo",
+              "Deklaracijska vrijednost"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih NIJE dio CSS pravila?",
+            "correctAnswer": "Element.",
+            "falseAnswers": ["Selektor.", "Deklaracijski blok.", "Svojstvo."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "13",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a selector in a CSS rule?",
+            "correctAnswer": "The part that selects the HTML element to which the properties in the declaration block will be applied.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the function of a selector in CSS?",
+            "correctAnswer": "To select HTML elements to apply styles to.",
+            "falseAnswers": [
+              "To define the visual properties of an element.",
+              "To group multiple declarations.",
+              "To specify the value of a property."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je selektor u CSS pravilu?",
+            "correctAnswer": "Dio koji odabire HTML element na kojega će se primijeniti svojstva koju su u deklaracijskom bloku.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je funkcija selektora u CSS-u?",
+            "correctAnswer": "Odabir HTML elemenata na koje će se primijeniti stilovi.",
+            "falseAnswers": [
+              "Definiranje vizualnih svojstava elementa.",
+              "Grupisanje više deklaracija.",
+              "Određivanje vrijednosti svojstva."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "14",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a declaration block in a CSS rule?",
+            "correctAnswer": "A set of declarations consisting of a property and a value.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does a declaration block in CSS contain?",
+            "correctAnswer": "A set of declarations (property-value pairs).",
+            "falseAnswers": [
+              "The selector for the rule.",
+              "Comments about the rule.",
+              "Links to external style sheets."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je deklaracijski blok u CSS pravilu?",
+            "correctAnswer": "Skup deklaracija koje se sastoje od svojstva i vrijednosti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što sadrži deklaracijski blok u CSS-u?",
+            "correctAnswer": "Skup deklaracija (parovi svojstvo-vrijednost).",
+            "falseAnswers": [
+              "Selektor za pravilo.",
+              "Komentare o pravilu.",
+              "Linkove na vanjske stilove."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "15",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a property in a CSS rule?",
+            "correctAnswer": "A characteristic of the element we want to style (color, font-size, background-color).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In a CSS rule, what does a 'property' refer to?",
+            "correctAnswer": "A characteristic of the element to be styled.",
+            "falseAnswers": [
+              "The value assigned to a characteristic.",
+              "The HTML element being selected.",
+              "The entire rule block."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je svojstvo u CSS pravilu?",
+            "correctAnswer": "Karakteristika elementa koju želimo stilizirati (color, font-size, background-color).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U CSS pravilu, na što se odnosi 'svojstvo'?",
+            "correctAnswer": "Karakteristika elementa koji se stilizira.",
+            "falseAnswers": [
+              "Vrijednost dodijeljena karakteristici.",
+              "HTML element koji se odabire.",
+              "Cijeli blok pravila."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "16",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Where can we write CSS?",
+            "correctAnswer": "Inline, internal, and external.",
+            "isEnumeratable": true,
+            "answerItems": ["Inline", "Internal", "External"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a valid way to include CSS in a web page?",
+            "correctAnswer": "External stylesheet.",
+            "falseAnswers": [
+              "Through a separate configuration file.",
+              "Directly within the `<body>` tag.",
+              "Using a database connection."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Gdje sve možemo pisati CSS?",
+            "correctAnswer": "Inline, internal i external.",
+            "isEnumeratable": true,
+            "answerItems": ["Inline", "Internal", "External"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih je valjan način uključivanja CSS-a u web stranicu?",
+            "correctAnswer": "Vanjska stil datoteka.",
+            "falseAnswers": [
+              "Kroz zasebnu konfiguracijsku datoteku.",
+              "Direktno unutar `<body>` taga.",
+              "Korištenjem veze na bazu podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "17",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "If we write CSS code in an external file, what needs to be done?",
+            "correctAnswer": "It is necessary to link that file to the HTML document using the link tag within the head tags.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How do you link an external CSS file to an HTML document?",
+            "correctAnswer": "Using the `<link>` tag within the `<head>` tags.",
+            "falseAnswers": [
+              "Using the `<style>` tag within the `<body>` tags.",
+              "Using the `<script>` tag within the `<head>` tags.",
+              "Using an `@import` rule in the HTML file."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Ako pišemo CSS kod u vanjskoj datoteci šta je potrebno napraviti?",
+            "correctAnswer": "Potrebno je povezati tu datoteku s HTML dokumentom preko link oznake unutar head oznaka.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako povezujete vanjsku CSS datoteku s HTML dokumentom?",
+            "correctAnswer": "Korištenjem `<link>` taga unutar `<head>` tagova.",
+            "falseAnswers": [
+              "Korištenjem `<style>` taga unutar `<body>` tagova.",
+              "Korištenjem `<script>` taga unutar `<head>` tagova.",
+              "Korištenjem `@import` pravila u HTML datoteci."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "18",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What are the two most common ways to style HTML elements?",
+            "correctAnswer": "Using IDs and classes.",
+            "isEnumeratable": true,
+            "answerItems": ["IDs", "Classes"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which are two common methods for styling HTML elements using CSS?",
+            "correctAnswer": "Using IDs and classes.",
+            "falseAnswers": [
+              "Using inline styles and element names only.",
+              "Using attributes and pseudo-elements only.",
+              "Using parent-child relationships and universal selectors."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja su dva najčešća načina stiliziranja HTML elemenata?",
+            "correctAnswer": "Preko ID-jeva i klasa.",
+            "isEnumeratable": true,
+            "answerItems": ["ID-jeva", "Klasa"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje su dvije uobičajene metode za stiliziranje HTML elemenata pomoću CSS-a?",
+            "correctAnswer": "Korištenjem ID-jeva i klasa.",
+            "falseAnswers": [
+              "Korištenjem samo inline stilova i imena elemenata.",
+              "Korištenjem samo atributa i pseudo-elemenata.",
+              "Korištenjem odnosa roditelj-dijete i univerzalnih selektora."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "19",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference between IDs and classes in CSS?",
+            "correctAnswer": "Each element can have one ID and it should be unique, while each element can have multiple classes and multiple elements can have the same class.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a key difference between CSS IDs and classes?",
+            "correctAnswer": "IDs should be unique per element, while classes can be used on multiple elements.",
+            "falseAnswers": [
+              "Classes have higher specificity than IDs.",
+              "IDs are used for styling, while classes are used for JavaScript.",
+              "Classes can only be applied to block-level elements."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika izmešu ID-jeva i klasa u CSS?",
+            "correctAnswer": "Svaki element može imati jedan ID i trebao bi biti unikatan, dok svaki element može imati više klasa i više elemenata mogu imati istu klasu.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je ključna razlika između CSS ID-jeva i klasa?",
+            "correctAnswer": "ID-jevi bi trebali biti jedinstveni po elementu, dok se klase mogu koristiti na više elemenata.",
+            "falseAnswers": [
+              "Klase imaju veći specifičnost od ID-jeva.",
+              "ID-jevi se koriste za stiliziranje, dok se klase koriste za JavaScript.",
+              "Klase se mogu primijeniti samo na block-level elemente."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "20",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What are pseudoclasses in CSS?",
+            "correctAnswer": "Keywords added to selectors to style elements in a specific state, position, or based on specific user actions.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of CSS pseudoclasses?",
+            "correctAnswer": "To style elements based on their state or interaction.",
+            "falseAnswers": [
+              "To create new HTML elements.",
+              "To define reusable styles.",
+              "To select elements based on their attributes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su pesudoklase u CSS-u?",
+            "correctAnswer": "Ključne riječi koje se dodaju selektorima kako bi stilizirali elemente u određenom stanju, poziciji ili na temelju specifičnih radnji korisnika.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha CSS pseudoklasa?",
+            "correctAnswer": "Stiliziranje elemenata na temelju njihovog stanja ili interakcije.",
+            "falseAnswers": [
+              "Kreiranje novih HTML elemenata.",
+              "Definiranje stilova za ponovnu upotrebu.",
+              "Odabir elemenata na temelju njihovih atributa."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "21",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What are pseudo-elements?",
+            "correctAnswer": "Elements that are not in the HTML, but we can still select and style them in CSS.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What are CSS pseudo-elements?",
+            "correctAnswer": "Abstract elements that are not explicitly in the HTML but can be styled.",
+            "falseAnswers": [
+              "Elements with unique IDs.",
+              "Elements that are hidden by default.",
+              "Elements that contain nested elements."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su pesudo elementi?",
+            "correctAnswer": "Elementi koji se ne nalaze u HTML-u, ali ih i dalje možemo selektirati i uređivati u CSS-u.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što su CSS pseudo-elementi?",
+            "correctAnswer": "Apstraktni elementi koji nisu eksplicitno u HTML-u, ali se mogu stilizirati.",
+            "falseAnswers": [
+              "Elementi s jedinstvenim ID-jevima.",
+              "Elementi koji su po zadanim postavkama skriveni.",
+              "Elementi koji sadrže ugniježđene elemente."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "22",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What are the pseudoclasses for link states?",
+            "correctAnswer": "Link, visited, hover, active, and focus.",
+            "isEnumeratable": true,
+            "answerItems": ["Link", "Visited", "Hover", "Active", "Focus"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a pseudoclass for a link state?",
+            "correctAnswer": ":hover.",
+            "falseAnswers": [":first-child.", ":before.", ":checked."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje su pesudoklase za stanja linkova?",
+            "correctAnswer": "Link, visited, hover, active i focus.",
+            "isEnumeratable": true,
+            "answerItems": ["Link", "Visited", "Hover", "Active", "Focus"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je pseudoklasa za stanje linka?",
+            "correctAnswer": ":hover.",
+            "falseAnswers": [":first-child.", ":before.", ":checked."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "23",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What does using the 'auto' value mean when styling image dimensions?",
+            "correctAnswer": "When the word 'auto' is used for images, CSS will try to maintain the aspect ratio defined in the HTML element itself (e.g., set height to 100, and width to auto, and if the aspect ratio is 1:2, the width will be 200).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "When using 'auto' for an image dimension (like width or height), what does CSS typically do?",
+            "correctAnswer": "It maintains the image's aspect ratio.",
+            "falseAnswers": [
+              "It sets the dimension to zero.",
+              "It makes the image take up 100% of the container width.",
+              "It applies a default size regardless of the aspect ratio."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači korištenje vrijednosti auto u stiliziranju dimenzija slika?",
+            "correctAnswer": "Kada se koristi riječ auto kod slika, onda će CSS nastojati zadržati aspect ration koje je definiran u samom HTML elementu (npr. stavimo visinu na 100, a širinu na auto te ako je aspec ration 1:2, širina će biti 200)",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Prilikom korištenja 'auto' za dimenziju slike (poput širine ili visine), što CSS obično radi?",
+            "correctAnswer": "Zadržava omjer slike (aspect ratio).",
+            "falseAnswers": [
+              "Postavlja dimenziju na nulu.",
+              "Čini da slika zauzme 100% širine spremnika.",
+              "Primjenjuje zadanu veličinu bez obzira na omjer."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "24",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Explain the situation if there are multiple rules for the same element within CSS and there are conflicts between some properties; which rule's property will be applied?",
+            "correctAnswer": "The rule with higher selector specificity will be applied. If they are equal, the one listed last will be applied.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "When multiple CSS rules conflict for the same element and property, which rule is applied (assuming no `!important`)?",
+            "correctAnswer": "The rule with the highest selector specificity.",
+            "falseAnswers": [
+              "The rule listed first in the stylesheet.",
+              "The rule with the fewest selectors.",
+              "A random rule is applied."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Objasni situaciju ako ima više pravila za isti element unutar CSS-a i u njima dolazi do konflikata između nekih svojstava, svojstvo iz kojeg pravila će biti primijenjeno?",
+            "correctAnswer": "Biti će primijenjeno pravilo koje ima veći selector specificity ako su oni jednaka, primijeniti će se ono koje je zadnje navedeno.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kada se više CSS pravila sukobi za isti element i svojstvo (pretpostavljajući da nema `!important`), koje se pravilo primjenjuje?",
+            "correctAnswer": "Pravilo s najvećim selector specificity.",
+            "falseAnswers": [
+              "Pravilo navedeno prvo u stil datoteci.",
+              "Pravilo s najmanje selektora.",
+              "Primjenjuje se nasumično pravilo."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "25",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What does selector specificity consist of and what do these parts represent?",
+            "correctAnswer": "It consists of three numbers: the first represents the number of IDs in the selector, the second represents the number of classes, attributes, and pseudoclasses in the selector, and the third represents the number of elements and pseudo-elements in the selector (comparing numbers goes from first to third 1->2->3, as soon as one is larger, that selector wins, (1, 0, 0) > (0, 3, 2)).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In CSS selector specificity (A, B, C), what does 'A' represent?",
+            "correctAnswer": "The number of IDs in the selector.",
+            "falseAnswers": [
+              "The number of classes in the selector.",
+              "The number of elements in the selector.",
+              "The number of pseudo-elements in the selector."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Od čega se sastoji selector specificity i što ti dijelovi predstavljaju?",
+            "correctAnswer": "Sastoji se od tri broj, prvi predstavlja broj ID-jeva u selektoru, drugi predstavlja broj klasa, atributa i pseudoklasa u selektoru i treći predstavlja broj elemenata i pseudo elemenata u selektoru (uspređivanje brojeva ide od prvog do trećeg 1->2->3, čim je jedan veći taj selektor dobiva, (1, 0, 0) > (0, 3, 2)).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U CSS selector specificity (A, B, C), što predstavlja 'A'?",
+            "correctAnswer": "Broj ID-jeva u selektoru.",
+            "falseAnswers": [
+              "Broj klasa u selektoru.",
+              "Broj elemenata u selektoru.",
+              "Broj pseudo-elemenata u selektoru."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "26",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What has higher priority than selector specificity?",
+            "correctAnswer": "!important and inline styles.",
+            "isEnumeratable": true,
+            "answerItems": ["!important", "Inline styles"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following has higher priority than selector specificity in CSS?",
+            "correctAnswer": "!important.",
+            "falseAnswers": [
+              "Universal selector.",
+              "Inherited values.",
+              "Element selectors."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Šta to ima veći prioritet od selektor specificity-a?",
+            "correctAnswer": "!impoprt i inline stilovi.",
+            "isEnumeratable": true,
+            "answerItems": ["!important", "Inline stilovi"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih ima veći prioritet od selector specificity u CSS-u?",
+            "correctAnswer": "!important.",
+            "falseAnswers": [
+              "Univerzalni selektor.",
+              "Naslijeđene vrijednosti.",
+              "Selektori elemenata."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "27",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What has lower priority than selector specificity?",
+            "correctAnswer": "Universal selector and inherited values.",
+            "isEnumeratable": true,
+            "answerItems": ["Universal selector", "Inherited values"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following has lower priority than selector specificity in CSS?",
+            "correctAnswer": "Inherited values.",
+            "falseAnswers": ["IDs.", "Classes.", "Pseudo-elements."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što to ima manji prioritet od selektor specificity-a?",
+            "correctAnswer": "Univerzalni selektor i naslijeđene vrijednosti.",
+            "isEnumeratable": true,
+            "answerItems": ["Univerzalni selektor", "Naslijeđene vrijednosti"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih ima manji prioritet od selector specificity u CSS-u?",
+            "correctAnswer": "Naslijeđene vrijednosti.",
+            "falseAnswers": ["ID-jevi.", "Klase.", "Pseudo-elementi."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "28",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a universal selector?",
+            "correctAnswer": "A universal selector is a selector that selects all elements on the page.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the universal selector (`*`) in CSS select?",
+            "correctAnswer": "All elements on the page.",
+            "falseAnswers": [
+              "Only elements with a specific class.",
+              "Only elements with a specific ID.",
+              "Only direct children of an element."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to univerzalni selektor?",
+            "correctAnswer": "Univerzalnin selektor je selektor koji odabire sve elemente na stranici.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što odabire univerzalni selektor (`*`) u CSS-u?",
+            "correctAnswer": "Sve elemente na stranici.",
+            "falseAnswers": [
+              "Samo elemente s određenom klasom.",
+              "Samo elemente s određenim ID-jem.",
+              "Samo izravnu djecu elementa."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "29",
+    "lang": {
+      "en": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is inheritance in the context of CSS?",
+            "correctAnswer": "A mechanism through which elements inherit some properties from their parents, most often properties for styling text.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is CSS inheritance?",
+            "correctAnswer": "A mechanism where child elements inherit properties from their parent elements.",
+            "falseAnswers": [
+              "A way to define reusable styles.",
+              "A method for resolving merge conflicts.",
+              "A property that controls the stacking order of elements."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to naslijeđivanje u kontekstu CSS-a?",
+            "correctAnswer": "Mehanizam preko kojega elementi nasljeđuju neka svojstva od roditelja, najčešće svojstva za stiliziranje tekstova.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je CSS naslijeđivanje?",
+            "correctAnswer": "Mehanizam gdje djeca elementi nasljeđuju svojstva od svojih roditeljskih elemenata.",
+            "falseAnswers": [
+              "Način definiranja stilova za ponovnu upotrebu.",
+              "Metoda za rješavanje konflikata spajanja.",
+              "Svojstvo koje kontrolira redoslijed slaganja elemenata."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "30",
+    "lang": {
+      "en": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the CSS box model?",
+            "correctAnswer": "A model that defines how elements on the page are displayed and how large they are. Each element is seen as a rectangular box, and each box has: content, border, padding (space between border and content), and margin (space between border and surrounding elements).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the CSS box model describe?",
+            "correctAnswer": "How elements are displayed and their size, including content, padding, border, and margin.",
+            "falseAnswers": [
+              "The layout of elements on the page using Flexbox or Grid.",
+              "The order in which CSS rules are applied.",
+              "How JavaScript interacts with HTML elements."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to CSS box model?",
+            "correctAnswer": "Model koji definira kako su elementi na stranici prikazani i koliko su veliki. Svaki element je viđen kao pravokutna kutija i svaka kutija ima: sadržaj, okvir, razmake izemđu okvira i sadržaja i razmake između okvira i okoline.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što opisuje CSS box model?",
+            "correctAnswer": "Kako se elementi prikazuju i njihovu veličinu, uključujući sadržaj, padding, border i margin.",
+            "falseAnswers": [
+              "Raspored elemenata na stranici pomoću Flexboxa ili Grida.",
+              "Redoslijed primjene CSS pravila.",
+              "Kako JavaScript interaktira s HTML elementima."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "31",
+    "lang": {
+      "en": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the fill area?",
+            "correctAnswer": "The space inside the border, filled with background-color and background-image.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In the CSS box model, what is the 'fill area'?",
+            "correctAnswer": "The space inside the border, filled with background.",
+            "falseAnswers": [
+              "The space outside the border.",
+              "The content area only.",
+              "The margin area."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to fill area?",
+            "correctAnswer": "Prostor unutar okvira, ispunjava se sa background-color i background-image.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U CSS box modelu, što je 'fill area'?",
+            "correctAnswer": "Prostor unutar okvira, ispunjen pozadinom.",
+            "falseAnswers": [
+              "Prostor izvan okvira.",
+              "Samo područje sadržaja.",
+              "Područje margine."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "32",
+    "lang": {
+      "en": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the phenomenon of collapsing margins?",
+            "correctAnswer": "The phenomenon that occurs when two margins occupy the same space, only one will be visible on the page, and it is the larger one.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is 'collapsing margins' in CSS?",
+            "correctAnswer": "When two vertical margins meet, and only the larger one is used.",
+            "falseAnswers": [
+              "When horizontal margins overlap.",
+              "When padding values are too large.",
+              "When borders of adjacent elements merge."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je pojava collapsing margins?",
+            "correctAnswer": "Pojava kada imamo dvije margine koje okupiraju isti prostor, samo će jedna biti vidljiva na stranici i to je ona koja je veća.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je 'collapsing margins' u CSS-u?",
+            "correctAnswer": "Kada se dvije vertikalne margine susretnu i koristi se samo veća.",
+            "falseAnswers": [
+              "Kada se horizontalne margine preklapaju.",
+              "Kada su vrijednosti paddinga prevelike.",
+              "Kada se okviri susjednih elemenata spajaju."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "33",
+    "lang": {
+      "en": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `box-sizing` property define?",
+            "correctAnswer": "It defines how the total width and height of an element are calculated.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the `box-sizing` CSS property control?",
+            "correctAnswer": "How the total width and height of an element are calculated.",
+            "falseAnswers": [
+              "The type of box (inline, block, etc.).",
+              "The stacking order of elements.",
+              "Whether an element is visible or hidden."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "Što definira svojstvo box-sizing?",
+            "correctAnswer": "Definira kako se izračunava ukupna širina i visina elementa.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što kontrolira CSS svojstvo `box-sizing`?",
+            "correctAnswer": "Kako se izračunava ukupna širina i visina elementa.",
+            "falseAnswers": [
+              "Vrsta kutije (inline, block, itd.).",
+              "Redoslijed slaganja elemenata.",
+              "Je li element vidljiv ili skriven."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "34",
+    "lang": {
+      "en": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "What does it mean when an element is given the value `content-box` for the `box-sizing` attribute, and what does `border-box` mean?",
+            "correctAnswer": "`content-box` means that the width and height of the element refer only to the content, while for `border-box`, the width and height refer to the content, padding, and border.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "With `box-sizing: content-box`, what does the specified width and height include?",
+            "correctAnswer": "Only the content area.",
+            "falseAnswers": [
+              "Content, padding, and border.",
+              "Content, padding, border, and margin.",
+              "Padding and border only."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS box model",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači kada elementu damo vrijednost content-box u box-sizing atributu, a što znači border-box?",
+            "correctAnswer": "Content-box znači da širina i visina elementa se odnosi samo na sadržaj, dok za border-box se širina i visina odnosi na sadržaj, padding i okvir.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "S `box-sizing: content-box`, što uključuje navedena širina i visina?",
+            "correctAnswer": "Samo područje sadržaja.",
+            "falseAnswers": [
+              "Sadržaj, padding i okvir.",
+              "Sadržaj, padding, okvir i marginu.",
+              "Samo padding i okvir."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "35",
+    "lang": {
+      "en": {
+        "topic": "Box types",
+        "type": {
+          "singleAnswer": {
+            "question": "What types of boxes exist?",
+            "correctAnswer": "Inline, block, and inline-block.",
+            "isEnumeratable": true,
+            "answerItems": ["Inline", "Block", "Inline-block"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a valid CSS box type?",
+            "correctAnswer": "inline-block.",
+            "falseAnswers": ["flex-item.", "grid-cell.", "float-box."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "vrste kutija",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje vrste kutija postoje?",
+            "correctAnswer": "Inline, block i inline-block.",
+            "isEnumeratable": true,
+            "answerItems": ["Inline", "Block", "Inline-block"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je valjana vrsta CSS kutije?",
+            "correctAnswer": "inline-block.",
+            "falseAnswers": ["flex-item.", "grid-cell.", "float-box."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "36",
+    "lang": {
+      "en": {
+        "topic": "Box types",
+        "type": {
+          "singleAnswer": {
+            "question": "What are inline box types like?",
+            "correctAnswer": "Boxes that are as large as their content, they do not create new lines before or after. Width and height cannot be applied to them, and margin and padding can only be applied along the X-axis.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which characteristic describes inline box types?",
+            "correctAnswer": "They are as large as their content and do not create new lines.",
+            "falseAnswers": [
+              "They always take up the full width of their container.",
+              "Width and height properties can be applied to them.",
+              "Margins and padding can be applied along both X and Y axes without issues."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "vrste kutija",
+        "type": {
+          "singleAnswer": {
+            "question": "Kakve su to inline vrste kutija?",
+            "correctAnswer": "Kutije koje su velike onoliko koliki je veliki sadržaj, ne stvaraju nove linije ni ispred ni iza. Na njih se ne može primjenjivati širina i visina, a margine i padding se može samo po X osi.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja karakteristika opisuje inline vrste kutija?",
+            "correctAnswer": "Velike su koliko i njihov sadržaj i ne stvaraju nove linije.",
+            "falseAnswers": [
+              "Uvijek zauzimaju punu širinu svog spremnika.",
+              "Mogu im se primijeniti svojstva širine i visine.",
+              "Margine i padding se mogu primijeniti duž X i Y osi bez problema."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "37",
+    "lang": {
+      "en": {
+        "topic": "Box types",
+        "type": {
+          "singleAnswer": {
+            "question": "What needs to be careful about when applying padding to inline elements?",
+            "correctAnswer": "When using padding along the Y-axis on inline elements, the fill area will expand vertically, but no new space will be created for that area. This can lead to elements overlapping, meaning the background of inline elements might appear over another element.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What issue can occur when applying vertical padding to inline elements?",
+            "correctAnswer": "Elements might overlap as new space is not created for the padding.",
+            "falseAnswers": [
+              "The padding will be ignored.",
+              "The element will become a block-level element.",
+              "The horizontal padding will be removed."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "vrste kutija",
+        "type": {
+          "singleAnswer": {
+            "question": "Na šta se mora pripaziti kada dajemo padding na inline elemente?",
+            "correctAnswer": "Prilikom korištenja padding-a po Y osi na inline elemente, fill area će se proširiti po vertikali, no neće se kreirati novo mjesto za tja prostor. Tu može doći do preklapanja elemenata, odnosno da pozadina od inline elemenata bude preko nekog elementa.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji problem se može pojaviti prilikom primjene vertikalnog paddinga na inline elemente?",
+            "correctAnswer": "Elementi se mogu preklapati jer se ne stvara novi prostor za padding.",
+            "falseAnswers": [
+              "Padding će biti ignoriran.",
+              "Element će postati block-level element.",
+              "Horizontalni padding će biti uklonjen."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "38",
+    "lang": {
+      "en": {
+        "topic": "CSS positions",
+        "type": {
+          "singleAnswer": {
+            "question": "List positions in CSS.",
+            "correctAnswer": "Relative, fixed, sticky, float (, normal flow).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Relative",
+              "Fixed",
+              "Sticky",
+              "Float",
+              "Normal flow"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a valid CSS position value?",
+            "correctAnswer": "sticky.",
+            "falseAnswers": ["centered.", "aligned.", "relative-fixed."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS pozicije",
+        "type": {
+          "singleAnswer": {
+            "question": "Navoji pozicije unutar CSS-a.",
+            "correctAnswer": "Relativan, fiksna, ljepljiva, plutanje (,normalni tok).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Relativna",
+              "Fiksna",
+              "Ljepljiva",
+              "Plutanje",
+              "Normalni tok"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je valjana vrijednost CSS pozicije?",
+            "correctAnswer": "sticky.",
+            "falseAnswers": ["centered.", "aligned.", "relative-fixed."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "39",
+    "lang": {
+      "en": {
+        "topic": "CSS positions",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the relative CSS position.",
+            "correctAnswer": "The element remains in the normal flow and can be moved with top, right, bottom, left properties, and the space it occupied before moving remains empty. It also becomes a container for absolutely positioned child elements.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is true about the `position: relative;` CSS property?",
+            "correctAnswer": "The element remains in the normal flow, and its original space is preserved.",
+            "falseAnswers": [
+              "The element is removed from the normal flow.",
+              "The element is positioned relative to the viewport.",
+              "It is used to make an element sticky."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS pozicije",
+        "type": {
+          "singleAnswer": {
+            "question": "Opiši relativnu CSS poziciju?",
+            "correctAnswer": "Element ostaje u normalnom roku i može se pomicati s top, right, bottom, left svojstvima te prostor koji je zauzimao prije pomicanja ostaje prazan. Također postaje kontenjer za apsolutno pozicioniranje podređene elemente.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je istina o CSS svojstvu `position: relative;`?",
+            "correctAnswer": "Element ostaje u normalnom toku, a njegov izvorni prostor je sačuvan.",
+            "falseAnswers": [
+              "Element se uklanja iz normalnog toka.",
+              "Element se pozicionira u odnosu na viewport.",
+              "Koristi se za postavljanje elementa kao sticky."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "40",
+    "lang": {
+      "en": {
+        "topic": "CSS positions",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the fixed CSS position.",
+            "correctAnswer": "The element is removed from the normal flow, positioned relative to the viewport. It stays in place when scrolling.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is true about the `position: fixed;` CSS property?",
+            "correctAnswer": "The element is removed from the normal flow and positioned relative to the viewport.",
+            "falseAnswers": [
+              "The element remains in the normal flow.",
+              "The element is positioned relative to its parent.",
+              "The element moves with the page when scrolling."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS pozicije",
+        "type": {
+          "singleAnswer": {
+            "question": "Opiši fiksnu CSS poziciju?",
+            "correctAnswer": "Element je uklonjen iz normalnog toka, pozicionira se u odnosu na viewport. Ostaje na mjestu prilikom scrollanja.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je istina o CSS svojstvu `position: fixed;`?",
+            "correctAnswer": "Element se uklanja iz normalnog toka i pozicionira u odnosu na viewport.",
+            "falseAnswers": [
+              "Element ostaje u normalnom toku.",
+              "Element se pozicionira u odnosu na svog roditelja.",
+              "Element se pomiče sa stranicom prilikom scrollanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "41",
+    "lang": {
+      "en": {
+        "topic": "CSS positions",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the sticky CSS position.",
+            "correctAnswer": "A hybrid of relative and fixed positions. It behaves like a relative position within a container (element), and becomes fixed when it reaches a certain position while scrolling.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How does the `position: sticky;` CSS property behave?",
+            "correctAnswer": "It behaves like relative until a scroll offset is met, then it becomes fixed.",
+            "falseAnswers": [
+              "It always remains in a fixed position relative to the viewport.",
+              "It behaves like absolute positioning within its parent.",
+              "It is used to create overlapping elements."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS pozicije",
+        "type": {
+          "singleAnswer": {
+            "question": "Opiši ljepljivu CSS poziciju?",
+            "correctAnswer": "Hibrid relativne i fiksne pozicije. Ponaša se kao relativna pozicija unutar nekog kontenjera (elementa), a postaje fixed kada dosegne određenu poziciju prilikom scrollanja.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako se ponaša CSS svojstvo `position: sticky;`?",
+            "correctAnswer": "Ponaša se kao relative dok se ne dosegne određeni offset scrollanja, a zatim postaje fixed.",
+            "falseAnswers": [
+              "Uvijek ostaje u fiksnom položaju u odnosu na viewport.",
+              "Ponaša se kao absolute pozicioniranje unutar svog roditelja.",
+              "Koristi se za stvaranje preklapajućih elemenata."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "42",
+    "lang": {
+      "en": {
+        "topic": "layout",
+        "type": {
+          "singleAnswer": {
+            "question": "Using which properties do we build layouts in CSS?",
+            "correctAnswer": "Flexbox, Grid, and Float (no longer used).",
+            "isEnumeratable": true,
+            "answerItems": ["Flexbox", "Grid", "Float (deprecated)"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a modern CSS layout method?",
+            "correctAnswer": "Flexbox.",
+            "falseAnswers": ["Tables.", "Frames.", "Inline-block only."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "layout",
+        "type": {
+          "singleAnswer": {
+            "question": "Pomoću kojih svojstava gradimo layout-e u CSS?",
+            "correctAnswer": "Flex box, grid i float (ne koristi se više).",
+            "isEnumeratable": true,
+            "answerItems": ["Flex box", "Grid", "Float (više se ne koristi)"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je moderna CSS metoda za izradu layouta?",
+            "correctAnswer": "Flexbox.",
+            "falseAnswers": ["Tablice.", "Okviri.", "Samo inline-block."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "43",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "What does DOM describe and how is it obtained?",
+            "correctAnswer": "It describes the entire HTML document through a tree structure and is obtained by parsing the HTML document.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the DOM (Document Object Model) represent?",
+            "correctAnswer": "A tree structure of the HTML document.",
+            "falseAnswers": [
+              "The visual styling of the page.",
+              "The executable JavaScript code.",
+              "The network requests made by the browser."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Što opisuje DOM i kako ga dobivamo?",
+            "correctAnswer": "Opisuje cijeli HTML dokument kroz stablastu strukturu i dobiva se iz prasiranje HTML dokumenta.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što predstavlja DOM (Document Object Model)?",
+            "correctAnswer": "Stablastu strukturu HTML dokumenta.",
+            "falseAnswers": [
+              "Vizualno stiliziranje stranice.",
+              "Izvršni JavaScript kod.",
+              "Mrežne zahtjeve koje šalje preglednik."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "44",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "What does CSSOM describe and how is it obtained?",
+            "correctAnswer": "It describes the entire CSS document through a tree structure and is obtained by parsing the CSS document.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does CSSOM (CSS Object Model) represent?",
+            "correctAnswer": "A tree structure of the CSS rules.",
+            "falseAnswers": [
+              "The structure of the HTML document.",
+              "The layout of elements on the page.",
+              "The final rendered output of the page."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Što opisuje CSSOM i kako ga dobivamo?",
+            "correctAnswer": "Opisuje cijeli CSS dokument kroz stablastu strukturu i dobiva se iz prasiranja CSS dokumenta.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što predstavlja CSSOM (CSS Object Model)?",
+            "correctAnswer": "Stablastu strukturu CSS pravila.",
+            "falseAnswers": [
+              "Strukturu HTML dokumenta.",
+              "Raspored elemenata na stranici.",
+              "Konačni renderirani izlaz stranice."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "45",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the render tree and what is its purpose?",
+            "correctAnswer": "A tree created by combining the DOM and CSSOM, used by the browser to render the page.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the render tree composed of and what is its purpose?",
+            "correctAnswer": "It's a combination of DOM and CSSOM, used for rendering the page.",
+            "falseAnswers": [
+              "It's a tree of all HTML elements, used for parsing.",
+              "It's a tree of all CSS rules, used for applying styles.",
+              "It's a tree of all JavaScript functions, used for execution."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je renderirajuće stablo i ćemu služi?",
+            "correctAnswer": "Stablo koje nastaje kombinacijom COM-a i CSSOM-a, a služi kako bi preglednik renderirao stranicu.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Od čega se sastoji renderirajuće stablo i koja mu je svrha?",
+            "correctAnswer": "Kombinacija je DOM-a i CSSOM-a, koristi se za renderiranje stranice.",
+            "falseAnswers": [
+              "To je stablo svih HTML elemenata, koristi se za parsiranje.",
+              "To je stablo svih CSS pravila, koristi se za primjenu stilova.",
+              "To je stablo svih JavaScript funkcija, koristi se za izvršavanje."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "46",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the process of rendering a web page in the browser.",
+            "correctAnswer": "1. Loading HTML. 2. Parsing HTML (results in DOM). 3. Loading CSS (parallel to HTML parsing). 4. Parsing CSS (first part is conflict resolution, second is value processing, resulting in CSSOM). 5. Render tree is created from DOM and CSSOM. 6. Page is rendered from the render tree (visual formatting model).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Loading HTML",
+              "Parsing HTML (creating DOM)",
+              "Loading CSS (parallel)",
+              "Parsing CSS (conflict resolution, value processing, creating CSSOM)",
+              "Creating Render Tree (DOM + CSSOM)",
+              "Rendering page (using visual formatting model)"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which step is part of the web page rendering process in a browser?",
+            "correctAnswer": "Parsing HTML to create the DOM.",
+            "falseAnswers": [
+              "Executing server-side scripts.",
+              "Uploading files to a remote server.",
+              "Resolving DNS addresses."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Opiši mi proces renderiranja web stranice na pregledniku?",
+            "correctAnswer": "1. Učitavanje HTML, 2. Parsiranje HTML (iz toga se dobiva DOM), 3. Učitavanje CSS-a (paralelno s parsiranjem HTML-a), 4. Parsiranje CSS (prvi dio je riješavanje konflikata, drugi je procesiranje vrijdnosti i iz toga se dobije CSSOM), 5. Kreira se renderirajuće stablo iz DOM-a i CSS-om, 6. Stranica se renderira iz renderirajućeg stabla (visual formatting model).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Učitavanje HTML-a",
+              "Parsiranje HTML-a (stvaranje DOM-a)",
+              "Učitavanje CSS-a (paralelno)",
+              "Parsiranje CSS-a (rješavanje konflikata, obrada vrijednosti, stvaranje CSSOM-a)",
+              "Kreiranje Render Tree (DOM + CSSOM)",
+              "Renderiranje stranice (korištenjem visual formatting modela)"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji korak je dio procesa renderiranja web stranice u pregledniku?",
+            "correctAnswer": "Parsiranje HTML-a za stvaranje DOM-a.",
+            "falseAnswers": [
+              "Izvršavanje skripti na strani servera.",
+              "Učitavanje datoteka na udaljeni server.",
+              "Rješavanje DNS adresa."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "47",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "What is cascade in the context of parsing a CSS document?",
+            "correctAnswer": "The first step of parsing a CSS document where conflicts between different CSS rules and their declarations are resolved.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In CSS parsing, what is the 'cascade' step?",
+            "correctAnswer": "Resolving conflicts between different CSS rules.",
+            "falseAnswers": [
+              "Converting all values to pixels.",
+              "Creating the CSS Object Model (CSSOM).",
+              "Applying styles to the render tree."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je cascade u kontekstu parsiranja CSS dokumenta?",
+            "correctAnswer": "Prvi korak prasiranja CSS dokumenta gdje se rješavaju konflikti između različitih CSS pravila i deklaracija u njima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U parsiranju CSS-a, što je korak 'cascade'?",
+            "correctAnswer": "Rješavanje konflikata između različitih CSS pravila.",
+            "falseAnswers": [
+              "Pretvaranje svih vrijednosti u piksele.",
+              "Stvaranje CSS Object Modela (CSSOM).",
+              "Primjena stilova na renderirajuće stablo."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "48",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "From which sources can CSS declarations come?",
+            "correctAnswer": "Author (styles written in the code by the author), user (styles that users can define to customize content for themselves), browser (browser's default styles).",
+            "isEnumeratable": true,
+            "answerItems": ["Author", "User", "Browser"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a source of CSS declarations?",
+            "correctAnswer": "User stylesheet.",
+            "falseAnswers": [
+              "Server configuration.",
+              "Database records.",
+              "Operating system settings."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Iz kojih izvora mogu doći CSS deklaracije?",
+            "correctAnswer": "Author (stilovi autora napisani u kodu), user (stilovi koji korisnici mogu definirati da prilagode sadržaje prema sebi), browser (stilovi preglednika).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Author (stilovi autora)",
+              "User (stilovi korisnika)",
+              "Browser (stilovi preglednika)"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih je izvor CSS deklaracija?",
+            "correctAnswer": "User stylesheet.",
+            "falseAnswers": [
+              "Konfiguracija servera.",
+              "Zapisi baze podataka.",
+              "Postavke operativnog sustava."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "49",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "List the ways in which precedence is determined between conflicting CSS rules, or their declarations (list from highest to lowest precedence)?",
+            "correctAnswer": "Importance (user !important -> author !important -> author declaration -> user declaration -> default browser declaration), specificity (if importance is the same, rule specificity will be compared), and source order (if specificity is the same, the last listed declaration will be applied).",
+            "isEnumeratable": true,
+            "answerItems": ["Importance", "Specificity", "Source order"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which factor has the highest precedence when determining which CSS rule to apply in case of conflict?",
+            "correctAnswer": "Importance.",
+            "falseAnswers": [
+              "Specificity.",
+              "Source order.",
+              "The number of selectors."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Nabroji način na koji se određuje prednost između konfliktnih CSS pravila, odnosno deklaracija u njima (nabroji od najveće do najmanje prednosti)?",
+            "correctAnswer": "Importance (user !importance -> author !importnace -> author deklaracija -> user deklaracija - default browser deklaracija), specificity (ako je importance isti, uspoređivat će se specificity pravila) i source order (ako je specificity isti, zadnja navedena deklaracija će biti primjenjena).",
+            "isEnumeratable": true,
+            "answerItems": ["Importance", "Specificity", "Source order"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji faktor ima najveću prednost pri određivanju kojeg CSS pravila primijeniti u slučaju konflikta?",
+            "correctAnswer": "Importance.",
+            "falseAnswers": [
+              "Specificity.",
+              "Redoslijed u izvornom kodu.",
+              "Broj selektora."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "50",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "What is value processing in the context of parsing a CSS document?",
+            "correctAnswer": "The second step of parsing a CSS document where all values that are not in pixels are converted to them.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What happens during the 'value processing' step of CSS parsing?",
+            "correctAnswer": "Values not in pixels are converted to pixel values.",
+            "falseAnswers": [
+              "Conflicts between rules are resolved.",
+              "The CSS Object Model is created.",
+              "Styles are applied to the render tree."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je value processing u kontekstu parsiranje CSS dokumenta?",
+            "correctAnswer": "Drugi korak parsiranja CSS dokumenta gdje sve vrijednosti koje nisu u pikselima se pretvaraju u njih.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što se događa tijekom koraka 'value processing' u parsiranju CSS-a?",
+            "correctAnswer": "Vrijednosti koje nisu u pikselima pretvaraju se u vrijednosti u pikselima.",
+            "falseAnswers": [
+              "Rješavaju se konflikti između pravila.",
+              "Stvara se CSS Object Model.",
+              "Stilovi se primjenjuju na renderirajuće stablo."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "51",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "Is it true that every property in CSS will have an initial value?",
+            "correctAnswer": "Yes, all properties for which we have not provided values will be set to their initial values by the browser.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What happens to CSS properties for which no value is explicitly provided?",
+            "correctAnswer": "They are assigned their initial (default) value by the browser.",
+            "falseAnswers": [
+              "They are ignored by the browser.",
+              "They cause a parsing error.",
+              "They inherit the value from the parent element."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Dali je istina da svako svojstvo u CSS-u će imati inicijalno svojstvo?",
+            "correctAnswer": "Da, sva svojstva kojima mi nismo dali vrijednosti, preglednik će postaviti njima inicijalne vrijednosti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što se događa s CSS svojstvima za koja nije eksplicitno navedena vrijednost?",
+            "correctAnswer": "Preglednik im dodjeljuje njihovu inicijalnu (zadanu) vrijednost.",
+            "falseAnswers": [
+              "Preglednik ih ignorira.",
+              "Uzrokuju pogrešku pri parsiranju.",
+              "Nasljeđuju vrijednost od roditeljskog elementa."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "52",
+    "lang": {
+      "en": {
+        "topic": "CSS behind the scenes",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the visual formatting model?",
+            "correctAnswer": "An algorithm that calculates the sizes of boxes and their layout for each element in the generated tree (render tree = DOM + CSSOM).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the visual formatting model in CSS describe?",
+            "correctAnswer": "How the browser calculates the size and position of elements on the page.",
+            "falseAnswers": [
+              "The process of parsing CSS files.",
+              "How to create animations and transitions.",
+              "The interaction between JavaScript and CSS."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "CSS iza scene",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to visual formatting model?",
+            "correctAnswer": "Algoritam koji kalkulira veličine kutija i njihov raspored za svaki element u generiranom stablu (renderirano stablo = DOM + CSSOM).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što opisuje visual formatting model u CSS-u?",
+            "correctAnswer": "Kako preglednik izračunava veličinu i položaj elemenata na stranici.",
+            "falseAnswers": [
+              "Proces parsiranja CSS datoteka.",
+              "Kako kreirati animacije i tranzicije.",
+              "Interakciju između JavaScripta i CSS-a."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "53",
+    "lang": {
+      "en": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the full name of SASS, in the context of styling web pages, and what is its other name?",
+            "correctAnswer": "Syntactically Awesome Style Sheets, CSS preprocessor.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the full name of SASS and its alternative name?",
+            "correctAnswer": "Syntactically Awesome Style Sheets, CSS preprocessor.",
+            "falseAnswers": [
+              "Simplified Awesome Style Syntax, CSS postprocessor.",
+              "Systematic Advanced Style Sheets, CSS framework.",
+              "Scalable and Stylable Sheets, CSS library."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "Koji je puni naziv SASS-a, u kontekstu stiliziranje web stranica i koji je njegov drugi naziv?",
+            "correctAnswer": "Syntactically Awesome Style Sheets, CSS preprocessor.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je puni naziv SASS-a i njegov alternativni naziv?",
+            "correctAnswer": "Syntactically Awesome Style Sheets, CSS preprocessor.",
+            "falseAnswers": [
+              "Simplified Awesome Style Syntax, CSS postprocessor.",
+              "Systematic Advanced Style Sheets, CSS framework.",
+              "Scalable and Stylable Sheets, CSS library."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "54",
+    "lang": {
+      "en": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "What is SASS in the context of styling web pages?",
+            "correctAnswer": "A CSS extension that adds power and elegance to the CSS language, helping us write more complex CSS.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is SASS?",
+            "correctAnswer": "A CSS preprocessor that extends CSS with additional features.",
+            "falseAnswers": [
+              "A JavaScript library for styling.",
+              "A framework for building HTML layouts.",
+              "A tool for optimizing images."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to SASS u kontekstu stiliziranja web stranica?",
+            "correctAnswer": "CSS ekstenzija koja dodaje snagu i eleganciju CSS jeziku, pomaže nam u pisanju kompleksnijeg CSS-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je SASS?",
+            "correctAnswer": "CSS preprocessor koji proširuje CSS dodatnim značajkama.",
+            "falseAnswers": [
+              "JavaScript biblioteka za stiliziranje.",
+              "Framework za izradu HTML layouta.",
+              "Alat za optimizaciju slika."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "55",
+    "lang": {
+      "en": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "How does SASS work?",
+            "correctAnswer": "It works by writing SASS code in a SASS file, which a SASS compiler then translates into regular CSS.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How does SASS work?",
+            "correctAnswer": "SASS code is compiled into regular CSS by a SASS compiler.",
+            "falseAnswers": [
+              "SASS code is directly interpreted by the browser.",
+              "SASS code is executed on the server-side.",
+              "SASS code is converted to HTML by a compiler."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako funkcionira SASS?",
+            "correctAnswer": "Funkcionira na način da pišemo SASS kod u SASS datoteku, gdje SASS kompajler je onda prevodi u običan CSS.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako funkcionira SASS?",
+            "correctAnswer": "SASS kod se kompajlira u običan CSS pomoću SASS kompajlera.",
+            "falseAnswers": [
+              "SASS kod preglednik direktno interpretira.",
+              "SASS kod se izvršava na strani servera.",
+              "SASS kod se kompajlerom pretvara u HTML."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "56",
+    "lang": {
+      "en": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "List the main functionalities of SASS.",
+            "correctAnswer": "Variables, nesting, operators, mixins (functions for CSS declarations), functions, partials and imports, control directives, extends.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Variables",
+              "Nesting",
+              "Operators",
+              "Mixins",
+              "Functions",
+              "Partials and Imports",
+              "Control Directives",
+              "Extends"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a main functionality of SASS?",
+            "correctAnswer": "Nesting.",
+            "falseAnswers": [
+              "DOM manipulation.",
+              "Server-side routing.",
+              "Database querying."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "SASS",
+        "type": {
+          "singleAnswer": {
+            "question": "Nabroji glavne funkcionalnosti SASS-a?",
+            "correctAnswer": "Varijable, ugnježđivanje, operatori, mixins (funkcije za CSS deklaracije), funkcije, partials i importi, uptavljanje tokova, extends.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Varijable",
+              "Ugnježđivanje",
+              "Operatori",
+              "Mixins",
+              "Funkcije",
+              "Partials i Importi",
+              "Direktive za upravljanje tokom",
+              "Extends"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je glavna funkcionalnost SASS-a?",
+            "correctAnswer": "Ugnježđivanje.",
+            "falseAnswers": [
+              "DOM manipulacija.",
+              "Routiranje na strani servera.",
+              "Upiti baze podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  }
+]

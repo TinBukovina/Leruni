@@ -1,0 +1,5204 @@
+[
+  {
+    "id": "1",
+    "lang": {
+      "en": {
+        "topic": "Git definition",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Git?",
+            "correctAnswer": "Git is a distributed version control system.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which definition best describes Git?",
+            "correctAnswer": "A distributed version control system.",
+            "falseAnswers": [
+              "A centralized database management system.",
+              "An Integrated Development Environment (IDE) for coding.",
+              "A tool for automating software deployments."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Git?",
+            "correctAnswer": "Git je distribuirani sustav za upravljanje verzijama.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja definicija najbolje opisuje Git?",
+            "correctAnswer": "Distribuirani sustav za upravljanje verzijama.",
+            "falseAnswers": [
+              "Centralizirani sustav za upravljanje bazama podataka.",
+              "Integrirano razvojno okruženje (IDE) za programiranje.",
+              "Alat za automatizaciju postavljanja softvera."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "2",
+    "lang": {
+      "en": {
+        "topic": "Git purpose",
+        "type": {
+          "singleAnswer": {
+            "question": "What does Git enable us to do?",
+            "correctAnswer": "It allows us to track changes in a project over time and provides commands for searching, manipulating, and restoring history.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a primary function of Git?",
+            "correctAnswer": "Tracking changes in a project over time.",
+            "falseAnswers": [
+              "Designing user interfaces.",
+              "Writing code faster.",
+              "Managing project deadlines."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što nam Git omogućava?",
+            "correctAnswer": "Omogućava nam praćenje promjena u nekom projektu kroz vrijeme i daje nam komande za pretragu, manipuliranje i vraćanje povijesti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna funkcija Git-a?",
+            "correctAnswer": "Praćenje promjena u projektu kroz vrijeme.",
+            "falseAnswers": [
+              "Dizajniranje korisničkih sučelja.",
+              "Brže pisanje koda.",
+              "Upravljanje rokovima projekta."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "3",
+    "lang": {
+      "en": {
+        "topic": "Git commands",
+        "type": {
+          "singleAnswer": {
+            "question": "How are Git commands divided?",
+            "correctAnswer": "Git commands are divided into high-level ('porcelain', 99% used) and low-level ('plumbing') commands.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Into which two main categories are Git commands divided?",
+            "correctAnswer": "High-level ('porcelain') and low-level ('plumbing').",
+            "falseAnswers": [
+              "Basic and advanced.",
+              "Local and remote.",
+              "Read and write."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako su podijeljene Git komande?",
+            "correctAnswer": "Git komande su podijeljene u high-level ('porcelain', 99% korištene) i low-level ('plumbing') komande.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U koje dvije glavne kategorije su podijeljene Git komande?",
+            "correctAnswer": "High-level ('porcelain') i low-level ('plumbing').",
+            "falseAnswers": [
+              "Osnovne i napredne.",
+              "Lokalne i udaljene.",
+              "Čitanje i pisanje."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "4",
+    "lang": {
+      "en": {
+        "topic": "Porcelain commands",
+        "type": {
+          "singleAnswer": {
+            "question": "Name some 'porcelain' Git commands.",
+            "correctAnswer": "Some 'porcelain' commands are: git status, git add, git commit, git push, git pull, git log.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "git status",
+              "git add",
+              "git commit",
+              "git push",
+              "git pull",
+              "git log"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a 'porcelain' Git command?",
+            "correctAnswer": "git commit",
+            "falseAnswers": ["git hash-object", "git apply", "git commit-tree"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Navedite neke 'porcelain' Git komande.",
+            "correctAnswer": "Neke 'porcelain' komande su: git status, git add, git commit, git push, git pull, git log.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "git status",
+              "git add",
+              "git commit",
+              "git push",
+              "git pull",
+              "git log"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je 'porcelain' Git komanda?",
+            "correctAnswer": "git commit",
+            "falseAnswers": ["git hash-object", "git apply", "git commit-tree"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "5",
+    "lang": {
+      "en": {
+        "topic": "Plumbing commands",
+        "type": {
+          "singleAnswer": {
+            "question": "Name some 'plumbing' Git commands.",
+            "correctAnswer": "Some 'plumbing' commands are: git apply, git commit-tree, git hash-object.",
+            "isEnumeratable": true,
+            "answerItems": ["git apply", "git commit-tree", "git hash-object"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a 'plumbing' Git command?",
+            "correctAnswer": "git hash-object",
+            "falseAnswers": ["git status", "git push", "git branch"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Navedite neke 'plumbing' Git komande.",
+            "correctAnswer": "Neke 'plumbing' komande su: git apply, git commit-tree, git hash-object.",
+            "isEnumeratable": true,
+            "answerItems": ["git apply", "git commit-tree", "git hash-object"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je 'plumbing' Git komanda?",
+            "correctAnswer": "git hash-object",
+            "falseAnswers": ["git status", "git push", "git branch"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "6",
+    "lang": {
+      "en": {
+        "topic": "Repository",
+        "type": {
+          "singleAnswer": {
+            "question": "What does a Repository (repo) represent in Git?",
+            "correctAnswer": "A repository represents the central storage for a project (the main project folder).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In Git, what does a repository represent?",
+            "correctAnswer": "The central storage for a project.",
+            "falseAnswers": [
+              "A temporary storage area for changes.",
+              "A list of all users working on the project.",
+              "A log of all executed Git commands."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja Repozitorij (repo) u Git-u?",
+            "correctAnswer": "Repozitorij predstavlja centralno spremište za neki projekt (glavna mapa projekta).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U Git-u, što predstavlja repozitorij?",
+            "correctAnswer": "Centralno spremište za projekt.",
+            "falseAnswers": [
+              "Privremeno područje za pohranu promjena.",
+              "Popis svih korisnika koji rade na projektu.",
+              "Zapisnik svih izvršenih Git komandi."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "7",
+    "lang": {
+      "en": {
+        "topic": "File states",
+        "type": {
+          "singleAnswer": {
+            "question": "What are the states files can be in within a Git repository?",
+            "correctAnswer": "The states files can be in are: untracked, staged, commited.",
+            "isEnumeratable": true,
+            "answerItems": ["untracked", "staged", "commited"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a valid state for a file in a Git repository?",
+            "correctAnswer": "staged",
+            "falseAnswers": ["open", "saved", "active"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja su stanja u kojima mogu biti datoteke u Git repozitoriju?",
+            "correctAnswer": "Stanija u kojima mogu biti datoteke su: untracked, staged, commited.",
+            "isEnumeratable": true,
+            "answerItems": ["untracked", "staged", "commited"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih je važeće stanje za datoteku u Git repozitoriju?",
+            "correctAnswer": "staged",
+            "falseAnswers": ["open", "saved", "active"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "8",
+    "lang": {
+      "en": {
+        "topic": "Untracked files",
+        "type": {
+          "singleAnswer": {
+            "question": "What does it mean for a file to be 'untracked' in Git?",
+            "correctAnswer": "Untracked files are those that are not tracked by Git and it knows nothing about them.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What describes an 'untracked' file in Git?",
+            "correctAnswer": "A file that is not tracked by Git.",
+            "falseAnswers": [
+              "A file that has been modified but not saved.",
+              "A file that is ready to be committed.",
+              "A file that has been committed to the repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači da je datoteka 'untracked' u Git-u?",
+            "correctAnswer": "Untracked datoteke su one koje nisu praćene od strane Git-a i on ne zna ništa o njima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što opisuje 'untracked' datoteku u Git-u?",
+            "correctAnswer": "Datoteka koju Git ne prati.",
+            "falseAnswers": [
+              "Datoteka koja je izmijenjena, ali nije spremljena.",
+              "Datoteka koja je spremna za commit.",
+              "Datoteka koja je commitana u repozitorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "9",
+    "lang": {
+      "en": {
+        "topic": "Staged files",
+        "type": {
+          "singleAnswer": {
+            "question": "What does it mean for a file to be 'staged' in Git?",
+            "correctAnswer": "Staged files are those marked to be included in the next commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What describes a 'staged' file in Git?",
+            "correctAnswer": "A file marked to be included in the next commit.",
+            "falseAnswers": [
+              "A file that is ignored by Git.",
+              "A file that has been committed to the repository.",
+              "A file that has been modified but not yet added to the staging area."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači da je datoteka 'staged' u Git-u?",
+            "correctAnswer": "Staged datoteke su one koje su označene da će se dodati u slijedećem commit-u.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što opisuje 'staged' datoteku u Git-u?",
+            "correctAnswer": "Datoteka označena za uključenje u sljedeći commit.",
+            "falseAnswers": [
+              "Datoteka koju Git ignorira.",
+              "Datoteka koja je commitana u repozitorij.",
+              "Datoteka koja je izmijenjena, ali još nije dodana u staging area."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "10",
+    "lang": {
+      "en": {
+        "topic": "Commited files",
+        "type": {
+          "singleAnswer": {
+            "question": "What does it mean for a file to be 'commited' in Git?",
+            "correctAnswer": "Commited files are those saved in the repository's history.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What describes a 'commited' file in Git?",
+            "correctAnswer": "A file saved in the repository's history.",
+            "falseAnswers": [
+              "A file that is ready to be added to the staging area.",
+              "A file that is ignored by Git.",
+              "A file that has been modified but not yet saved."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači da je datoteka 'commited' u Git-u?",
+            "correctAnswer": "Commited datoteke su one koje su spremljene u povijest repozitorija.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što opisuje 'commited' datoteku u Git-u?",
+            "correctAnswer": "Datoteka spremljena u povijest repozitorija.",
+            "falseAnswers": [
+              "Datoteka koja je spremna za dodavanje u staging area.",
+              "Datoteka koju Git ignorira.",
+              "Datoteka koja je izmijenjena, ali još nije spremljena."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "11",
+    "lang": {
+      "en": {
+        "topic": "Staging area",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the Staging area/index?",
+            "correctAnswer": "The Staging area/index is an intermediate step between our working directory and the repository itself, an area where we prepare and select changes we want to include in the next commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of the Staging area in Git?",
+            "correctAnswer": "To prepare and select changes for the next commit.",
+            "falseAnswers": [
+              "To store the entire project history.",
+              "To manage remote repositories.",
+              "To resolve merge conflicts automatically."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Stagging area/index (područje pripreme)?",
+            "correctAnswer": "Stagging area/index je srednji korak između našeg radnog direktorija i samog repozitorija, područje gdje pripremamo i selektiramo promjene koje želimo uključiti u sljedeći commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha Staging area u Git-u?",
+            "correctAnswer": "Priprema i odabir promjena za sljedeći commit.",
+            "falseAnswers": [
+              "Pohrana cijele povijesti projekta.",
+              "Upravljanje udaljenim repozitorijima.",
+              "Automatsko rješavanje konflikata spajanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "12",
+    "lang": {
+      "en": {
+        "topic": "Staging file process",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the process called 'Staging file'?",
+            "correctAnswer": "The process of adding files with the command `git add` to the staging area/index before calling `commit`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which command is used in the 'Staging file' process?",
+            "correctAnswer": "git add",
+            "falseAnswers": ["git commit", "git push", "git status"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je proces zvan 'Stagging file'?",
+            "correctAnswer": "Proces dodavanja datoteka s komandom git add u područje pripreme (stage area / index) prije samog poziva commit-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja se komanda koristi u procesu 'Stagging file'?",
+            "correctAnswer": "git add",
+            "falseAnswers": ["git commit", "git push", "git status"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "13",
+    "lang": {
+      "en": {
+        "topic": "Commit contents",
+        "type": {
+          "singleAnswer": {
+            "question": "Which files are included in a commit?",
+            "correctAnswer": "Only files that are in the staging area are included in the commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Where must files be located to be included in a commit?",
+            "correctAnswer": "In the staging area.",
+            "falseAnswers": [
+              "In the working directory.",
+              "In the remote repository.",
+              "In the `.gitignore` file."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje datoteke ulaze u commit?",
+            "correctAnswer": "Samo datoteke koje se nalaze u području pripreme (staging area) ulaze u commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Gdje se datoteke moraju nalaziti da bi bile uključene u commit?",
+            "correctAnswer": "U staging area.",
+            "falseAnswers": [
+              "U radnom direktoriju.",
+              "U udaljenom repozitoriju.",
+              "U `.gitignore` datoteci."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "14",
+    "lang": {
+      "en": {
+        "topic": "Commit definition",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a Commit?",
+            "correctAnswer": "A commit is a snapshot of the entire repository's state at a point in time and the fundamental unit of history in Git.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a Git commit?",
+            "correctAnswer": "A snapshot of the repository's state at a point in time.",
+            "falseAnswers": [
+              "A command to send changes to a remote repository.",
+              "A temporary storage of changes.",
+              "A branch in the repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Commit?",
+            "correctAnswer": "Commit je snimka stanja (snapshot) cijelog repozitorija u točki vremena i temeljna jedinica povijesti u Git-u.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je Git commit?",
+            "correctAnswer": "Snimka stanja repozitorija u određenom trenutku.",
+            "falseAnswers": [
+              "Komanda za slanje promjena u udaljeni repozitorij.",
+              "Privremena pohrana promjena.",
+              "Grana u repozitoriju."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "15",
+    "lang": {
+      "en": {
+        "topic": "Tracking changes",
+        "type": {
+          "singleAnswer": {
+            "question": "How does Git track repository changes over time?",
+            "correctAnswer": "Using commits.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How does Git primarily track changes?",
+            "correctAnswer": "Through commits.",
+            "falseAnswers": [
+              "By saving diffs for each file.",
+              "By creating daily backups.",
+              "By tracking individual line changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako Git prati promjene repozitorija kroz vrijeme?",
+            "correctAnswer": "Pomoću commitova.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako Git prvenstveno prati promjene?",
+            "correctAnswer": "Kroz commitove.",
+            "falseAnswers": [
+              "Spremanjem razlika (diffova) za svaku datoteku.",
+              "Stvaranjem dnevnih sigurnosnih kopija.",
+              "Praćenjem promjena pojedinačnih linija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "16",
+    "lang": {
+      "en": {
+        "topic": "Committing process",
+        "type": {
+          "singleAnswer": {
+            "question": "What happens when something is 'committed' in Git?",
+            "correctAnswer": "When something is committed, all changes in the staging area/index are turned into a commit that enters the repository's history.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the result of committing changes in Git?",
+            "correctAnswer": "Changes in the staging area become a commit in the repository's history.",
+            "falseAnswers": [
+              "The changes are sent to the remote repository.",
+              "The changes are discarded.",
+              "A new branch is created."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što se događa kada se nešto 'commita' u Git-u?",
+            "correctAnswer": "Kada se nešto commita, sve promjene u području pripreme (staging area / index) se pretvaraju u commit koji ulazi u povijest repozitorija.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je rezultat commitanja promjena u Git-u?",
+            "correctAnswer": "Promjene u staging area postaju commit u povijesti repozitorija.",
+            "falseAnswers": [
+              "Promjene se šalju u udaljeni repozitorij.",
+              "Promjene se odbacuju.",
+              "Stvara se nova grana."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "17",
+    "lang": {
+      "en": {
+        "topic": "Commit message",
+        "type": {
+          "singleAnswer": {
+            "question": "What should each commit contain?",
+            "correctAnswer": "Each commit comes with a message that should describe the changes made in that commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is an essential part of each commit?",
+            "correctAnswer": "A message describing the changes.",
+            "falseAnswers": [
+              "A list of all files in the repository.",
+              "The full content of all modified files.",
+              "The name of the operating system used."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što bi svaki commit trebao sadržavati?",
+            "correctAnswer": "Svaki commit dolazi s komentarom koji bi trebao opisati koje su promijene napravljene u tom commit-u.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je bitan dio svakog commita?",
+            "correctAnswer": "Poruka koja opisuje promjene.",
+            "falseAnswers": [
+              "Popis svih datoteka u repozitoriju.",
+              "Cijeli sadržaj svih izmijenjenih datoteka.",
+              "Naziv korištenog operativnog sustava."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "19",
+    "lang": {
+      "en": {
+        "topic": "Commit identifier",
+        "type": {
+          "singleAnswer": {
+            "question": "What unique identifier does each commit have?",
+            "correctAnswer": "Each commit has a unique identifier called a commit-hash (a long string of characters).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the unique identifier for a Git commit?",
+            "correctAnswer": "Commit-hash.",
+            "falseAnswers": [
+              "A timestamp.",
+              "An index number.",
+              "The author's name."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što svaki commit ima kao unikatan identifikator?",
+            "correctAnswer": "Svaki commit ima unikatan identifikator nazvan commit-hash (dugi string znakova).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je jedinstveni identifikator za Git commit?",
+            "correctAnswer": "Commit-hash.",
+            "falseAnswers": [
+              "Vremenska oznaka.",
+              "Indeksni broj.",
+              "Ime autora."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "20",
+    "lang": {
+      "en": {
+        "topic": "Commit-hash creation",
+        "type": {
+          "singleAnswer": {
+            "question": "Based on what is a commit-hash created?",
+            "correctAnswer": "A commit-hash is created based on the commit message, author's name and email, date, time, and the parent commit.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "commit message",
+              "author's name and email",
+              "date and time",
+              "parent commit"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT used to create a commit-hash?",
+            "correctAnswer": "The size of the commit.",
+            "falseAnswers": [
+              "The commit message.",
+              "The author's name.",
+              "The parent commit."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Prema čemu se kreira commit-hash?",
+            "correctAnswer": "Commit-hash se kreira prema commit komentaru, imenu i email-u autora, datumu, vrementu i roditeljskom commit-u.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "komentar commita",
+              "ime i email autora",
+              "datum i vrijeme",
+              "roditeljski commit"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih se NE koristi za kreiranje commit-hasha?",
+            "correctAnswer": "Veličina commita.",
+            "falseAnswers": [
+              "Poruka commita.",
+              "Ime autora.",
+              "Roditeljski commit."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "21",
+    "lang": {
+      "en": {
+        "topic": "Git log command",
+        "type": {
+          "singleAnswer": {
+            "question": "Which Git command is used to display the repository history?",
+            "correctAnswer": "The `git log` command is used to display the repository history, i.e., it lists past commits.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary function of the `git log` command?",
+            "correctAnswer": "To display the repository history.",
+            "falseAnswers": [
+              "To show the status of the working directory.",
+              "To add files to the staging area.",
+              "To send changes to a remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja Git komanda služi za prikaz povijesti repozitorija?",
+            "correctAnswer": "Komanda git log služi za prikaz povijesti repozitorija, odnosno ispisuje prošle commit-ove.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna funkcija komande `git log`?",
+            "correctAnswer": "Prikaz povijesti repozitorija.",
+            "falseAnswers": [
+              "Prikaz statusa radnog direktorija.",
+              "Dodavanje datoteka u staging area.",
+              "Slanje promjena u udaljeni repozitorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "22",
+    "lang": {
+      "en": {
+        "topic": "Git data storage",
+        "type": {
+          "singleAnswer": {
+            "question": "Where is all data stored in a Git repository?",
+            "correctAnswer": "All data in a Git repository is stored in the hidden `.git` directory.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Where does Git store all the repository's data?",
+            "correctAnswer": "In the hidden `.git` directory.",
+            "falseAnswers": [
+              "In the working directory.",
+              "On a remote server only.",
+              "In a separate database file."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Gdje su spremljeni svi podaci u Git repozitoriju?",
+            "correctAnswer": "Svi podaci u Git repozitoriju su spremljeni u skrivenom .git direktoriju.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Gdje Git pohranjuje sve podatke repozitorija?",
+            "correctAnswer": "U skrivenom `.git` direktoriju.",
+            "falseAnswers": [
+              "U radnom direktoriju.",
+              "Samo na udaljenom serveru.",
+              "U zasebnoj datoteci baze podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "23",
+    "lang": {
+      "en": {
+        "topic": ".git directory contents",
+        "type": {
+          "singleAnswer": {
+            "question": "What data is stored in the .git directory?",
+            "correctAnswer": "Data stored in the .git directory includes: commits, branches, tags, and other objects.",
+            "isEnumeratable": true,
+            "answerItems": ["commits", "branches", "tags", "other objects"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT typically stored in the `.git` directory?",
+            "correctAnswer": "Source code files.",
+            "falseAnswers": ["Commits.", "Branches.", "Tags."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što spada u podatke spremljene u .git direktoriju?",
+            "correctAnswer": "U podatke spremljene u .git direktoriju spadaju: commit-ovi, grane, tagovi i drugi objekti.",
+            "isEnumeratable": true,
+            "answerItems": ["commit-ovi", "grane", "tagovi", "drugi objekti"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih se obično NE pohranjuje u `.git` direktoriju?",
+            "correctAnswer": "Datoteke izvornog koda.",
+            "falseAnswers": ["Commitovi.", "Grane.", "Tagovi."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "24",
+    "lang": {
+      "en": {
+        "topic": "Git data representation",
+        "type": {
+          "singleAnswer": {
+            "question": "How is all data that Git works with represented and where is it stored?",
+            "correctAnswer": "All data that Git works with is represented through some type of object and is stored in `.git/objects`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How is data represented in Git and where is it stored?",
+            "correctAnswer": "As objects, stored in `.git/objects`.",
+            "falseAnswers": [
+              "As plain text files in the working directory.",
+              "In a compressed archive outside the `.git` directory.",
+              "In a relational database."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Preko čega su predstavljeni svi podaci s kojima Git radi i gdje su spremljeni?",
+            "correctAnswer": "Svi podaci s kojima Git radi su predstavljeni preko neke vrste objekta i spremljeni su u .git/objects.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako su podaci predstavljeni u Git-u i gdje su pohranjeni?",
+            "correctAnswer": "Kao objekti, pohranjeni u `.git/objects`.",
+            "falseAnswers": [
+              "Kao obične tekstualne datoteke u radnom direktoriju.",
+              "U komprimiranoj arhivi izvan `.git` direktorija.",
+              "U relacijskoj bazi podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "25",
+    "lang": {
+      "en": {
+        "topic": "Git object files",
+        "type": {
+          "singleAnswer": {
+            "question": "What is found in the files that store objects in Git?",
+            "correctAnswer": "The files that store objects contain random characters representing compressed data in raw bytes.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What do the files storing Git objects contain?",
+            "correctAnswer": "Compressed data in raw bytes.",
+            "falseAnswers": [
+              "Human-readable code.",
+              "XML configuration data.",
+              "Database query results."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što se nalazi u datotekama koje spremaju objekte u Git-u?",
+            "correctAnswer": "U datotekama koje spremaju objekte se nalaze nasumični znakovi koji predstavljaju komprimirane podatke u neobrađenim bajtovima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što sadrže datoteke koje pohranjuju Git objekte?",
+            "correctAnswer": "Komprimirani podaci u sirovim bajtovima.",
+            "falseAnswers": [
+              "Čitljiv kod.",
+              "XML konfiguracijski podaci.",
+              "Rezultati upita baze podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "26",
+    "lang": {
+      "en": {
+        "topic": "Git object types",
+        "type": {
+          "singleAnswer": {
+            "question": "What falls under Git objects?",
+            "correctAnswer": "Git objects include: tree, blob, commit, and tag.",
+            "isEnumeratable": true,
+            "answerItems": ["tree", "blob", "commit", "tag"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT a type of Git object?",
+            "correctAnswer": "file",
+            "falseAnswers": ["tree", "blob", "commit"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što spada pod Git objekte?",
+            "correctAnswer": "Pod Git objekte spada: tree, blob, commit i tag.",
+            "isEnumeratable": true,
+            "answerItems": ["tree", "blob", "commit", "tag"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih NIJE vrsta Git objekta?",
+            "correctAnswer": "file",
+            "falseAnswers": ["tree", "blob", "commit"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "27",
+    "lang": {
+      "en": {
+        "topic": "Tree object",
+        "type": {
+          "singleAnswer": {
+            "question": "What does a 'Tree' object represent in Git?",
+            "correctAnswer": "A 'Tree' object represents the way Git stores directories.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does a 'Tree' object represent in Git?",
+            "correctAnswer": "Directories.",
+            "falseAnswers": [
+              "A single file.",
+              "A commit message.",
+              "A remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja 'Tree' objekt u Git-u?",
+            "correctAnswer": "'Tree' objekt predstavlja način na koji Git sprema direktorije.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što predstavlja 'Tree' objekt u Git-u?",
+            "correctAnswer": "Direktorije.",
+            "falseAnswers": [
+              "Jednu datoteku.",
+              "Poruku commita.",
+              "Udaljeni repozitorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "28",
+    "lang": {
+      "en": {
+        "topic": "Blob object",
+        "type": {
+          "singleAnswer": {
+            "question": "What does a 'Blob' object represent in Git?",
+            "correctAnswer": "A 'Blob' object represents the way Git stores files.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does a 'Blob' object represent in Git?",
+            "correctAnswer": "Files.",
+            "falseAnswers": [
+              "A directory structure.",
+              "A commit history.",
+              "A branch reference."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja 'Blob' objekt u Git-u?",
+            "correctAnswer": "'Blob' objekt predstavlja način na koji Git sprema datoteke.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što predstavlja 'Blob' objekt u Git-u?",
+            "correctAnswer": "Datoteke.",
+            "falseAnswers": [
+              "Strukturu direktorija.",
+              "Povijest commita.",
+              "Referencu grane."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "29",
+    "lang": {
+      "en": {
+        "topic": "Git data storage mechanism",
+        "type": {
+          "singleAnswer": {
+            "question": "How does Git store data?",
+            "correctAnswer": "Git stores full snapshots of file states for each commit, not just the changes made in the file, but saves the entire file if it has changed.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How does Git store data for each commit?",
+            "correctAnswer": "As full snapshots of file states.",
+            "falseAnswers": [
+              "By storing the differences (diffs) between consecutive versions.",
+              "By overwriting the previous version of the file.",
+              "By storing only the commit messages."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako Git sprema podatke?",
+            "correctAnswer": "Git sprema cijele snimke stanja datoteke za svaki commit, a ne samo promjene napravljeno u datoteci nego spremi cijelu datoteku ako je u njoj došlo do promjene.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako Git pohranjuje podatke za svaki commit?",
+            "correctAnswer": "Kao potpune snimke stanja datoteka.",
+            "falseAnswers": [
+              "Pohranjivanjem razlika (diffova) između uzastopnih verzija.",
+              "Prepisivanjem prethodne verzije datoteke.",
+              "Pohranjivanjem samo poruka commita."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "30",
+    "lang": {
+      "en": {
+        "topic": "Branching",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Branching in Git?",
+            "correctAnswer": "Branching is a technique that allows us to track multiple different types of changes separately from each other.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of Branching in Git?",
+            "correctAnswer": "To track different types of changes separately.",
+            "falseAnswers": [
+              "To combine changes from different histories.",
+              "To undo previous commits.",
+              "To send changes to a remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Branching (grananje) u Git-u?",
+            "correctAnswer": "Branching je tehnika koja nam omogućuje da možemo pratiti više različitih vrsti promjena odvojeno jedna od druge.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha Branchinga u Git-u?",
+            "correctAnswer": "Odvojeno praćenje različitih vrsta promjena.",
+            "falseAnswers": [
+              "Kombiniranje promjena iz različitih povijesti.",
+              "Poništavanje prethodnih commita.",
+              "Slanje promjena u udaljeni repozitorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "31",
+    "lang": {
+      "en": {
+        "topic": "Branch tip",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the 'Branch tip'?",
+            "correctAnswer": "The 'Branch tip' is the last executed commit on a branch.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the 'Branch tip' refer to?",
+            "correctAnswer": "The last commit on a branch.",
+            "falseAnswers": [
+              "The first commit on a branch.",
+              "The base commit of a branch.",
+              "The name of the branch."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je 'Branch tip' (vrh grane)?",
+            "correctAnswer": "'Branch tip' je posljednji izvršeni commit na nekoj grani.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Na što se odnosi 'Branch tip'?",
+            "correctAnswer": "Na zadnji commit na grani.",
+            "falseAnswers": [
+              "Na prvi commit na grani.",
+              "Na bazni commit grane.",
+              "Na ime grane."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "32",
+    "lang": {
+      "en": {
+        "topic": "Merge base",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the 'merge base'?",
+            "correctAnswer": "The 'merge base' is the closest common commit of the main branch and the created branch.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the 'merge base' in Git?",
+            "correctAnswer": "The closest common commit between two branches.",
+            "falseAnswers": [
+              "The last commit on the main branch.",
+              "The first commit on the branch being merged.",
+              "The commit where the branch was created."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je 'merge base' (baza spajanja)?",
+            "correctAnswer": "'Merge base' je najbliži zajednički commit od glavne grane i kreirane grane.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je 'merge base' u Git-u?",
+            "correctAnswer": "Najbliži zajednički commit između dvije grane.",
+            "falseAnswers": [
+              "Zadnji commit na glavnoj grani.",
+              "Prvi commit na grani koja se spaja.",
+              "Commit gdje je grana kreirana."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "33",
+    "lang": {
+      "en": {
+        "topic": "Branch merging goal",
+        "type": {
+          "singleAnswer": {
+            "question": "What should happen with Git branches at some point?",
+            "correctAnswer": "Git branches should at some point be merged back into the main branch (master/main).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a common goal for Git branches?",
+            "correctAnswer": "To be merged back into the main branch.",
+            "falseAnswers": [
+              "To be deleted immediately after creation.",
+              "To remain separate indefinitely.",
+              "To be rebased onto each other."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što bi se u jednom trenutku trebalo dogoditi s Git granama?",
+            "correctAnswer": "Git grane bi trebale biti u jednom trenutku spojene nazad na glavnu granu (master/main).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je čest cilj za Git grane?",
+            "correctAnswer": "Da se spoje natrag u glavnu granu.",
+            "falseAnswers": [
+              "Da se izbrišu odmah nakon kreiranja.",
+              "Da ostanu zasebne neograničeno.",
+              "Da se rebaseaju jedna na drugu."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "34",
+    "lang": {
+      "en": {
+        "topic": "Old default branch",
+        "type": {
+          "singleAnswer": {
+            "question": "What was the name of the main branch when creating a Git repository (historically)?",
+            "correctAnswer": "The main branch (default branch) when creating a Git repository was called master.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Historically, what was the default name for the main branch in Git?",
+            "correctAnswer": "master",
+            "falseAnswers": ["main", "develop", "trunk"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se zvala glavna grana pri kreiranju Git repozitorija?",
+            "correctAnswer": "Glavna grana (default branch) pri kreiranju Git repozitorija zvala se master.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Povijesno, kako se zvala zadana glavna grana u Git-u?",
+            "correctAnswer": "master",
+            "falseAnswers": ["main", "develop", "trunk"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "35",
+    "lang": {
+      "en": {
+        "topic": "GitHub default branch",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the name of the main branch on GitHub?",
+            "correctAnswer": "On GitHub (a remote repository), the main branch is called main.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the current default name for the main branch on GitHub?",
+            "correctAnswer": "main",
+            "falseAnswers": ["master", "default", "primary"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se zove glavna grana na GitHub-u?",
+            "correctAnswer": "Na GitHub-u (udaljenom repozitoriju) glavna grana je main.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako se trenutno zove zadana glavna grana na GitHub-u?",
+            "correctAnswer": "main",
+            "falseAnswers": ["master", "default", "primary"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "36",
+    "lang": {
+      "en": {
+        "topic": "Merging",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Merging in Git?",
+            "correctAnswer": "Merging is the process of combining branches back into the main branch when we are satisfied with the changes on them.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of Merging in Git?",
+            "correctAnswer": "To combine changes from different branches.",
+            "falseAnswers": [
+              "To create a new branch.",
+              "To undo commits.",
+              "To send changes to a remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Merging (spajanje) u Git-u?",
+            "correctAnswer": "Merging je proces spajanja grana nazad na glavnu granu kada smo zadovoljni s promjenama na njima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha Merginga u Git-u?",
+            "correctAnswer": "Kombiniranje promjena iz različitih grana.",
+            "falseAnswers": [
+              "Kreiranje nove grane.",
+              "Poništavanje commita.",
+              "Slanje promjena u udaljeni repozitorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "37",
+    "lang": {
+      "en": {
+        "topic": "Merge types",
+        "type": {
+          "singleAnswer": {
+            "question": "What types of branches can we merge in Git?",
+            "correctAnswer": "Besides local branches, we can also merge local branches with remote ones (`git merge remote/branch`).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which types of branches can be merged in Git?",
+            "correctAnswer": "Local branches with other local or remote branches.",
+            "falseAnswers": [
+              "Only local branches.",
+              "Only remote branches.",
+              "Only branches with no conflicts."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje vrste grana možemo spajati u Git-u?",
+            "correctAnswer": "Osim lokalnih grana, možemo spajati i lokalne grane s udaljenima (git merge remote/branch).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje vrste grana se mogu spajati u Git-u?",
+            "correctAnswer": "Lokalne grane s drugim lokalnim ili udaljenim granama.",
+            "falseAnswers": [
+              "Samo lokalne grane.",
+              "Samo udaljene grane.",
+              "Samo grane bez konflikata."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "38",
+    "lang": {
+      "en": {
+        "topic": "Branch after merge",
+        "type": {
+          "singleAnswer": {
+            "question": "What happens to a secondary branch after merging?",
+            "correctAnswer": "The secondary branch is not deleted from Git, but needs to be manually deleted after we have confirmed that the merge was successful.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "After a successful merge, what happens to the merged branch by default?",
+            "correctAnswer": "It is not automatically deleted and needs to be manually removed.",
+            "falseAnswers": [
+              "It is automatically deleted.",
+              "It is renamed to the main branch name.",
+              "It becomes read-only."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što se događa sa sporednom granom nakon spajanja?",
+            "correctAnswer": "Sporedna grana se ne briše sa Git-a, nego ju je potrebno ručno obrisati kada smo se uvjerili da je spajanje dobro prošlo.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Nakon uspješnog spajanja, što se događa s spojenom granom po zadanim postavkama?",
+            "correctAnswer": "Ne briše se automatski i treba je ručno ukloniti.",
+            "falseAnswers": [
+              "Automatski se briše.",
+              "Preimenuje se u ime glavne grane.",
+              "Postaje samo za čitanje."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "39",
+    "lang": {
+      "en": {
+        "topic": "Delete local branch",
+        "type": {
+          "singleAnswer": {
+            "question": "How is a local Git branch deleted after merging?",
+            "correctAnswer": "A local branch is deleted with the command `git branch -d branchName`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which command is used to delete a local Git branch after it has been merged?",
+            "correctAnswer": "git branch -d branchName",
+            "falseAnswers": [
+              "git branch -D branchName",
+              "git delete branchName",
+              "git remove branchName"
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se briše lokalna Git grana nakon spajanja?",
+            "correctAnswer": "Lokalna grana se briše komandom git branch -d imeGrane.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja se komanda koristi za brisanje lokalne Git grane nakon što je spojena?",
+            "correctAnswer": "git branch -d imeGrane",
+            "falseAnswers": [
+              "git branch -D imeGrane",
+              "git delete imeGrane",
+              "git remove imeGrane"
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "40",
+    "lang": {
+      "en": {
+        "topic": "Delete remote branch",
+        "type": {
+          "singleAnswer": {
+            "question": "How is a remote Git branch deleted after merging?",
+            "correctAnswer": "A remote branch is deleted with the command `git push origin --delete branchName`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which command is used to delete a remote Git branch?",
+            "correctAnswer": "git push origin --delete branchName",
+            "falseAnswers": [
+              "git remote delete branchName",
+              "git branch -d remote/branchName",
+              "git remove remote/branchName"
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se briše udaljena Git grana nakon spajanja?",
+            "correctAnswer": "Udaljena grana se briše komandom git push origin --delete imeGrane.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja se komanda koristi za brisanje udaljene Git grane?",
+            "correctAnswer": "git push origin --delete imeGrane",
+            "falseAnswers": [
+              "git remote delete imeGrane",
+              "git branch -d remote/imeGrane",
+              "git remove remote/imeGrane"
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "41",
+    "lang": {
+      "en": {
+        "topic": "Fast forward merge",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Fast forward merging?",
+            "correctAnswer": "Fast forward merging is a type of merge that occurs when the branch we are trying to merge into the main branch has the same commits.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What characterizes a Fast forward merge?",
+            "correctAnswer": "The branch being merged has the same commits as the target branch.",
+            "falseAnswers": [
+              "It creates a new merge commit.",
+              "It requires resolving merge conflicts.",
+              "It is a merge between two unrelated histories."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Fast forward merging?",
+            "correctAnswer": "Fast forward merging je vrsta spajanja do kojega dolazi kada grana koju pokušavamo spojiti na glavnu granu imaju iste commit-ove.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što karakterizira Fast forward merge?",
+            "correctAnswer": "Grana koja se spaja ima iste commitove kao ciljna grana.",
+            "falseAnswers": [
+              "Stvara novi merge commit.",
+              "Zahtijeva rješavanje konflikata spajanja.",
+              "To je spajanje između dvije nepovezane povijesti."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "42",
+    "lang": {
+      "en": {
+        "topic": "Fast forward merge condition",
+        "type": {
+          "singleAnswer": {
+            "question": "When does Fast forward merging occur?",
+            "correctAnswer": "Fast forward merging occurs when the tip of the main branch is also the merge base of the main branch and the branch we are trying to merge.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Under what condition does a Fast forward merge happen?",
+            "correctAnswer": "When the tip of the target branch is the merge base of the two branches.",
+            "falseAnswers": [
+              "When there are merge conflicts.",
+              "When the branches have diverged significantly.",
+              "When merging a remote branch into a local branch."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kada dolazi do Fast forward merginga?",
+            "correctAnswer": "Do Fast forward merginga dolazi kada je vrh glavne grane (tip of main branch) ujedno i baza spajanja (merge base) glavne grane i grane koju pokušavamo spojiti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Pod kojim uvjetom dolazi do Fast forward merge?",
+            "correctAnswer": "Kada je vrh ciljne grane ujedno i merge base dviju grana.",
+            "falseAnswers": [
+              "Kada postoje konflikti spajanja.",
+              "Kada su se grane značajno razišle.",
+              "Prilikom spajanja udaljene grane u lokalnu granu."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "43",
+    "lang": {
+      "en": {
+        "topic": "Rebase",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Rebase in Git?",
+            "correctAnswer": "Rebase is a technique we use when we want to move the merge base of a separate branch to the tip of the branch from which it diverged.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary purpose of Rebase in Git?",
+            "correctAnswer": "To move the merge base of a branch.",
+            "falseAnswers": [
+              "To combine branches using a merge commit.",
+              "To discard unwanted commits.",
+              "To create new branches."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Rebase u Git-u?",
+            "correctAnswer": "Rebase je tehnika koju koristimo kada želimo pomaknuti bazu spajanja (merge base) neke odvojene grane na vrh grane iz koje ona divergira.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna svrha Rebasea u Git-u?",
+            "correctAnswer": "Pomicanje merge base grane.",
+            "falseAnswers": [
+              "Kombiniranje grana pomoću merge commita.",
+              "Odbacivanje neželjenih commita.",
+              "Kreiranje novih grana."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "44",
+    "lang": {
+      "en": {
+        "topic": "Merge vs Rebase (advantage)",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the advantage of merging over rebase?",
+            "correctAnswer": "The advantage of merging over rebase is that it preserves the actual history of the project.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is an advantage of using merge instead of rebase?",
+            "correctAnswer": "It preserves the actual project history.",
+            "falseAnswers": [
+              "It creates a cleaner project history.",
+              "It avoids merge conflicts.",
+              "It is faster than rebase."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je prednost spajanja (merginga) nad rebase-om?",
+            "correctAnswer": "Prednost spajanja nad rebase-om je ta da sačuva stvarnu povijest projekta.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je prednost korištenja merge umjesto rebasea?",
+            "correctAnswer": "Čuva stvarnu povijest projekta.",
+            "falseAnswers": [
+              "Stvara čišću povijest projekta.",
+              "Izbjegava konflikte spajanja.",
+              "Brže je od rebasea."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "45",
+    "lang": {
+      "en": {
+        "topic": "Merge vs Rebase (disadvantage)",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the disadvantage of merging compared to rebase?",
+            "correctAnswer": "The disadvantage of merging is that it creates many merge commits which make it harder to read the project's history.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a disadvantage of using merge compared to rebase?",
+            "correctAnswer": "It creates many merge commits, making history harder to read.",
+            "falseAnswers": [
+              "It discards commit history.",
+              "It can lead to data loss.",
+              "It is a slower process."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koji je nedostatak spajanja (merginga) u usporedbi s rebase-om?",
+            "correctAnswer": "Nedostatak spajanja je što stvara puno merge commit-ova koji čine da je teže iščitati povijest samog projekta.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je nedostatak korištenja mergea u usporedbi s rebaseom?",
+            "correctAnswer": "Stvara mnogo merge commita, čineći povijest težom za čitanje.",
+            "falseAnswers": [
+              "Odbacuje povijest commita.",
+              "Može dovesti do gubitka podataka.",
+              "Sporiji je proces."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "46",
+    "lang": {
+      "en": {
+        "topic": "Rebase caution",
+        "type": {
+          "singleAnswer": {
+            "question": "Which branches should never be rebased?",
+            "correctAnswer": "Public branches, like main, should never be rebased.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which type of branch should generally NOT be rebased?",
+            "correctAnswer": "Public branches.",
+            "falseAnswers": [
+              "Feature branches.",
+              "Hotfix branches.",
+              "Local branches."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje grane se nikada ne smiju rebase-ati?",
+            "correctAnswer": "Nikada se ne smije rebase-ati javna grana, poput main-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja vrsta grane se općenito NE bi trebala rebaseati?",
+            "correctAnswer": "Javne grane.",
+            "falseAnswers": [
+              "Feature grane.",
+              "Hotfix grane.",
+              "Lokalne grane."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "47",
+    "lang": {
+      "en": {
+        "topic": "Git Reset",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command Reset do?",
+            "correctAnswer": "The Reset command is used to undo changes we have made.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary function of the `git reset` command?",
+            "correctAnswer": "To undo changes.",
+            "falseAnswers": [
+              "To send changes to a remote repository.",
+              "To create a new branch.",
+              "To display the project history."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Git naredba Reset?",
+            "correctAnswer": "Naredba Reset služi za poništavanje promjena koje smo napravili.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna funkcija komande `git reset`?",
+            "correctAnswer": "Poništavanje promjena.",
+            "falseAnswers": [
+              "Slanje promjena u udaljeni repozitorij.",
+              "Kreiranje nove grane.",
+              "Prikaz povijesti projekta."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "48",
+    "lang": {
+      "en": {
+        "topic": "git reset --hard caution",
+        "type": {
+          "singleAnswer": {
+            "question": "What should be careful about when using `git reset --hard`?",
+            "correctAnswer": "If we use `git reset --hard`, it can permanently delete old changes you made if you never committed them (untracked changes).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a risk of using `git reset --hard`?",
+            "correctAnswer": "It can permanently delete uncommitted changes.",
+            "falseAnswers": [
+              "It will automatically push changes to the remote.",
+              "It will create a new branch.",
+              "It will merge the current branch with the main branch."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Na što treba pripaziti kod korištenja `git reset --hard`?",
+            "correctAnswer": "Ako koristimo git reset --hard, to može izbrisati stari koje ste napravili zauvijek ako ih niste nikada commit-ali (untracked promjene).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je rizik korištenja `git reset --hard`?",
+            "correctAnswer": "Može trajno izbrisati necommitane promjene.",
+            "falseAnswers": [
+              "Automatski će poslati promjene na udaljeni repozitorij.",
+              "Stvorit će novu granu.",
+              "Spojit će trenutnu granu s glavnom granom."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "49",
+    "lang": {
+      "en": {
+        "topic": "Git remote",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a Git remote?",
+            "correctAnswer": "A repository that is not ours is called a remote (remote repo) and is located on another computer (most often a remote server).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In Git, what is a 'remote' repository?",
+            "correctAnswer": "A repository located on another computer or server.",
+            "falseAnswers": [
+              "The main working directory.",
+              "The staging area.",
+              "The local history of commits."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Git remote (remote)?",
+            "correctAnswer": "Repozitorij koji nije naš naziva se remote (remote repo) i nalazi se na drugom računalu (najčešće nekom udaljenom serveru).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U Git-u, što je 'remote' repozitorij?",
+            "correctAnswer": "Repozitorij smješten na drugom računalu ili serveru.",
+            "falseAnswers": [
+              "Glavni radni direktorij.",
+              "Staging area.",
+              "Lokalna povijest commita."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "50",
+    "lang": {
+      "en": {
+        "topic": "git remote add",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the Git command `git remote add`?",
+            "correctAnswer": "The `git remote add` command allows us to assign a nickname to a URL so we don't have to type the URL every time we reference that repository.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `git remote add` do?",
+            "correctAnswer": "Assigns a nickname to a remote repository URL.",
+            "falseAnswers": [
+              "Creates a new remote repository.",
+              "Deletes a remote repository.",
+              "Fetches changes from a remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi Git naredba `git remote add`?",
+            "correctAnswer": "Naredba git remote add nam omogućuje da dodijelimo nadimak nekom URL-u kako ne bismo morali svaki put pisati URL pri referenciranju tog repozitorija.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi `git remote add`?",
+            "correctAnswer": "Dodjeljuje nadimak URL-u udaljenog repozitorija.",
+            "falseAnswers": [
+              "Stvara novi udaljeni repozitorij.",
+              "Briše udaljeni repozitorij.",
+              "Dohvaća promjene s udaljenog repozitorija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "51",
+    "lang": {
+      "en": {
+        "topic": "Origin remote name",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the conventional name for a remote repository that represents the 'authoritative truth'?",
+            "correctAnswer": "The conventional name for the repository that represents the 'authoritative truth' (the main repo for everyone on the team) is origin.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the conventional name for the primary remote repository?",
+            "correctAnswer": "origin",
+            "falseAnswers": ["upstream", "master", "main"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje je konvencionalno ime za udaljeni repozitorij koji predstavlja 'autoritativnu istinu'?",
+            "correctAnswer": "Konvencionalno ime za repozitorij koji predstavlja 'autoritativnu istinu' (glavni repo za sve ljude u timu) je origin.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje je konvencionalno ime za primarni udaljeni repozitorij?",
+            "correctAnswer": "origin",
+            "falseAnswers": ["upstream", "master", "main"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "52",
+    "lang": {
+      "en": {
+        "topic": "git fetch",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command `git fetch` do?",
+            "correctAnswer": "The `git fetch` command downloads copies of content from a remote repository (like commits) into our local repository.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the main function of `git fetch`?",
+            "correctAnswer": "To download content from a remote repository.",
+            "falseAnswers": [
+              "To send changes to the remote repository.",
+              "To merge changes from the remote repository into the current branch.",
+              "To create a new branch from the remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Git naredba `git fetch`?",
+            "correctAnswer": "Naredba git fetch preuzima kopije sadržaja s udaljenog repozitorija (poput commit-ova) u naš lokalni repozitorij.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je glavna funkcija komande `git fetch`?",
+            "correctAnswer": "Preuzimanje sadržaja s udaljenog repozitorija.",
+            "falseAnswers": [
+              "Slanje promjena u udaljeni repozitorij.",
+              "Spajanje promjena s udaljenog repozitorija u trenutnu granu.",
+              "Kreiranje nove grane s udaljenog repozitorija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "53",
+    "lang": {
+      "en": {
+        "topic": "Local branch after fetch",
+        "type": {
+          "singleAnswer": {
+            "question": "What happens to the tip of the local branch after executing `git fetch`?",
+            "correctAnswer": "The tip of our local branch (branch tip) still does not point to the downloaded commits from the remote repository after executing `git fetch`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "After `git fetch`, what happens to the local branch tip?",
+            "correctAnswer": "It remains unchanged, not pointing to the newly fetched commits.",
+            "falseAnswers": [
+              "It moves to the latest commit from the remote repository.",
+              "It is deleted.",
+              "It is renamed."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što se događa s vrhom lokalne grane nakon izvršavanja `git fetch`?",
+            "correctAnswer": "Vrh naše lokalne grane (branch tip) i dalje ne pokazuje na preuzete commit-ove s udaljenog repozitorija nakon izvršavanja git fetch.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Nakon `git fetch`, što se događa s vrhom lokalne grane?",
+            "correctAnswer": "Ostaje nepromijenjen, ne pokazuje na novo dohvaćene commitove.",
+            "falseAnswers": [
+              "Pomakne se na zadnji commit s udaljenog repozitorija.",
+              "Izbriše se.",
+              "Preimenuje se."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "54",
+    "lang": {
+      "en": {
+        "topic": "GitHub",
+        "type": {
+          "singleAnswer": {
+            "question": "What is GitHub?",
+            "correctAnswer": "GitHub is a website for storing Git repositories.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is GitHub primarily?",
+            "correctAnswer": "A website for storing Git repositories.",
+            "falseAnswers": [
+              "A Git command-line tool.",
+              "A type of Git object.",
+              "A method for resolving merge conflicts."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je GitHub?",
+            "correctAnswer": "GitHub je stranica za spremanje Git repozitorija.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je prvenstveno GitHub?",
+            "correctAnswer": "Web stranica za pohranu Git repozitorija.",
+            "falseAnswers": [
+              "Git alat komandne linije.",
+              "Vrsta Git objekta.",
+              "Metoda za rješavanje konflikata spajanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "56",
+    "lang": {
+      "en": {
+        "topic": "Git vs GitHub",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference between Git and GitHub?",
+            "correctAnswer": "Git is an open-source command-line tool for managing files, while GitHub is a website that provides a place to store our code managed by Git (Git != GitHub).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the key difference between Git and GitHub?",
+            "correctAnswer": "Git is a command-line tool, GitHub is a hosting service for Git repositories.",
+            "falseAnswers": [
+              "Git is for private repositories, GitHub is for public ones.",
+              "Git is for small projects, GitHub is for large projects.",
+              "Git is a paid service, GitHub is free."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika između Git-a i GitHub-a?",
+            "correctAnswer": "Git je open-source alat komandne linije za upravljanje datotekama, dok je GitHub stranica koja nam daje mjesto za spremanje našeg koda kojim upravlja Git (Git != GitHub).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je ključna razlika između Git-a i GitHub-a?",
+            "correctAnswer": "Git je alat komandne linije, GitHub je usluga hostinga za Git repozitorije.",
+            "falseAnswers": [
+              "Git je za privatne repozitorije, GitHub je za javne.",
+              "Git je za male projekte, GitHub je za velike projekte.",
+              "Git je plaćena usluga, GitHub je besplatan."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "57",
+    "lang": {
+      "en": {
+        "topic": "git push",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command `git push` do?",
+            "correctAnswer": "The `git push` command sends changes from our local repository to the remote repository.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of `git push`?",
+            "correctAnswer": "To send local changes to a remote repository.",
+            "falseAnswers": [
+              "To download changes from the remote repository.",
+              "To merge changes from another branch.",
+              "To undo the last commit."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Git naredba `git push`?",
+            "correctAnswer": "Naredba git push šalje promjene iz našeg lokalnog repozitorija na udaljeni repozitorij (remote).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha komande `git push`?",
+            "correctAnswer": "Slanje lokalnih promjena na udaljeni repozitorij.",
+            "falseAnswers": [
+              "Preuzimanje promjena s udaljenog repozitorija.",
+              "Spajanje promjena s druge grane.",
+              "Poništavanje zadnjeg commita."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "58",
+    "lang": {
+      "en": {
+        "topic": "git pull",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command `git pull` do?",
+            "correctAnswer": "The `git pull` command fetches objects from the remote repository (like commits) and immediately merges (executes the merge command) the new commits so that the current tip of the local branch points to them.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `git pull` do?",
+            "correctAnswer": "Fetches changes from a remote and merges them into the current branch.",
+            "falseAnswers": [
+              "Sends changes to the remote repository.",
+              "Only downloads changes but does not merge them.",
+              "Creates a new remote branch."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Git naredba `git pull`?",
+            "correctAnswer": "Naredba git pull dohvaća objekte s udaljenog repozitorija (poput commit-ova) i odmah spaja (izvršava naredbu merge) nove commit-ove tako da trenutni vrh lokalne grane pokazuje na njih.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi `git pull`?",
+            "correctAnswer": "Dohvaća promjene s udaljenog repozitorija i spaja ih u trenutnu granu.",
+            "falseAnswers": [
+              "Šalje promjene u udaljeni repozitorij.",
+              "Samo preuzima promjene, ali ih ne spaja.",
+              "Stvara novu udaljenu granu."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "59",
+    "lang": {
+      "en": {
+        "topic": "git pull operations",
+        "type": {
+          "singleAnswer": {
+            "question": "Which two operations does the Git command `git pull` combine?",
+            "correctAnswer": "It combines `git fetch` and `git merge`.",
+            "isEnumeratable": true,
+            "answerItems": ["git fetch", "git merge"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which two Git operations are combined by `git pull`?",
+            "correctAnswer": "fetch and merge",
+            "falseAnswers": [
+              "add and commit",
+              "push and fetch",
+              "rebase and merge"
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje dvije operacije kombinira Git naredba `git pull`?",
+            "correctAnswer": "Kombinira git fetch i git merge.",
+            "isEnumeratable": true,
+            "answerItems": ["git fetch", "git merge"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje dvije Git operacije kombinira `git pull`?",
+            "correctAnswer": "fetch i merge",
+            "falseAnswers": ["add i commit", "push i fetch", "rebase i merge"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "60",
+    "lang": {
+      "en": {
+        "topic": "Pull Request",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a 'Pull Request'?",
+            "correctAnswer": "A Pull Request is a way to propose changes for merging from one branch to another, with the goal of having team members or the repository owner review, analyze, and approve the proposed changes before they are finally merged.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of a Pull Request?",
+            "correctAnswer": "To propose and review changes before merging them into another branch.",
+            "falseAnswers": [
+              "To download changes from a remote repository.",
+              "To resolve merge conflicts automatically.",
+              "To create a new branch."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je 'Pull Request'?",
+            "correctAnswer": "Pull Request je način na koji možemo predložiti promjene za spajanje (merge) iz jedne grane u drugu, s ciljem da ih članovi tima ili vlasnik repozitorija pregledaju, analiziraju i odobre prije spajanja.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha Pull Requesta?",
+            "correctAnswer": "Predlaganje i pregled promjena prije spajanja u drugu granu.",
+            "falseAnswers": [
+              "Preuzimanje promjena s udaljenog repozitorija.",
+              "Automatsko rješavanje konflikata spajanja.",
+              "Kreiranje nove grane."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "61",
+    "lang": {
+      "en": {
+        "topic": "Pull Request platform",
+        "type": {
+          "singleAnswer": {
+            "question": "Is the Pull Requests functionality part of Git or GitHub?",
+            "correctAnswer": "The Pull Requests functionality is part of GitHub.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Pull Requests are a functionality of:",
+            "correctAnswer": "GitHub (and similar hosting services).",
+            "falseAnswers": [
+              "Git (the command-line tool).",
+              "Both Git and GitHub.",
+              "Neither Git nor GitHub."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Je li funkcionalnost Pull Requests dio Git-a ili GitHub-a?",
+            "correctAnswer": "Funkcionalnost Pull Requests je dio GitHub-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Pull Requestovi su funkcionalnost:",
+            "correctAnswer": "Usluga poput GitHub-a.",
+            "falseAnswers": [
+              "Git (alat komandne linije).",
+              "I Git-a i GitHub-a.",
+              "Ni Git-a ni GitHub-a."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "62",
+    "lang": {
+      "en": {
+        "topic": ".gitignore file",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the `.gitignore` file?",
+            "correctAnswer": "The `.gitignore` file allows us to ensure that anything we write in it is not tracked by Git.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the `.gitignore` file do?",
+            "correctAnswer": "Specifies intentionally untracked files that Git should ignore.",
+            "falseAnswers": [
+              "Specifies which files should always be tracked.",
+              "Stores commit messages.",
+              "Defines merge strategies."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi datoteka `.gitignore`?",
+            "correctAnswer": "Datoteka .gitignore nam omogućava da sve što u nju upišemo ne bude praćeno od strane Git-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi `.gitignore` datoteka?",
+            "correctAnswer": "Određuje datoteke koje Git treba ignorirati.",
+            "falseAnswers": [
+              "Određuje koje datoteke uvijek treba pratiti.",
+              "Pohranjuje poruke commita.",
+              "Definira strategije spajanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "63",
+    "lang": {
+      "en": {
+        "topic": "Multiple .gitignore",
+        "type": {
+          "singleAnswer": {
+            "question": "How many `.gitignore` files can exist in a single Git project?",
+            "correctAnswer": "You can have multiple `.gitignore` files throughout the project.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Is it possible to have multiple `.gitignore` files in a single Git project?",
+            "correctAnswer": "Yes, you can have multiple `.gitignore` files.",
+            "falseAnswers": [
+              "No, only one is allowed.",
+              "A maximum of two are allowed.",
+              "Only one per branch is allowed."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koliko `.gitignore` datoteka može postojati u jednom Git projektu?",
+            "correctAnswer": "Može se imati više .gitignore datoteka kroz projekt.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Je li moguće imati više `.gitignore` datoteka u jednom Git projektu?",
+            "correctAnswer": "Da, možete imati više `.gitignore` datoteka.",
+            "falseAnswers": [
+              "Ne, dopuštena je samo jedna.",
+              "Dopuštene su najviše dvije.",
+              "Dopuštena je samo jedna po grani."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "64",
+    "lang": {
+      "en": {
+        "topic": ".gitignore scope",
+        "type": {
+          "singleAnswer": {
+            "question": "How are `.gitignore` files applied to directories?",
+            "correctAnswer": "Each `.gitignore` file applies to the directory it is in and all subdirectories.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the scope of a `.gitignore` file?",
+            "correctAnswer": "The directory it is in and all subdirectories.",
+            "falseAnswers": [
+              "Only the root directory.",
+              "Only the directory above it.",
+              "Only files with specific extensions."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se `.gitignore` datoteke primjenjuju na direktorije?",
+            "correctAnswer": "Svaka .gitignore datoteka se primjenjuje na direktorij u kojem se ona nalazi i na sve poddirektorije.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je opseg `.gitignore` datoteke?",
+            "correctAnswer": "Direktorij u kojem se nalazi i svi poddirektoriji.",
+            "falseAnswers": [
+              "Samo root direktorij.",
+              "Samo direktorij iznad nje.",
+              "Samo datoteke s određenim ekstenzijama."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "65",
+    "lang": {
+      "en": {
+        "topic": ".gitignore patterns",
+        "type": {
+          "singleAnswer": {
+            "question": "What else do `.gitignore` files accept besides exact paths?",
+            "correctAnswer": "`.gitignore` files also accept patterns (e.g., `*.txt`).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Besides exact paths, what else can `.gitignore` files use?",
+            "correctAnswer": "Patterns (e.g., `*.txt`).",
+            "falseAnswers": [
+              "Regular expressions only.",
+              "Specific file sizes.",
+              "Commit hashes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što sve `.gitignore` datoteke prihvaćaju osim točnih putanja?",
+            "correctAnswer": ".gitignore datoteke prihvaćaju i uzorke (npr. `*.txt`).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Osim točnih putanja, što još `.gitignore` datoteke mogu koristiti?",
+            "correctAnswer": "Uzorci (npr. `*.txt`).",
+            "falseAnswers": [
+              "Samo regularne izraze.",
+              "Specifične veličine datoteka.",
+              "Commit hasheve."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "66",
+    "lang": {
+      "en": {
+        "topic": "Files to ignore",
+        "type": {
+          "singleAnswer": {
+            "question": "What types of files should generally be ignored in Git?",
+            "correctAnswer": "Generally, generated things (compiled code), dependencies (node_modules), things related to personal work preferences (editor settings), and sensitive/dangerous things (env files, passwords, API keys) should be ignored.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "generated files (compiled code)",
+              "dependencies (node_modules)",
+              "personal preferences (editor settings)",
+              "sensitive files (env files, passwords, API keys)"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which type of file should generally be ignored in Git?",
+            "correctAnswer": "Compiled code.",
+            "falseAnswers": [
+              "Source code files.",
+              "Project documentation.",
+              "Configuration files needed for the project to run."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje vrste datoteka bi u pravilu trebalo ignorirati u Git-u?",
+            "correctAnswer": "U pravilu bi trebalo ignorirati generirane stvari (kompajliran kod), dependencies (node_modules), stvari vezane za osobne preference rada (postavke editora) i osjetljive/opasne stvari (env file, šifre, API ključevi).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "generirane datoteke (kompajliran kod)",
+              "ovisnosti (node_modules)",
+              "osobne postavke (postavke editora)",
+              "osjetljive datoteke (env datoteke, lozinke, API ključevi)"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja vrsta datoteke bi se općenito trebala ignorirati u Git-u?",
+            "correctAnswer": "Kompajliran kod.",
+            "falseAnswers": [
+              "Datoteke izvornog koda.",
+              "Dokumentacija projekta.",
+              "Konfiguracijske datoteke potrebne za pokretanje projekta."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "67",
+    "lang": {
+      "en": {
+        "topic": "Fork",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a Fork in the context of a Git repository?",
+            "correctAnswer": "A Fork is a copy of a repository that we can modify without affecting the original.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In the context of Git repositories, what is a Fork?",
+            "correctAnswer": "A copy of a repository that can be modified independently.",
+            "falseAnswers": [
+              "A command to merge branches.",
+              "A type of Git object.",
+              "A temporary storage area."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Fork u kontekstu Git repozitorija?",
+            "correctAnswer": "Fork je kopija nekog repozitorija kojega možemo mijenjati bez da djelujemo na originalni.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U kontekstu Git repozitorija, što je Fork?",
+            "correctAnswer": "Kopija repozitorija koja se može neovisno mijenjati.",
+            "falseAnswers": [
+              "Komanda za spajanje grana.",
+              "Vrsta Git objekta.",
+              "Privremeno područje za pohranu."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "68",
+    "lang": {
+      "en": {
+        "topic": "Fork platform",
+        "type": {
+          "singleAnswer": {
+            "question": "Is Fork a Git functionality or a functionality of services like GitHub?",
+            "correctAnswer": "Fork is not a Git functionality, but a functionality of services like GitHub.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Forking is a functionality of:",
+            "correctAnswer": "Services like GitHub.",
+            "falseAnswers": [
+              "Git (the command-line tool).",
+              "Both Git and GitHub.",
+              "The operating system."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "69",
+    "lang": {
+      "en": {
+        "topic": "Forking purpose",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the Forking functionality?",
+            "correctAnswer": "Using the Forking functionality, we can contribute to other projects.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a common use case for Forking?",
+            "correctAnswer": "Contributing to other projects.",
+            "falseAnswers": [
+              "Creating local backups of repositories.",
+              "Resolving merge conflicts automatically.",
+              "Managing user permissions on a repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi Forking funkcionalnost?",
+            "correctAnswer": "Pomoću Forking funkcionalnosti možemo doprinijeti na drugim projektima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je česta upotreba Forkinga?",
+            "correctAnswer": "Doprinošenje drugim projektima.",
+            "falseAnswers": [
+              "Kreiranje lokalnih sigurnosnih kopija repozitorija.",
+              "Automatsko rješavanje konflikata spajanja.",
+              "Upravljanje korisničkim dozvolama na repozitoriju."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "70",
+    "lang": {
+      "en": {
+        "topic": "Forking process",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the rough process of contributing to another project using a Fork.",
+            "correctAnswer": "The process includes: 1. Forking the repository. 2. Cloning that fork to the local computer. 3. Creating a new branch. 4. Making changes on that branch. 5. Committing and pushing the changes on the branch to the fork. 6. Creating a pull request on the original project.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Fork the repository",
+              "Clone the fork locally",
+              "Create a new branch",
+              "Make changes on the branch",
+              "Commit and push changes to the fork",
+              "Create a pull request on the original project"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which step is part of contributing to a project using a Fork?",
+            "correctAnswer": "Creating a pull request on the original project.",
+            "falseAnswers": [
+              "Cloning the original repository directly and pushing changes to it.",
+              "Downloading the project files and manually sending them to the owner.",
+              "Using `git merge` to combine local changes with the original repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Opišite grubi postupak doprinošenja na drugom projektu pomoću Forka.",
+            "correctAnswer": "Postupak uključuje: 1. Izvršiti fork nad repozitorijem. 2. Klonirati taj fork na lokalno računalo. 3. Kreirati novu granu. 4. Napraviti promjene na toj grani. 5. Commit-ati i push-ati promjene te grane na kojoj smo radili na fork (našu kopiju repozitorija). 6. Raditi pull request na originalni projekt.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Forkati repozitorij",
+              "Klonirati fork lokalno",
+              "Kreirati novu granu",
+              "Napraviti promjene na grani",
+              "Committati i push-ati promjene na fork",
+              "Kreirati pull request na originalni projekt"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je korak dio doprinošenja projektu pomoću Forka?",
+            "correctAnswer": "Kreiranje pull requesta na originalni projekt.",
+            "falseAnswers": [
+              "Direktno kloniranje originalnog repozitorija i slanje promjena na njega.",
+              "Preuzimanje datoteka projekta i ručno slanje vlasniku.",
+              "Korištenje `git merge` za kombiniranje lokalnih promjena s originalnim repozitorijem."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "71",
+    "lang": {
+      "en": {
+        "topic": "Head",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Head in Git?",
+            "correctAnswer": "Head is a reference to the branch we are currently on.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does 'Head' refer to in Git?",
+            "correctAnswer": "The current branch.",
+            "falseAnswers": [
+              "The first commit in the repository.",
+              "The remote repository URL.",
+              "The staging area."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Head u Git-u?",
+            "correctAnswer": "Head je referenca na granu na kojoj se trenutno nalazimo.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Na što se odnosi 'Head' u Git-u?",
+            "correctAnswer": "Na trenutnu granu.",
+            "falseAnswers": [
+              "Na prvi commit u repozitoriju.",
+              "Na URL udaljenog repozitorija.",
+              "Na staging area."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "72",
+    "lang": {
+      "en": {
+        "topic": "Head storage",
+        "type": {
+          "singleAnswer": {
+            "question": "Where is the information about Head stored?",
+            "correctAnswer": "The information about Head is stored in `.git/HEAD`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Where is the 'Head' information stored in a Git repository?",
+            "correctAnswer": "In the `.git/HEAD` file.",
+            "falseAnswers": [
+              "In the `.gitignore` file.",
+              "In the commit message.",
+              "On the remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Gdje je spremljena informacija o Head-u?",
+            "correctAnswer": "Informacija o Head-u je spremljena na .git/HEAD.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Gdje je pohranjena informacija o 'Head' u Git repozitoriju?",
+            "correctAnswer": "U datoteci `.git/HEAD`.",
+            "falseAnswers": [
+              "U datoteci `.gitignore`.",
+              "U poruci commita.",
+              "Na udaljenom repozitoriju."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "73",
+    "lang": {
+      "en": {
+        "topic": "git reflog",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command `reflog` do?",
+            "correctAnswer": "The `reflog` command displays the history of movement of your local references (HEAD and individual branch tips) and tracks every change step by step.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of the `git reflog` command?",
+            "correctAnswer": "To display the history of local reference movements.",
+            "falseAnswers": [
+              "To display the history of commits in the repository.",
+              "To show the differences between two commits.",
+              "To resolve merge conflicts."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Git naredba `reflog`?",
+            "correctAnswer": "Naredba reflog prikazuje povijest pomicanja vaših lokalnih referenci (HEAD-a i pojedinih vrhova grana) i prati svaku promjenu korak po korak.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha komande `git reflog`?",
+            "correctAnswer": "Prikaz povijesti pomicanja lokalnih referenci.",
+            "falseAnswers": [
+              "Prikaz povijesti commita u repozitoriju.",
+              "Prikaz razlika između dva commita.",
+              "Rješavanje konflikata spajanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "74",
+    "lang": {
+      "en": {
+        "topic": "reflog usefulness",
+        "type": {
+          "singleAnswer": {
+            "question": "When is the `reflog` command useful?",
+            "correctAnswer": "Using `reflog`, we can recover some things that we wouldn't be able to using `git log`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What can `git reflog` help with that `git log` might not?",
+            "correctAnswer": "Recovering lost commits or states.",
+            "falseAnswers": [
+              "Viewing remote repository history.",
+              "Creating new branches.",
+              "Pushing changes to the remote."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kada je naredba `reflog` korisna?",
+            "correctAnswer": "Pomoću reflog-a možemo povratiti neke stvari koje pomoću git log-a ne bismo mogli.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što `git reflog` može pomoći, a `git log` možda ne?",
+            "correctAnswer": "Oporavak izgubljenih commita ili stanja.",
+            "falseAnswers": [
+              "Pregled povijesti udaljenog repozitorija.",
+              "Kreiranje novih grana.",
+              "Slanje promjena na udaljeni repozitorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "75",
+    "lang": {
+      "en": {
+        "topic": "Merge conflicts",
+        "type": {
+          "singleAnswer": {
+            "question": "What are Merge conflicts?",
+            "correctAnswer": "Merge conflicts occur when two commits change the same line of code, and the commits are not in a parent-child relationship.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "When do Merge conflicts typically occur?",
+            "correctAnswer": "When two different commits modify the same part of a file.",
+            "falseAnswers": [
+              "Errors that occur when pushing changes to a remote repository.",
+              "Issues with the `.gitignore` file.",
+              "Problems with the repository's permissions."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su Merge conflicts (konflikti spajanja)?",
+            "correctAnswer": "Merge conflicts je pojava do koje dolazi kada dva commit-a mijenjaju istu liniju koda, a commit-ovi nisu u odnosu roditelj-dijete.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kada se obično javljaju konflikti spajanja?",
+            "correctAnswer": "Kada dva različita commita izmijene isti dio datoteke.",
+            "falseAnswers": [
+              "Greške koje se javljaju prilikom slanja promjena u udaljeni repozitorij.",
+              "Problemi s `.gitignore` datotekom.",
+              "Problemi s dozvolama repozitorija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "76",
+    "lang": {
+      "en": {
+        "topic": "Merge conflict cause",
+        "type": {
+          "singleAnswer": {
+            "question": "As a result of which commands do merge conflicts occur?",
+            "correctAnswer": "As a result of merging branches or rebasing.",
+            "isEnumeratable": true,
+            "answerItems": ["merging", "rebasing"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Merge conflicts can occur as a result of:",
+            "correctAnswer": "Merging or rebasing.",
+            "falseAnswers": [
+              "git add and git commit.",
+              "git push and git pull.",
+              "git status and git log."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kao rezultat koji naredbi dolazi do konflikata spajanja (merge conflicts)?",
+            "correctAnswer": "Kao rezultat spajanja grana (merging) ili rebase-anja.",
+            "isEnumeratable": true,
+            "answerItems": ["spajanja (merging)", "rebase-anja"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Konflikti spajanja mogu se javiti kao rezultat:",
+            "correctAnswer": "Spajanja ili rebaseanja.",
+            "falseAnswers": [
+              "git add i git commit.",
+              "git push i git pull.",
+              "git status i git log."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "78",
+    "lang": {
+      "en": {
+        "topic": "Conflict resolution 'Ours'",
+        "type": {
+          "singleAnswer": {
+            "question": "What does 'Ours' mean in the context of resolving conflicts?",
+            "correctAnswer": "'Ours' refers to the branch we are currently on (e.g., `git checkout --ours`).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In a merge conflict, 'Ours' refers to:",
+            "correctAnswer": "The changes in the current branch.",
+            "falseAnswers": [
+              "The changes from the remote repository.",
+              "The changes from the branch being merged.",
+              "The original state of the file before the conflict."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači 'Ours' u kontekstu rješavanja konflikata?",
+            "correctAnswer": "'Ours' se referencira na granu na kojoj smo mi (npr. `git checkout --ours`).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U konfliktu spajanja, 'Ours' se odnosi na:",
+            "correctAnswer": "Promjene u trenutnoj grani.",
+            "falseAnswers": [
+              "Promjene s udaljenog repozitorija.",
+              "Promjene s grane koja se spaja.",
+              "Izvorno stanje datoteke prije konflikta."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "79",
+    "lang": {
+      "en": {
+        "topic": "Conflict resolution 'Theirs'",
+        "type": {
+          "singleAnswer": {
+            "question": "What does 'Theirs' mean in the context of resolving conflicts?",
+            "correctAnswer": "'Theirs' refers to the branch being merged (e.g., `git checkout --theirs`).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In a merge conflict, 'Theirs' refers to:",
+            "correctAnswer": "The changes in the branch being merged.",
+            "falseAnswers": [
+              "The changes from the local repository.",
+              "The changes from the main branch.",
+              "The final resolved state of the file."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači 'Theirs' u kontekstu rješavanja konflikata?",
+            "correctAnswer": "'Theirs' se referencira na granu koju spajamo (npr. `git checkout --theirs`).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U konfliktu spajanja, 'Theirs' se odnosi na:",
+            "correctAnswer": "Promjene u grani koja se spaja.",
+            "falseAnswers": [
+              "Promjene iz lokalnog repozitorija.",
+              "Promjene iz glavne grane.",
+              "Konačno riješeno stanje datoteke."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "80",
+    "lang": {
+      "en": {
+        "topic": "Rerere mechanism",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the Rerere mechanism in Git?",
+            "correctAnswer": "Rerere is a mechanism that tells Git to remember how we resolved a conflict and for Git to automatically resolve the same conflict if it occurs again in the future.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the Rerere mechanism in Git do?",
+            "correctAnswer": "Remembers how conflicts were resolved to resolve them automatically in the future.",
+            "falseAnswers": [
+              "Creates new branches.",
+              "Compares two commits.",
+              "Undoes commits."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Rerere mehanizam u Git-u?",
+            "correctAnswer": "Rerere je mehanizam koji govori Git-u da zapamti kako smo riješili neki konflikt te da ga Git automatski riješi ako se isti takav konflikt ponovi u budućnosti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi Rerere mehanizam u Git-u?",
+            "correctAnswer": "Pamti kako su konflikti riješeni kako bi ih automatski riješio u budućnosti.",
+            "falseAnswers": [
+              "Stvara nove grane.",
+              "Uspoređuje dva commita.",
+              "Poništava commitove."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "81",
+    "lang": {
+      "en": {
+        "topic": "Squashing",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Squashing in Git?",
+            "correctAnswer": "Squashing is a process where we take several commits and combine them into a single commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of Squashing commits?",
+            "correctAnswer": "To combine multiple commits into a single commit.",
+            "falseAnswers": [
+              "To delete commits.",
+              "To create a new branch from existing commits.",
+              "To send changes to a remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Squashing u Git-u?",
+            "correctAnswer": "Squashing je proces u kojem uzmemo nekoliko commit-ova i stavimo ih u jedan zajednički commit.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha Squashing commita?",
+            "correctAnswer": "Kombiniranje više commita u jedan jedinstveni commit.",
+            "falseAnswers": [
+              "Brisanje commita.",
+              "Kreiranje nove grane iz postojećih commita.",
+              "Slanje promjena u udaljeni repozitorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "82",
+    "lang": {
+      "en": {
+        "topic": "Squashing command",
+        "type": {
+          "singleAnswer": {
+            "question": "Which Git command is used for Squashing?",
+            "correctAnswer": "Squashing is done with the rebase command, specifically `git rebase -i`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which command is commonly used to perform Squashing?",
+            "correctAnswer": "git rebase -i",
+            "falseAnswers": ["git merge", "git commit", "git rebase --squash"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja se Git komanda koristi za Squashing?",
+            "correctAnswer": "Squashing se radi s rebase komandom, točnije git rebase -i.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja se komanda obično koristi za izvođenje Squashinga?",
+            "correctAnswer": "git rebase -i",
+            "falseAnswers": ["git merge", "git commit", "git rebase --squash"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "83",
+    "lang": {
+      "en": {
+        "topic": "Squashing steps",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the steps for performing Squashing using `git rebase -i`.",
+            "correctAnswer": "The steps are: 1. `git rebase -i HEAD~n` (n is the number of commits to combine). 2. In the editor, change 'pick' to 'squash' for all commits except the first one. 3. Save and close the editor.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Run `git rebase -i HEAD~n`",
+              "Change 'pick' to 'squash' for commits to be combined (except the first)",
+              "Save and close the editor"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which step is involved in Squashing using `git rebase -i`?",
+            "correctAnswer": "Changing 'pick' to 'squash' in the interactive editor.",
+            "falseAnswers": [
+              "Using `git merge --squash`.",
+              "Manually copying and pasting changes into a new commit.",
+              "Using `git reset --soft` and then committing."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Opišite korake za izvođenje Squashinga pomoću `git rebase -i`.",
+            "correctAnswer": "Koraci su: 1. git rebase -i HEAD~n (n je broj commit-ova za spojiti). 2. U editoru, promijeniti 'pick' u 'squash' za sve commitove osim prvog. 3. Spremite i zatvorite editor.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Pokrenite `git rebase -i HEAD~n`",
+              "Promijenite 'pick' u 'squash' za commitove koje treba spojiti (osim prvog)",
+              "Spremite i zatvorite editor"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji korak je uključen u Squashing pomoću `git rebase -i`?",
+            "correctAnswer": "Promjena 'pick' u 'squash' u interaktivnom editoru.",
+            "falseAnswers": [
+              "Korištenje `git merge --squash`.",
+              "Ručno kopiranje i lijepljenje promjena u novi commit.",
+              "Korištenje `git reset --soft`, a zatim commitanje."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "84",
+    "lang": {
+      "en": {
+        "topic": "Rebase -i flag",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the 'i' flag in `git rebase -i`?",
+            "correctAnswer": "The 'i' flag (interactive) allows us to edit the history before Git applies the changes.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the '-i' flag in `git rebase -i` enable?",
+            "correctAnswer": "Interactive rebase, allowing history editing.",
+            "falseAnswers": [
+              "Forcing the rebase operation.",
+              "Automatically resolving conflicts.",
+              "Displaying a summary of changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi zastavica 'i' kod `git rebase -i`?",
+            "correctAnswer": "Zastavica 'i' (interactive) omogućuje da uredimo povijest prije nego što Git primijeni promjene.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što omogućuje zastavica '-i' u `git rebase -i`?",
+            "correctAnswer": "Interaktivni rebase, omogućujući uređivanje povijesti.",
+            "falseAnswers": [
+              "Prisilno izvođenje rebase operacije.",
+              "Automatsko rješavanje konflikata.",
+              "Prikaz sažetka promjena."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "85",
+    "lang": {
+      "en": {
+        "topic": "Force push",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command Force push (`git push --force`) do?",
+            "correctAnswer": "Force push allows us to forcibly overwrite content on a remote branch, saying 'let the content of my local branch become the content of the remote branch' and Git will obey without asking additional questions.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the effect of `git push --force`?",
+            "correctAnswer": "It overwrites the remote branch with the local branch's content.",
+            "falseAnswers": [
+              "It pushes changes only if there are no conflicts.",
+              "It creates a new branch on the remote repository.",
+              "It downloads changes from the remote repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Git naredba Force push (`git push --force`)?",
+            "correctAnswer": "Force push nam omogućava da nasilno prebrišemo sadržaj na udaljenoj grani, govoreći 'neka sadržaj moje lokalne grane postane sadržaj udaljene grane' i Git će nas poslušati bez postavljanja dodatnih pitanja.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je učinak komande `git push --force`?",
+            "correctAnswer": "Prepisuje udaljenu granu sadržajem lokalne grane.",
+            "falseAnswers": [
+              "Šalje promjene samo ako nema konflikata.",
+              "Stvara novu granu na udaljenom repozitoriju.",
+              "Preuzima promjene s udaljenog repozitorija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "87",
+    "lang": {
+      "en": {
+        "topic": "Stash",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Stash in Git?",
+            "correctAnswer": "Stash is a collection of changes that have not yet been committed, and it allows us to save the state of our current working directory and index (staging area).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of `git stash`?",
+            "correctAnswer": "To temporarily save uncommitted changes.",
+            "falseAnswers": [
+              "A permanent storage for backups.",
+              "A way to ignore files from tracking.",
+              "A method for creating new branches."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Stash u Git-u?",
+            "correctAnswer": "Stash je kolekcija promjena koje još nisu commitane, a omogućava nam da spremimo stanje našeg trenutnog radnog direktorija i index-a (staging area).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha komande `git stash`?",
+            "correctAnswer": "Privremeno spremanje necommitanih promjena.",
+            "falseAnswers": [
+              "Trajna pohrana za sigurnosne kopije.",
+              "Način ignoriranja datoteka od praćenja.",
+              "Metoda za kreiranje novih grana."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "88",
+    "lang": {
+      "en": {
+        "topic": "Stash data structure",
+        "type": {
+          "singleAnswer": {
+            "question": "In which data structure does Git Stash store changes?",
+            "correctAnswer": "Git Stash stores changes in a stack data structure (FILO - First-In, Last-Out).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What data structure does Git Stash use?",
+            "correctAnswer": "Stack (FILO).",
+            "falseAnswers": ["Queue (FIFO).", "Array.", "Linked List."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "U koju strukturu podataka Git Stash sprema promjene?",
+            "correctAnswer": "Git Stash sprema promjene u stack strukturu podataka (FILO - First-In, Last-Out).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koju strukturu podataka koristi Git Stash?",
+            "correctAnswer": "Stack (FILO).",
+            "falseAnswers": ["Red (FIFO).", "Niz.", "Povezana lista."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "89",
+    "lang": {
+      "en": {
+        "topic": "git stash pop",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the Git Stash command `pop`.",
+            "correctAnswer": "`git stash pop` will apply the changes that were last saved to the stash to the current working directory and remove them from the stack.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `git stash pop` do?",
+            "correctAnswer": "Applies the last stashed changes and removes them from the stash.",
+            "falseAnswers": [
+              "It applies the changes but keeps them on the stash.",
+              "It removes the changes from the stash without applying them.",
+              "It lists all stashed changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Opišite Git Stash naredbu `pop`.",
+            "correctAnswer": "git stash pop primijenit će promjene koje su zadnje spremljene na stash u trenutni radni direktorij i maknut će ih sa stack-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi `git stash pop`?",
+            "correctAnswer": "Primjenjuje zadnje spremljene promjene i uklanja ih sa stasha.",
+            "falseAnswers": [
+              "Primjenjuje promjene, ali ih zadržava na stashu.",
+              "Uklanja promjene sa stasha bez primjene.",
+              "Ispisuje sve spremljene promjene."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "90",
+    "lang": {
+      "en": {
+        "topic": "git stash apply",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the Git Stash command `apply`.",
+            "correctAnswer": "`git stash apply` will apply the changes that were last saved to the stash to the current working directory, but will not remove the saved change from the stash.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `git stash apply` do?",
+            "correctAnswer": "Applies the last stashed changes but keeps them on the stash.",
+            "falseAnswers": [
+              "It applies the changes and removes them from the stash.",
+              "It only shows the stashed changes without applying them.",
+              "It deletes the stashed changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Opišite Git Stash naredbu `apply`.",
+            "correctAnswer": "git stash apply primijenit će promjene koje su zadnje spremljene na stash u trenutni radni direktorij, ali neće maknuti spremljenu promjenu s stash-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi `git stash apply`?",
+            "correctAnswer": "Primjenjuje zadnje spremljene promjene, ali ih zadržava na stashu.",
+            "falseAnswers": [
+              "Primjenjuje promjene i uklanja ih sa stasha.",
+              "Samo prikazuje spremljene promjene bez primjene.",
+              "Briše spremljene promjene."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "91",
+    "lang": {
+      "en": {
+        "topic": "git stash drop",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the Git Stash command `drop`.",
+            "correctAnswer": "`git stash drop` will remove the last change from the stash without applying it to the working directory.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `git stash drop` do?",
+            "correctAnswer": "Removes the last stashed changes without applying them.",
+            "falseAnswers": [
+              "It applies the stashed changes.",
+              "It lists all stashed changes.",
+              "It saves the current changes to the stash."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Opišite Git Stash naredbu `drop`.",
+            "correctAnswer": "git stash drop maknut će zadnju promjenu sa stash-a bez da je primijeni na radni direktorij.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi `git stash drop`?",
+            "correctAnswer": "Uklanja zadnje spremljene promjene bez primjene.",
+            "falseAnswers": [
+              "Primjenjuje spremljene promjene.",
+              "Ispisuje sve spremljene promjene.",
+              "Sprema trenutne promjene na stash."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "92",
+    "lang": {
+      "en": {
+        "topic": "Working directory (stash)",
+        "type": {
+          "singleAnswer": {
+            "question": "What is meant by 'working directory' when applying changes from stash?",
+            "correctAnswer": "When applying changes from stash to the working directory, it means Git takes the saved changes and reapplies them to the files we currently see and are editing.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "When applying stashed changes, what does 'working directory' refer to?",
+            "correctAnswer": "The files we are currently seeing and editing.",
+            "falseAnswers": [
+              "The remote repository.",
+              "The staging area.",
+              "The `.git` directory."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što se misli pod 'radni direktorij' kada se primjenjuju promjene sa stash-a?",
+            "correctAnswer": "Kada se primjenjuju promjene sa stash-a na radni direktorij, misli se da Git uzima spremljene promjene i ponovno ih primjenjuje na datoteke koje trenutno vidimo i uređujemo.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Prilikom primjene spremljenih promjena, na što se odnosi 'radni direktorij'?",
+            "correctAnswer": "Datoteke koje trenutno vidimo i uređujemo.",
+            "falseAnswers": [
+              "Udaljeni repozitorij.",
+              "Staging area.",
+              "`.git` direktorij."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "94",
+    "lang": {
+      "en": {
+        "topic": "Revert vs Reset",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference between the Revert and Reset commands?",
+            "correctAnswer": "Revert does not delete commits like the Reset command.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a key difference between `git revert` and `git reset`?",
+            "correctAnswer": "`git revert` does not delete commits, while `git reset` can.",
+            "falseAnswers": [
+              "Reset creates a new commit, Revert does not.",
+              "Revert is used for local changes, Reset is for remote changes.",
+              "Reset is safer than Revert."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika između Rever i Reset naredbe?",
+            "correctAnswer": "Revert ne briše commitove poput naredbe Reset.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je ključna razlika između `git revert` i `git reset`?",
+            "correctAnswer": "`git revert` ne briše commitove, dok ih `git reset` može izbrisati.",
+            "falseAnswers": [
+              "Reset stvara novi commit, Revert ne.",
+              "Revert se koristi za lokalne promjene, Reset za udaljene promjene.",
+              "Reset je sigurniji od Revert-a."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "95",
+    "lang": {
+      "en": {
+        "topic": "Revert mechanism",
+        "type": {
+          "singleAnswer": {
+            "question": "What does Revert do instead of deleting a commit?",
+            "correctAnswer": "Revert creates a new commit that does the opposite of the commit being undone, undoing the change but preserving the full history of that change and its undoing.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Instead of deleting a commit, what does `git revert` do?",
+            "correctAnswer": "Creates a new commit that undoes the changes of a previous commit.",
+            "falseAnswers": [
+              "It removes the commit from the history entirely.",
+              "It moves the branch pointer to a previous commit.",
+              "It creates a new branch with the reverted changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što Revert radi umjesto brisanja commita?",
+            "correctAnswer": "Revert kreira novi commit koji radi suprotno od commit-a koji se poništava, poništava promjenu, ali zadržava punu povijest te promjene i njenog poništavanja.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Umjesto brisanja commita, što radi `git revert`?",
+            "correctAnswer": "Stvara novi commit koji poništava promjene prethodnog commita.",
+            "falseAnswers": [
+              "Potpuno uklanja commit iz povijesti.",
+              "Pomakne pokazivač grane na prethodni commit.",
+              "Stvara novu granu s poništenim promjenama."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "96",
+    "lang": {
+      "en": {
+        "topic": "Revert on public branches",
+        "type": {
+          "singleAnswer": {
+            "question": "Why is Revert most often used on public branches?",
+            "correctAnswer": "Revert is most often used on public branches because it does not delete history, which can cause problems on those branches.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Why is `git revert` preferred over `git reset` on public branches?",
+            "correctAnswer": "Because it preserves history by creating a new commit.",
+            "falseAnswers": [
+              "Because it is faster on public branches.",
+              "Because it automatically resolves conflicts.",
+              "Because it is the only command allowed on public branches."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Zašto se Revert najčešće koristi na javnim granama?",
+            "correctAnswer": "Revert se najčešće koristi na javnim granama jer ne briše povijest, što može uzrokovati probleme na tim granama.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Zašto se `git revert` preferira u odnosu na `git reset` na javnim granama?",
+            "correctAnswer": "Jer čuva povijest stvaranjem novog commita.",
+            "falseAnswers": [
+              "Jer je brži na javnim granama.",
+              "Jer automatski rješava konflikte.",
+              "Jer je to jedina dopuštena komanda na javnim granama."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "97",
+    "lang": {
+      "en": {
+        "topic": "git diff",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command Diff do?",
+            "correctAnswer": "The Git command Diff shows the difference between Git objects (commit, tree, etc.).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary function of the `git diff` command?",
+            "correctAnswer": "To show the difference between Git objects.",
+            "falseAnswers": [
+              "It merges two branches.",
+              "It creates a new commit.",
+              "It lists all files in the repository."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Git naredba Diff?",
+            "correctAnswer": "Git naredba Diff pokazuje razliku između Git objekata (commit, tree, etc...).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna funkcija komande `git diff`?",
+            "correctAnswer": "Prikaz razlike između Git objekata.",
+            "falseAnswers": [
+              "Spaja dvije grane.",
+              "Stvara novi commit.",
+              "Ispisuje sve datoteke u repozitoriju."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "98",
+    "lang": {
+      "en": {
+        "topic": "git diff common use",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the Git command Diff most often used for?",
+            "correctAnswer": "The Git command Diff is most often used to see the difference between the current code and the last commit (but is difficult to apply to larger projects).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a common use case for `git diff`?",
+            "correctAnswer": "To see the difference between the current code and the last commit.",
+            "falseAnswers": [
+              "For comparing remote and local branches.",
+              "For creating patch files.",
+              "For analyzing the repository size."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Za što se najčešće koristi Git naredba Diff?",
+            "correctAnswer": "Git naredba Diff najčešće se koristi da se vidi razlika između trenutnog koda i zadnjeg commit-a (ali je teško primjenjiva na veće projekte).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je česta upotreba komande `git diff`?",
+            "correctAnswer": "Prikaz razlike između trenutnog koda i zadnjeg commita.",
+            "falseAnswers": [
+              "Za usporedbu udaljenih i lokalnih grana.",
+              "Za kreiranje patch datoteka.",
+              "Za analizu veličine repozitorija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "100",
+    "lang": {
+      "en": {
+        "topic": "git cherry-pick",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the Git command `cherry-pick`?",
+            "correctAnswer": "The `cherry-pick` command is used to take a single commit from a branch without having to merge or rebase with that branch.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `git cherry-pick` allow you to do?",
+            "correctAnswer": "Apply a single commit from one branch to another.",
+            "falseAnswers": [
+              "Delete a commit.",
+              "Create a new branch.",
+              "Resolve merge conflicts."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi Git naredba `cherry-pick`?",
+            "correctAnswer": "Komanda cherry-pick služi kako bi uzeli jedan commit iz neke grane bez da se moramo spajati ili rebase-ati s tom granom.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što vam omogućuje komanda `git cherry-pick`?",
+            "correctAnswer": "Primjenu jednog commita s jedne grane na drugu.",
+            "falseAnswers": [
+              "Brisanje commita.",
+              "Kreiranje nove grane.",
+              "Rješavanje konflikata spajanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "101",
+    "lang": {
+      "en": {
+        "topic": "git bisect",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the Git command `bisect`?",
+            "correctAnswer": "The `bisect` command is used to efficiently find the commit in which a bug was introduced in the application.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the main purpose of `git bisect`?",
+            "correctAnswer": "To find the commit that introduced a bug.",
+            "falseAnswers": [
+              "To split a large commit into smaller ones.",
+              "To compare two branches.",
+              "To create a new tag."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi Git naredba `bisect`?",
+            "correctAnswer": "Komanda bisect koristi se kako bi se učinkovito pronašao commit u kojem je uveden neki bug u aplikaciji.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je glavna svrha komande `git bisect`?",
+            "correctAnswer": "Pronalaženje commita koji je uveo bug.",
+            "falseAnswers": [
+              "Podjela velikog commita na manje.",
+              "Usporedba dviju grana.",
+              "Kreiranje novog taga."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "102",
+    "lang": {
+      "en": {
+        "topic": "git bisect principle",
+        "type": {
+          "singleAnswer": {
+            "question": "On what principle does the Git command `bisect` work?",
+            "correctAnswer": "The Git command `bisect` works on the principle of binary search through the commit history.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What search principle does `git bisect` utilize?",
+            "correctAnswer": "Binary search.",
+            "falseAnswers": [
+              "Linear search.",
+              "Breadth-first search.",
+              "Depth-first search."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Na kojem principu radi Git naredba `bisect`?",
+            "correctAnswer": "Git naredba bisect radi na principu binarne pretrage kroz povijest commit-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje načelo pretrage koristi `git bisect`?",
+            "correctAnswer": "Binarna pretraga.",
+            "falseAnswers": [
+              "Linearna pretraga.",
+              "Pretraga po širini.",
+              "Pretraga po dubini."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "103",
+    "lang": {
+      "en": {
+        "topic": "git bisect process",
+        "type": {
+          "singleAnswer": {
+            "question": "Describe the process of using the Git command `bisect`.",
+            "correctAnswer": "The process includes: 1. `git bisect start`. 2. Select a 'good' commit (without the bug). 3. Select a 'bad' commit (with the bug). 4. Git will switch to a commit in between for testing. 5. Execute `git bisect good` or `git bisect bad`. 6. Repeat step 4 until the commit with the bug is found. 7. Exit with `git bisect reset`.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Start with `git bisect start`",
+              "Mark a 'good' commit and a 'bad' commit",
+              "Test the commit Git switches to",
+              "Use `git bisect good` or `git bisect bad`",
+              "Repeat testing until the bug is found",
+              "Exit with `git bisect reset`"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which step is part of the `git bisect` process?",
+            "correctAnswer": "Marking commits as 'good' or 'bad'.",
+            "falseAnswers": [
+              "Manually checking each commit from the beginning of history.",
+              "Using `git log` to find the commit message related to the bug.",
+              "Comparing diffs between consecutive commits."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Opišite proces korištenja Git naredbe `bisect`.",
+            "correctAnswer": "Proces uključuje: 1. git bisect start. 2. Odabrati 'good' commit (bez buga). 3. Odabrati 'bad' commit (s bugom). 4. Git će prebaciti na commit između za testiranje. 5. Izvršiti git bisect good ili git bisect bad. 6. Ponoviti 4. korak dok se ne nađe commit s bugom. 7. Izaći s git bisect reset.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Pokrenite `git bisect start`",
+              "Označite 'good' commit i 'bad' commit",
+              "Testirajte commit na koji Git prebaci",
+              "Koristite `git bisect good` ili `git bisect bad`",
+              "Ponavljajte testiranje dok se ne pronađe commit s bugom",
+              "Izađite s `git bisect reset`"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je korak dio procesa `git bisect`?",
+            "correctAnswer": "Označavanje commita kao 'good' ili 'bad'.",
+            "falseAnswers": [
+              "Ručno provjeravanje svakog commita od početka povijesti.",
+              "Korištenje `git log` za pronalaženje poruke commita povezane s bugom.",
+              "Usporedba razlika između uzastopnih commita."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "104",
+    "lang": {
+      "en": {
+        "topic": "Worktree definition",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a Worktree in Git?",
+            "correctAnswer": "A Worktree is a directory that contains a `.git` file.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a Git Worktree?",
+            "correctAnswer": "A directory containing a `.git` file.",
+            "falseAnswers": [
+              "A remote repository.",
+              "The staging area.",
+              "A branch reference."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Worktree (radna kopija) u Git-u?",
+            "correctAnswer": "Worktree (radna kopija) je direktorij u kojem se nalazi .git datoteka.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je Git Worktree?",
+            "correctAnswer": "Direktorij koji sadrži `.git` datoteku.",
+            "falseAnswers": [
+              "Udaljeni repozitorij.",
+              "Staging area.",
+              "Referenca grane."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "105",
+    "lang": {
+      "en": {
+        "topic": "git worktree command",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the Git command `worktree` allow us to do?",
+            "correctAnswer": "The `worktree` command allows us to have multiple working copies of the same Git repository located on different branches simultaneously.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the main function of the `git worktree` command?",
+            "correctAnswer": "To manage multiple working copies of a repository.",
+            "falseAnswers": [
+              "To create a new remote repository.",
+              "To manage user permissions.",
+              "To automate deployments."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što nam omogućava Git naredba `worktree`?",
+            "correctAnswer": "Naredba worktree nam omogućava da imamo više radnih kopija (working tree) istog Git repozitorija koji se nalaze na različitim granama istovremeno.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je glavna funkcija komande `git worktree`?",
+            "correctAnswer": "Upravljanje višestrukim radnim kopijama repozitorija.",
+            "falseAnswers": [
+              "Kreiranje novog udaljenog repozitorija.",
+              "Upravljanje korisničkim dozvolama.",
+              "Automatizacija postavljanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "106",
+    "lang": {
+      "en": {
+        "topic": "Worktree .git file",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference in the `.git` file between the main worktree and others?",
+            "correctAnswer": "The main worktree contains a `.git` file with the complete repository history, while other worktrees contain a `.git` file that points to the `.git` file of the main worktree.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How does the `.git` file in a linked worktree differ from the main worktree?",
+            "correctAnswer": "It points to the `.git` file of the main worktree.",
+            "falseAnswers": [
+              "The main worktree has a smaller `.git` file.",
+              "Other worktrees do not have a `.git` file.",
+              "All worktrees have identical `.git` files."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika u `.git` datoteci između glavnog (main) worktree-a i ostalih?",
+            "correctAnswer": "Glavni (main) worktree sadrži .git datoteku s kompletnom povijesti repozitorija, dok ostali worktree-jevi sadrže .git datoteku koja pokazuje na .git datoteku glavnog worktree-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako se `.git` datoteka u povezanom worktreeu razlikuje od glavnog worktreea?",
+            "correctAnswer": "Pokazuje na `.git` datoteku glavnog worktreea.",
+            "falseAnswers": [
+              "Glavni worktree ima manju `.git` datoteku.",
+              "Ostali worktreeovi nemaju `.git` datoteku.",
+              "Svi worktreeovi imaju identične `.git` datoteke."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "107",
+    "lang": {
+      "en": {
+        "topic": "Linked Worktree definition",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a Linked Worktree?",
+            "correctAnswer": "A Linked Worktree is every additionally created working copy of the repository, whose `.git` file points to the `.git` file of the main working copy (main worktree).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a Linked Worktree?",
+            "correctAnswer": "An additional working copy of a repository linked to the main worktree.",
+            "falseAnswers": [
+              "The main worktree.",
+              "A remote repository.",
+              "The staging area."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Linked Worktree?",
+            "correctAnswer": "Linked Worktree je svaka dodatno stvorena radna kopija repozitorija, čija .git datoteka pokazuje na .git datoteku glavne radne kopije (main worktree).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je Linked Worktree?",
+            "correctAnswer": "Dodatna radna kopija repozitorija povezana s glavnim worktreeom.",
+            "falseAnswers": [
+              "Glavni worktree.",
+              "Udaljeni repozitorij.",
+              "Staging area."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "108",
+    "lang": {
+      "en": {
+        "topic": "Linked Worktree behavior",
+        "type": {
+          "singleAnswer": {
+            "question": "How does a Linked Worktree behave?",
+            "correctAnswer": "A Linked Worktree behaves like a 'normal' Git repository.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How does a Linked Worktree function?",
+            "correctAnswer": "Like a normal Git repository.",
+            "falseAnswers": [
+              "It is read-only.",
+              "It can only be used for viewing history.",
+              "It cannot be used for committing changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se ponaša Linked Worktree?",
+            "correctAnswer": "Linked Worktree ponaša se kao 'normalni' Git repozitorij.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako funkcionira Linked Worktree?",
+            "correctAnswer": "Kao normalni Git repozitorij.",
+            "falseAnswers": [
+              "Samo za čitanje.",
+              "Može se koristiti samo za pregled povijesti.",
+              "Ne može se koristiti za commitanje promjena."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "109",
+    "lang": {
+      "en": {
+        "topic": "Linked Worktree branch limitation",
+        "type": {
+          "singleAnswer": {
+            "question": "Postoji li ograničenje za grane kod Linked Worktree-ja?",
+            "correctAnswer": "Da, Linked Worktree ne može otići na granu na kojoj se nalazi već neka radna kopija (worktree). Svaka grana smije biti samo na jednoj radnoj kopiji u jednom trenutku.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a limitation regarding branches in Linked Worktrees?",
+            "correctAnswer": "A branch cannot be checked out in more than one worktree at a time.",
+            "falseAnswers": [
+              "No, any branch can be checked out in any worktree.",
+              "Branches in Linked Worktrees can only be merged, not checked out.",
+              "Only the main branch can be checked out in a Linked Worktree."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Postoji li ograničenje za grane kod Linked Worktree-ja?",
+            "correctAnswer": "Da, Linked Worktree ne može otići na granu na kojoj se nalazi već neka radna kopija (worktree). Svaka grana smije biti samo na jednoj radnoj kopiji u jednom trenutku.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje je ograničenje u vezi grana u Linked Worktreeovima?",
+            "correctAnswer": "Grana ne može biti checkoutana u više od jednog worktreea istovremeno.",
+            "falseAnswers": [
+              "Ne, bilo koja grana može biti checkoutana u bilo kojem worktreeu.",
+              "Grane u Linked Worktreeovima mogu se samo spajati, ne i checkoutati.",
+              "Samo glavna grana može biti checkoutana u Linked Worktreeu."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "110",
+    "lang": {
+      "en": {
+        "topic": "Linked Worktree history",
+        "type": {
+          "singleAnswer": {
+            "question": "How do changes made in linked worktrees affect the history of the main worktree?",
+            "correctAnswer": "Changes made in linked worktrees are also reflected in the history of the main working copy (main worktree).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How do changes in a linked worktree affect the main worktree's history?",
+            "correctAnswer": "Changes are reflected in the main worktree's history.",
+            "falseAnswers": [
+              "Changes in linked worktrees are isolated and do not affect the main worktree.",
+              "Changes only affect the specific linked worktree.",
+              "Changes must be manually synced between worktrees."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako promjene napravljene na povezanim radnim kopijama (linked worktree) utječu na povijest glavnog worktree-a?",
+            "correctAnswer": "Promjene napravljene na povezanim radnim kopijama (linked worktree) odražavaju se i na povijest glavne radne kopije (main worktree).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako promjene u povezanom worktreeu utječu na povijest glavnog worktreea?",
+            "correctAnswer": "Promjene se odražavaju u povijesti glavnog worktreea.",
+            "falseAnswers": [
+              "Promjene u povezanim worktreeovima su izolirane i ne utječu na glavni worktree.",
+              "Promjene utječu samo na specifični povezani worktree.",
+              "Promjene se moraju ručno sinkronizirati između worktreeova."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "111",
+    "lang": {
+      "en": {
+        "topic": "Git tags",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the Git command `tags`?",
+            "correctAnswer": "The `tags` command allows us to mark a specific commit in the repository history as an important point.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the main function of `git tags`?",
+            "correctAnswer": "To mark specific commits as important points.",
+            "falseAnswers": [
+              "To create new branches.",
+              "To resolve merge conflicts.",
+              "To ignore files from tracking."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi Git naredba `tags`?",
+            "correctAnswer": "Komanda tags omogućava nam da označimo specifičan commit u povijesti repozitorija kao važnu točku.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je glavna funkcija komande `git tags`?",
+            "correctAnswer": "Označavanje specifičnih commita kao važnih točaka.",
+            "falseAnswers": [
+              "Kreiranje novih grana.",
+              "Rješavanje konflikata spajanja.",
+              "Ignoriranje datoteka od praćenja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "112",
+    "lang": {
+      "en": {
+        "topic": "Tags vs Branches",
+        "type": {
+          "singleAnswer": {
+            "question": "What do Tags represent compared to branches?",
+            "correctAnswer": "While branches mark lines of development, tags mark fixed points in that history.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How do Git tags differ from branches?",
+            "correctAnswer": "Tags mark fixed points, while branches mark lines of development.",
+            "falseAnswers": [
+              "Tags represent temporary pointers, while branches represent permanent points.",
+              "Tags are used for tracking changes, while branches are for marking releases.",
+              "Tags can be moved, while branches are fixed."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavljaju Tagovi u usporedbi s granama?",
+            "correctAnswer": "Dok grane označavaju linije razvoja, tagovi označavaju fiksne točke u toj povijesti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako se Git tagovi razlikuju od grana?",
+            "correctAnswer": "Tagovi označavaju fiksne točke, dok grane označavaju linije razvoja.",
+            "falseAnswers": [
+              "Tagovi predstavljaju privremene pokazivače, dok grane predstavljaju trajne točke.",
+              "Tagovi se koriste za praćenje promjena, dok su grane za označavanje izdanja.",
+              "Tagovi se mogu pomicati, dok su grane fiksne."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "113",
+    "lang": {
+      "en": {
+        "topic": "Tag immutability",
+        "type": {
+          "singleAnswer": {
+            "question": "Can Git tags be changed?",
+            "correctAnswer": "No, Git tags cannot be changed.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Can Git tags be changed after creation?",
+            "correctAnswer": "No, they are fixed points.",
+            "falseAnswers": [
+              "Yes, they can be easily modified.",
+              "Yes, but only by the repository owner.",
+              "Yes, but only using force push."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Mogu li se Git tagovi mijenjati?",
+            "correctAnswer": "Ne, Git tagovi ne mogu se mijenjati.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Mogu li se Git tagovi promijeniti nakon kreiranja?",
+            "correctAnswer": "Ne, oni su fiksne točke.",
+            "falseAnswers": [
+              "Da, mogu se lako mijenjati.",
+              "Da, ali samo od strane vlasnika repozitorija.",
+              "Da, ali samo korištenjem force pusha."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "114",
+    "lang": {
+      "en": {
+        "topic": "Tag common use",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je glavna svrha Git tagova?",
+            "correctAnswer": "Marking software releases.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the main purpose of Git tags?",
+            "correctAnswer": "Marking software releases.",
+            "falseAnswers": [
+              "To mark the beginning of a new feature.",
+              "To indicate commits with merge conflicts.",
+              "To track individual file changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je glavna svrha Git tagova?",
+            "correctAnswer": "Glavna svrha tagova je označavanje izdanja (releases) softvera.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je glavna svrha Git tagova?",
+            "correctAnswer": "Označavanje izdanja softvera.",
+            "falseAnswers": [
+              "Označavanje početka nove značajke.",
+              "Označavanje commita s konfliktima spajanja.",
+              "Praćenje promjena pojedinačnih datoteka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "115",
+    "lang": {
+      "en": {
+        "topic": "Semware abbreviation",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Semware?",
+            "correctAnswer": "Semware je skraćenica za Semantic Versioning.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does 'Semware' stand for?",
+            "correctAnswer": "Semantic Versioning.",
+            "falseAnswers": [
+              "A type of Git object.",
+              "A Git command.",
+              "A method for resolving conflicts."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Semware?",
+            "correctAnswer": "Semware je skraćenica za Semantic Versioning.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što znači 'Semware'?",
+            "correctAnswer": "Semantic Versioning.",
+            "falseAnswers": [
+              "Vrsta Git objekta.",
+              "Git komanda.",
+              "Metoda za rješavanje konflikata."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "116",
+    "lang": {
+      "en": {
+        "topic": "Semantic Versioning definition",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Semantic Versioning?",
+            "correctAnswer": "Semantic Versioning je konvencija za imenovanje verzija softvera.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is Semantic Versioning?",
+            "correctAnswer": "A convention for naming software versions.",
+            "falseAnswers": [
+              "A method for tracking code changes.",
+              "A tool for automating deployments.",
+              "A way to manage user permissions."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Semantic Versioning?",
+            "correctAnswer": "Semantic Versioning je konvencija za imenovanje verzija softvera.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je Semantic Versioning?",
+            "correctAnswer": "Konvencija za imenovanje verzija softvera.",
+            "falseAnswers": [
+              "Metoda za praćenje promjena koda.",
+              "Alat za automatizaciju postavljanja.",
+              "Način upravljanja korisničkim dozvolama."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "117",
+    "lang": {
+      "en": {
+        "topic": "Semantic Versioning format",
+        "type": {
+          "singleAnswer": {
+            "question": "Objasnite format Semantic Versioning (npr. v3.12.5).",
+            "correctAnswer": "The format is vMAJOR.MINOR.PATCH. 'v' represents the version, MAJOR (the first number) represents major changes, MINOR (the second number) represents minor changes, and PATCH (the third number) represents patches.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the standard format for Semantic Versioning?",
+            "correctAnswer": "vMAJOR.MINOR.PATCH.",
+            "falseAnswers": [
+              "vYEAR.MONTH.DAY.",
+              "vBUILD.REVISION.HOTFIX.",
+              "vMAJOR.MINOR.BUILD."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Objasnite format Semantic Versioning (npr. v3.12.5).",
+            "correctAnswer": "Format je vMAJOR.MINOR.PATCH. 'v' predstavlja verziju, MAJOR (prvi broj) predstavlja velike (major) promjene, MINOR (drugi broj) predstavlja manje (minor) promjene, a PATCH (treći broj) predstavlja zakrpe (patches).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji je standardni format za Semantic Versioning?",
+            "correctAnswer": "vMAJOR.MINOR.PATCH.",
+            "falseAnswers": [
+              "vGODINA.MJESEC.DAN.",
+              "vBUILD.REVIZIJA.HOTFIX.",
+              "vMAJOR.MINOR.BUILD."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "118",
+    "lang": {
+      "en": {
+        "topic": "Semantic Versioning MAJOR",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja prvi broj (MAJOR) u Semantic Versioningu?",
+            "correctAnswer": "The first number (MAJOR) represents the number of major changes, which introduce breaking changes and can break compatibility with previous versions.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In Semantic Versioning (MAJOR.MINOR.PATCH), what does the MAJOR number indicate?",
+            "correctAnswer": "Major changes that introduce breaking changes.",
+            "falseAnswers": [
+              "Minor feature additions.",
+              "Bug fixes.",
+              "Security updates."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja prvi broj (MAJOR) u Semantic Versioningu?",
+            "correctAnswer": "Prvi broj (MAJOR) predstavlja broj velikih (major) promjena, koje uvode prekidne značajke (breaking changes) i mogu pokvariti kompatibilnost s prijašnjim verzijama.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U Semantic Versioningu (MAJOR.MINOR.PATCH), što označava MAJOR broj?",
+            "correctAnswer": "Velike promjene koje uvode prekidne značajke.",
+            "falseAnswers": [
+              "Dodavanje manjih značajki.",
+              "Popravci bugova.",
+              "Sigurnosna ažuriranja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "119",
+    "lang": {
+      "en": {
+        "topic": "Semantic Versioning MINOR",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja drugi broj (MINOR) u Semantic Versioningu?",
+            "correctAnswer": "The second number (MINOR) represents the number of minor changes (within a given major change), which are safe features (add functionality in a compatible way).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In Semantic Versioning (MAJOR.MINOR.PATCH), what does the MINOR number indicate?",
+            "correctAnswer": "Minor changes that add functionality in a compatible way.",
+            "falseAnswers": [
+              "Breaking changes.",
+              "Bug fixes.",
+              "Major architectural changes."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja drugi broj (MINOR) u Semantic Versioningu?",
+            "correctAnswer": "Drugi broj (MINOR) predstavlja broj manjih (minor) promjena (unutar dane velike promjene), koje su sigurne značajke (dodaju funkcionalnost na kompatibilan način).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U Semantic Versioningu (MAJOR.MINOR.PATCH), što označava MINOR broj?",
+            "correctAnswer": "Manje promjene koje dodaju funkcionalnost na kompatibilan način.",
+            "falseAnswers": [
+              "Prekidne značajke.",
+              "Popravci bugova.",
+              "Velike arhitektonske promjene."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "120",
+    "lang": {
+      "en": {
+        "topic": "Semantic Versioning PATCH",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja treći broj (PATCH) u Semantic Versioningu?",
+            "correctAnswer": "The third number (PATCH) represents the number of patches (within a given minor change), which are safe bug fixes and correct errors in a compatible way.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In Semantic Versioning (MAJOR.MINOR.PATCH), what does the PATCH number indicate?",
+            "correctAnswer": "Bug fixes that correct errors in a compatible way.",
+            "falseAnswers": [
+              "New features.",
+              "Breaking changes.",
+              "Performance improvements."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Git",
+        "type": {
+          "singleAnswer": {
+            "question": "Što predstavlja treći broj (PATCH) u Semantic Versioningu?",
+            "correctAnswer": "Treći broj (PATCH) predstavlja broj zakrpa (patches) (unutar dane manje promjene), koje su sigurni popravci bug-ova (grašaka) i ispravljaju greške na kompatibilan način.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U Semantic Versioningu (MAJOR.MINOR.PATCH), što označava PATCH broj?",
+            "correctAnswer": "Popravci bugova koji ispravljaju greške na kompatibilan način.",
+            "falseAnswers": [
+              "Nove značajke.",
+              "Prekidne značajke.",
+              "Poboljšanja performansi."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  }
+]

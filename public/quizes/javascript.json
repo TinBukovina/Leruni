@@ -1,26 +1,3375 @@
 [
   {
     "id": "1",
-    "topic": "bazne tehnologije web-a",
-    "question": "Koje su tri bazne tehnologije na web-u?",
-    "answer": "HTML, CSS i JavaScript.",
-    "sub_questions": [],
-    "has_been_drawn": "false"
+    "lang": {
+      "en": {
+        "topic": "Basics",
+        "type": {
+          "singleAnswer": {
+            "question": "What are the three languages that browsers understand (basic technologies)?",
+            "correctAnswer": "HTML, CSS, and JavaScript.",
+            "isEnumeratable": true,
+            "answerItems": ["HTML", "CSS", "JavaScript"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which three languages are considered the basic technologies that browsers understand?",
+            "correctAnswer": "HTML, CSS, and JavaScript.",
+            "falseAnswers": [
+              "Python, Ruby, and PHP.",
+              "Java, C++, and C#.",
+              "SQL, XML, and JSON."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "bazne tehnologije web-a",
+        "type": {
+          "singleAnswer": {
+            "question": "Koje su tri jezika koja razumiju preglednici (bazne tehnologije)?",
+            "correctAnswer": "HTML, CSS i JavaScript.",
+            "isEnumeratable": true,
+            "answerItems": ["HTML", "CSS", "JavaScript"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja tri jezika se smatraju baznim tehnologijama koje preglednici razumiju?",
+            "correctAnswer": "HTML, CSS i JavaScript.",
+            "falseAnswers": [
+              "Python, Ruby i PHP.",
+              "Java, C++ i C#.",
+              "SQL, XML i JSON."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
   },
   {
     "id": "2",
-    "topic": "pravila imenovanja varijabli",
-    "question": "Koja su pravila imenovanja varijabli u JavaScript-u?",
-    "answer": "Koristi se cammelCase konvencija, imena varijabli ne mogu počinjati s brojevima, varijable smiju sadržavati: slova, brojeve, donje crtice i dolar znak. Također varijable ne mogu imati rezervirana imena.",
-    "sub_questions": [],
-    "has_been_drawn": "false"
+    "lang": {
+      "en": {
+        "topic": "Variable naming rules",
+        "type": {
+          "singleAnswer": {
+            "question": "What are the variable naming rules in JavaScript?",
+            "correctAnswer": "camelCase convention is used, variable names cannot start with numbers, variables may contain: letters, numbers, underscores, and dollar signs. Also, variables cannot have reserved names.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Uses camelCase convention",
+              "Cannot start with numbers",
+              "May contain letters, numbers, underscores, and dollar signs",
+              "Cannot use reserved names"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT a valid variable name in JavaScript?",
+            "correctAnswer": "1variableName",
+            "falseAnswers": [
+              "variableName1",
+              "`_variableName`",
+              "$variableName"
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "pravila imenovanja varijabli",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja su pravila imenovanja varijabli u JavaScript-u?",
+            "correctAnswer": "Koristi se cammelCase konvencija, imena varijabli ne mogu počinjati s brojevima, varijable smiju sadržavati: slova, brojeve, donje crtice i dolar znak. Također varijable ne mogu imati rezervirana imena.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Koristi se camelCase konvencija",
+              "Ne mogu počinjati s brojevima",
+              "Smiju sadržavati: slova, brojeve, donje crtice i dolar znak",
+              "Ne mogu imati rezervirana imena"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih NIJE valjano ime varijable u JavaScript-u?",
+            "correctAnswer": "1imeVarijable",
+            "falseAnswers": [
+              "imeVarijable1",
+              "`_imeVarijable`",
+              "$imeVarijable"
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
   },
   {
     "id": "3",
-    "topic": "vrijednosti i varijable",
-    "question": "Što je to drugačije u JavaScript-u što se tiče vrijednosti, varijabli i njihovih tipova?",
-    "answer": "U JavaScript vrijednosti su te koje imaju tip, a ne varijable kao u drugim programskim jezicima.",
-    "sub_questions": [],
-    "has_been_drawn": "false"
+    "lang": {
+      "en": {
+        "topic": "Values and variables",
+        "type": {
+          "singleAnswer": {
+            "question": "What is different in JavaScript regarding values, variables, and their types?",
+            "correctAnswer": "In JavaScript, values have types, not variables, unlike in other programming languages.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a key characteristic of JavaScript regarding types?",
+            "correctAnswer": "Values have types, not variables.",
+            "falseAnswers": [
+              "Variables must be explicitly typed.",
+              "JavaScript is a statically-typed language.",
+              "Types are assigned to variables at compile-time."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "vrijednosti i varijable",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to drugačije u JavaScript-u što se tiče vrijednosti, varijabli i njihovih tipova?",
+            "correctAnswer": "U JavaScript vrijednosti su te koje imaju tip, a ne varijable kao u drugim programskim jezicima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je ključna karakteristika JavaScripta u vezi tipova?",
+            "correctAnswer": "Vrijednosti imaju tipove, a ne varijable.",
+            "falseAnswers": [
+              "Varijable moraju biti eksplicitno tipizirane.",
+              "JavaScript je statički tipiziran jezik.",
+              "Tipovi se dodjeljuju varijablama u vrijeme kompilacije."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "4",
+    "lang": {
+      "en": {
+        "topic": "Value types",
+        "type": {
+          "singleAnswer": {
+            "question": "What types of values exist in JavaScript?",
+            "correctAnswer": "Number, string, boolean, undefined, null, symbol, bigint, object.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Number",
+              "String",
+              "Boolean",
+              "Undefined",
+              "Null",
+              "Symbol",
+              "BigInt",
+              "Object"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT a primitive data type in JavaScript?",
+            "correctAnswer": "Array.",
+            "falseAnswers": ["String.", "Boolean.", "Symbol."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "tipovi vrijednosti",
+        "type": {
+          "singleAnswer": {
+            "question": "Koji sve tipovi vrijednosti postoje u JavaScript-u?",
+            "correctAnswer": "Number, string, boolean, undefined, null, symbol, bigint, objekt.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Number",
+              "String",
+              "Boolean",
+              "Undefined",
+              "Null",
+              "Symbol",
+              "BigInt",
+              "Object"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih NIJE primitivni tip podataka u JavaScript-u?",
+            "correctAnswer": "Array.",
+            "falseAnswers": ["String.", "Boolean.", "Symbol."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "5",
+    "lang": {
+      "en": {
+        "topic": "Reference types",
+        "type": {
+          "singleAnswer": {
+            "question": "By what are all reference data types represented in JavaScript?",
+            "correctAnswer": "Objects.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How are all reference data types represented in JavaScript?",
+            "correctAnswer": "As objects.",
+            "falseAnswers": [
+              "As primitive values.",
+              "As functions.",
+              "As arrays only."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "referentni tipovi u JavaScript-u",
+        "type": {
+          "singleAnswer": {
+            "question": "Čime se predstavljaju svi referentni tipovi podatak u JavaScript-u?",
+            "correctAnswer": "Objektima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako su svi referentni tipovi podataka predstavljeni u JavaScript-u?",
+            "correctAnswer": "Kao objekti.",
+            "falseAnswers": [
+              "Kao primitivne vrijednosti.",
+              "Kao funkcije.",
+              "Samo kao nizovi."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "6",
+    "lang": {
+      "en": {
+        "topic": "Variable declaration",
+        "type": {
+          "singleAnswer": {
+            "question": "In what ways can we declare variables in JavaScript?",
+            "correctAnswer": "Let, var, const.",
+            "isEnumeratable": true,
+            "answerItems": ["Let", "Var", "Const"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT a keyword for declaring variables in JavaScript?",
+            "correctAnswer": "def.",
+            "falseAnswers": ["let.", "var.", "const."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "deklaracija varijabli",
+        "type": {
+          "singleAnswer": {
+            "question": "Na koje načine možemo deklarirati varijable u JavaScript-u?",
+            "correctAnswer": "Let, var, const.",
+            "isEnumeratable": true,
+            "answerItems": ["Let", "Var", "Const"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih NIJE ključna riječ za deklariranje varijabli u JavaScript-u?",
+            "correctAnswer": "def.",
+            "falseAnswers": ["let.", "var.", "const."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "7",
+    "lang": {
+      "en": {
+        "topic": "var declaration",
+        "type": {
+          "singleAnswer": {
+            "question": "How does the `var` declaration differ from the `let` declaration in JavaScript?",
+            "correctAnswer": "The `var` declaration is function-scoped and undergoes hoisting.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a key difference between `var` and `let` declarations?",
+            "correctAnswer": "`var` is function-scoped and hoisted, while `let` is block-scoped and not hoisted in the same way.",
+            "falseAnswers": [
+              "`let` is function-scoped and hoisted, while `var` is block-scoped.",
+              "`var` can be reassigned, while `let` cannot.",
+              "`let` is used for constants, while `var` is for variables."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "deklaracija var",
+        "type": {
+          "singleAnswer": {
+            "question": "U čemu se razliku deklaracija var od deklaracije let u JavaScript-u?",
+            "correctAnswer": "Var deklaracije je function-scoped i nad njom se vrši proces hoisting-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je ključna razlika između `var` i `let` deklaracija?",
+            "correctAnswer": "`var` je function-scoped i hoisted, dok je `let` block-scoped i ne prolazi hoisting na isti način.",
+            "falseAnswers": [
+              "`let` je function-scoped i hoisted, dok je `var` block-scoped.",
+              "`var` se može ponovno dodijeliti, dok `let` ne može.",
+              "`let` se koristi za konstante, dok se `var` koristi za varijable."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "8",
+    "lang": {
+      "en": {
+        "topic": "Template literals",
+        "type": {
+          "singleAnswer": {
+            "question": "What are template literals in the context of JavaScript?",
+            "correctAnswer": "Ways of writing strings that allow for more flexible text formatting and easier insertion of variables into them.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What do template literals in JavaScript allow?",
+            "correctAnswer": "Easier string formatting and variable interpolation.",
+            "falseAnswers": [
+              "Defining multi-line comments.",
+              "Creating new HTML elements.",
+              "Performing mathematical calculations."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "tamplate literals",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to template literals u kontekstu JavaScript-a?",
+            "correctAnswer": "Načini pisanja stringova koji omogućava fleksiblinije formatiranje teksta i jednostavnije umetanje varijabli u njega.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što omogućuju template literali u JavaScript-u?",
+            "correctAnswer": "Lakše formatiranje stringova i interpolaciju varijabli.",
+            "falseAnswers": [
+              "Definiranje višerednih komentara.",
+              "Kreiranje novih HTML elemenata.",
+              "Izvođenje matematičkih izračuna."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "9",
+    "lang": {
+      "en": {
+        "topic": "Type conversion",
+        "type": {
+          "singleAnswer": {
+            "question": "What is type conversion in the context of JavaScript?",
+            "correctAnswer": "The process in which we manually change one data type to another using functions/methods.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is 'type conversion' in JavaScript?",
+            "correctAnswer": "Manually changing a data type to another.",
+            "falseAnswers": [
+              "JavaScript automatically changing a data type.",
+              "Checking the type of a variable.",
+              "Defining a new data type."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "type conversion",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to type conversion u kontekstu JavaScript-a?",
+            "correctAnswer": "Proces u kojem mi ručno mijenjamo jedan tip podataka u drugi preko nekih funkcija/metoda.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je 'type conversion' u JavaScript-u?",
+            "correctAnswer": "Ručna promjena tipa podataka u drugi.",
+            "falseAnswers": [
+              "JavaScript automatski mijenja tip podataka.",
+              "Provjera tipa varijable.",
+              "Definiranje novog tipa podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "10",
+    "lang": {
+      "en": {
+        "topic": "Type coercion",
+        "type": {
+          "singleAnswer": {
+            "question": "What is type coercion in the context of JavaScript?",
+            "correctAnswer": "The process in which JavaScript automatically converts one data type to another.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is 'type coercion' in JavaScript?",
+            "correctAnswer": "JavaScript automatically converting a data type to another.",
+            "falseAnswers": [
+              "Manually changing a data type to another.",
+              "Checking the type of a variable.",
+              "Defining a new data type."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "type coercion",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to type coercion u kontekstu JavaScript-a?",
+            "correctAnswer": "Proces u kojem JavaScript automatski pretvara jedan tip podataka u drugi.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je 'type coercion' u JavaScript-u?",
+            "correctAnswer": "JavaScript automatski pretvara jedan tip podataka u drugi.",
+            "falseAnswers": [
+              "Ručna promjena tipa podataka u drugi.",
+              "Provjera tipa varijable.",
+              "Definiranje novog tipa podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "11",
+    "lang": {
+      "en": {
+        "topic": "Type coercion",
+        "type": {
+          "singleAnswer": {
+            "question": "When does type coercion happen?",
+            "correctAnswer": "It happens every time JavaScript performs an operation on two different values.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "When does type coercion occur in JavaScript?",
+            "correctAnswer": "When JavaScript performs an operation on two different data types.",
+            "falseAnswers": [
+              "Only when explicitly requested by the developer.",
+              "Only during variable declaration.",
+              "Only when using the `typeof` operator."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "type coercion",
+        "type": {
+          "singleAnswer": {
+            "question": "Kada se događa type corecion?",
+            "correctAnswer": "Događa se svaki put kada JavaScript odradi operaciju nad dvije različite vrijednosti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kada dolazi do type coerciona u JavaScript-u?",
+            "correctAnswer": "Kada JavaScript izvodi operaciju nad dva različita tipa podataka.",
+            "falseAnswers": [
+              "Samo kada to eksplicitno zahtijeva programer.",
+              "Samo tijekom deklaracije varijable.",
+              "Samo pri korištenju `typeof` operatora."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "12",
+    "lang": {
+      "en": {
+        "topic": "Strict mode",
+        "type": {
+          "singleAnswer": {
+            "question": "What is strict mode in JavaScript and what is its purpose?",
+            "correctAnswer": "Strict mode enables writing safer code by helping developers easily spot errors (typos, using undefined variables). It was introduced in ES5.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the main purpose of 'strict mode' in JavaScript?",
+            "correctAnswer": "To enable writing safer code and help spot errors.",
+            "falseAnswers": [
+              "To improve code performance.",
+              "To allow the use of future JavaScript features.",
+              "To prevent type coercion."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "strict mode",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je strict mode u JavaScript-u i čemu služi?",
+            "correctAnswer": "Strict mode omogućuje pisanje sigurnijeg koda tako što pomaže programerima da lakše uoče greške (krivo pisanje imena, korištenje nedefiniranih varijabli). Uveden je u ES5.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je glavna svrha 'strict mode' u JavaScript-u?",
+            "correctAnswer": "Omogućavanje pisanja sigurnijeg koda i pomoć pri uočavanju grešaka.",
+            "falseAnswers": [
+              "Poboljšanje performansi koda.",
+              "Omogućavanje korištenja budućih JavaScript značajki.",
+              "Sprječavanje type coerciona."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "13",
+    "lang": {
+      "en": {
+        "topic": "Functions",
+        "type": {
+          "singleAnswer": {
+            "question": "How are functions treated in JavaScript?",
+            "correctAnswer": "They are treated as values (first-class-citizens).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How are functions treated in JavaScript?",
+            "correctAnswer": "As first-class citizens (values).",
+            "falseAnswers": [
+              "As special keywords.",
+              "As separate entities from values.",
+              "As compile-time constructs only."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "funkcije",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se tretiraju funkcije u JavaScript-u?",
+            "correctAnswer": "Tretiraju se kao vrijednosti (first-class-citizens).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako se funkcije tretiraju u JavaScript-u?",
+            "correctAnswer": "Kao first-class citizens (vrijednosti).",
+            "falseAnswers": [
+              "Kao posebne ključne riječi.",
+              "Kao zasebni entiteti od vrijednosti.",
+              "Samo kao konstrukti u vrijeme kompilacije."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "14",
+    "lang": {
+      "en": {
+        "topic": "Functions, first-class-citizen",
+        "type": {
+          "singleAnswer": {
+            "question": "What does it mean that functions are first-class-citizens?",
+            "correctAnswer": "It means that functions can be stored in variables, passed as arguments to other functions, returned from functions, or both.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Stored in variables",
+              "Passed as arguments to other functions",
+              "Returned from functions",
+              "Both passed as arguments and returned"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is possible because functions are first-class citizens?",
+            "correctAnswer": "Passing a function as an argument to another function.",
+            "falseAnswers": [
+              "Defining a function using the `function` keyword.",
+              "Calling a function by its name.",
+              "Using a function to perform a calculation."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "funkcije, first-class-citizen",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači da su funkcije first-class-citizen?",
+            "correctAnswer": "To znači da funkcije možemo spremati u varijable, predavati ih kao argument u druge funkcije, vraćati ih iz funkcija ili oboje.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Spremati u varijable",
+              "Predavati ih kao argument u druge funkcije",
+              "Vraćati ih iz funkcija",
+              "I predavati ih kao argumente i vraćati"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih je moguće zato što su funkcije first-class citizens?",
+            "correctAnswer": "Prosljeđivanje funkcije kao argumenta drugoj funkciji.",
+            "falseAnswers": [
+              "Definiranje funkcije pomoću ključne riječi `function`.",
+              "Pozivanje funkcije po imenu.",
+              "Korištenje funkcije za izvođenje izračuna."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "15",
+    "lang": {
+      "en": {
+        "topic": "Functions, higher-order",
+        "type": {
+          "singleAnswer": {
+            "question": "What are higher-order functions?",
+            "correctAnswer": "They are functions that receive another function as an argument, return a function, or both.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What defines a higher-order function?",
+            "correctAnswer": "It takes a function as an argument or returns a function (or both).",
+            "falseAnswers": [
+              "It is a function that calls itself recursively.",
+              "It is a function used to define other functions.",
+              "It is a function that operates on objects."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "funkcije, higher-order",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su higher-order funkcije?",
+            "correctAnswer": "To su funkcije koje primaju drugu funkciju kao argument, vraćaju funkciju ili oboje.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što definira higher-order funkciju?",
+            "correctAnswer": "Prima funkciju kao argument ili vraća funkciju (ili oboje).",
+            "falseAnswers": [
+              "To je funkcija koja poziva samu sebe rekurzivno.",
+              "To je funkcija koja se koristi za definiranje drugih funkcija.",
+              "To je funkcija koja radi s objektima."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "16",
+    "lang": {
+      "en": {
+        "topic": "Defining functions",
+        "type": {
+          "singleAnswer": {
+            "question": "In what ways can functions be defined in JavaScript?",
+            "correctAnswer": "Function declaration: function name(){}, function expression: const name = function(){}, and arrow function: ()=>{}",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Function declaration: function name(){}",
+              "Function expression: const name = function(){}",
+              "Arrow function: ()=>{}",
+              "Named function expression: const name = function funcName(){}"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT a way to define a function in JavaScript?",
+            "correctAnswer": "function => {}",
+            "falseAnswers": [
+              "function name(){}",
+              "const name = function(){}",
+              "() => {}"
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "definiranje funkcija",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se mogu definirati funkcije u JavaScript-u?",
+            "correctAnswer": "Function declaration: function name(){}, function expression: const name = function(){}, i arrow function: ()=>{}",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Function declaration: function name(){}",
+              "Function expression: const name = function(){}",
+              "Arrow function: ()=>{}",
+              "Named function expression: const name = function funcName(){}"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih NIJE način definiranja funkcije u JavaScript-u?",
+            "correctAnswer": "function => {}",
+            "falseAnswers": [
+              "function name(){}",
+              "const name = function(){}",
+              "() => {}"
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "17",
+    "lang": {
+      "en": {
+        "topic": "Closure",
+        "type": {
+          "singleAnswer": {
+            "question": "What is closure in JavaScript?",
+            "correctAnswer": "Closure is a concept that allows a function to 'remember' and access variables from its outer scope, even after the outer function has finished executing. It works by attaching the Variable Environment of the parent function to the function when the function is created.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does 'closure' refer to in JavaScript?",
+            "correctAnswer": "A function remembering and accessing variables from its outer scope.",
+            "falseAnswers": [
+              "A way to declare variables globally.",
+              "A method for handling asynchronous operations.",
+              "A type of loop for iterating over arrays."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "closure",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je closure u JavaScript-u?",
+            "correctAnswer": "Closure je koncept koji omogužava da funkcija 'zapamti' i pristupi varijablama iz vanjskog opsega, čak i nakon što je vanjska funkcija završila izvršavanje. Radi na način da Variable Enviroment roditeljske funkcije prikvačen na funkciju u trenutku kada je funkcija kreirana.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Na što se odnosi 'closure' u JavaScript-u?",
+            "correctAnswer": "Funkcija koja pamti i pristupa varijablama iz svog vanjskog opsega.",
+            "falseAnswers": [
+              "Način globalnog deklariranja varijabli.",
+              "Metoda za rukovanje asinkronim operacijama.",
+              "Vrsta petlje za iteriranje kroz nizove."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "18",
+    "lang": {
+      "en": {
+        "topic": "slice",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `.slice()` method do, what does it return, can it be used on strings, and how is it used?",
+            "correctAnswer": "It is used to extract parts of an array. It returns a new array without changing the original and can be used on strings. Usage: array.slice(start, end).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is true about the `.slice()` method?",
+            "correctAnswer": "It extracts a portion of an array and returns a new array.",
+            "falseAnswers": [
+              "It modifies the original array.",
+              "It is used to add or remove elements from an array.",
+              "It can only be used on numbers."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "slice",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi metoda .slice(), šta vraća, dali se može koristiti nad stringovima i navedi kako se koristi?",
+            "correctAnswer": "Koristi se za izvlačenje dijelova niza. Vraća novi niz bez promjene orginalnog i može se koristiti nad stringovima, koristi se: array.slice(start, end).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je istina o metodi `.slice()`?",
+            "correctAnswer": "Izvlači dio niza i vraća novi niz.",
+            "falseAnswers": [
+              "Mijenja izvorni niz.",
+              "Koristi se za dodavanje ili uklanjanje elemenata iz niza.",
+              "Može se koristiti samo na brojevima."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "19",
+    "lang": {
+      "en": {
+        "topic": "splice",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `.splice()` method do?",
+            "correctAnswer": "It is used to delete elements (most often), add elements, or replace them. It modifies the original array and returns the deleted elements. It cannot be used on strings because they are immutable. Usage: array.splice(start, deleteCount, itemToAdd1, itemToAdd2, ...).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is true about the `.splice()` method?",
+            "correctAnswer": "It modifies the original array by adding, removing, or replacing elements.",
+            "falseAnswers": [
+              "It returns a new array without changing the original.",
+              "It can be used on strings.",
+              "It is primarily used for sorting arrays."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "splice",
+        "type": {
+          "singleAnswer": {
+            "question": "Čemu služi metoda .splice()?",
+            "correctAnswer": "Koristi se za brisanje elemenata (najčešće), dodavanje elemenata ili zamjenu. Mijenja orginalni niz i vraća izbrisane elemente, ne može se koristiti nad stringovima jer su oni nepromijenjivi, koristi se: array.splice(start, deleteCount, itemToAdd1, itemToAdd2, ...).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je istina o metodi `.splice()`?",
+            "correctAnswer": "Mijenja izvorni niz dodavanjem, uklanjanjem ili zamjenom elemenata.",
+            "falseAnswers": [
+              "Vraća novi niz bez promjene izvornog.",
+              "Može se koristiti na stringovima.",
+              "Primarno se koristi za sortiranje nizova."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "20",
+    "lang": {
+      "en": {
+        "topic": "Objects",
+        "type": {
+          "singleAnswer": {
+            "question": "What are objects in JavaScript and in what ways can we access their values?",
+            "correctAnswer": "Objects are data structures that store data in key-value pairs. Their values are accessed using: dot notation (object.property) or bracket notation (object[\"property\"]).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Dot notation (object.property)",
+              "Bracket notation (object[\"property\"])"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "How can you access the value of a property in a JavaScript object?",
+            "correctAnswer": "Using dot notation or bracket notation.",
+            "falseAnswers": [
+              "Using the `typeof` operator.",
+              "Using the `new` keyword.",
+              "Using the `slice()` method."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "objekti",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su objekti u JavaScriptu i na koje načine možemo pristupati njihovim vrijendostima?",
+            "correctAnswer": "Objekti su struktura podataka koja pohranjuje podatke u obliku ključ-vrijednost. Njihovim vrijednostima se pristupa: točkom (dot notation, objekt.svojstvo) ili zagradama ([], bracket notation, objekt[\"svojstvo\"])",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Točkom (dot notation, objekt.svojstvo)",
+              "Zagradama (bracket notation, objekt[\"svojstvo\"])"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako možete pristupiti vrijednosti svojstva u JavaScript objektu?",
+            "correctAnswer": "Korištenjem dot notation ili bracket notation.",
+            "falseAnswers": [
+              "Korištenjem `typeof` operatora.",
+              "Korištenjem ključne riječi `new`.",
+              "Korištenjem metode `slice()`."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "21",
+    "lang": {
+      "en": {
+        "topic": "Creating objects",
+        "type": {
+          "singleAnswer": {
+            "question": "In what ways can we create objects in JavaScript?",
+            "correctAnswer": "new Object(), Object.create(), or object literal {}.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "new Object()",
+              "Object.create()",
+              "Object literal {}"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT a way to create an object in JavaScript?",
+            "correctAnswer": "create Object().",
+            "falseAnswers": ["new Object().", "Object.create().", "{}"]
+          }
+        }
+      },
+      "hr": {
+        "topic": "kreiranje objektata",
+        "type": {
+          "singleAnswer": {
+            "question": "Na koje načine možemo kreirati objekte u JavaScript-u?",
+            "correctAnswer": "new Object(), Object.create() ili object literal {}",
+            "isEnumeratable": true,
+            "answerItems": [
+              "new Object()",
+              "Object.create()",
+              "Object literal {}"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih NIJE način kreiranja objekta u JavaScript-u?",
+            "correctAnswer": "create Object().",
+            "falseAnswers": ["new Object().", "Object.create().", "{}"]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "22",
+    "lang": {
+      "en": {
+        "topic": "DOM",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the DOM?",
+            "correctAnswer": "The DOM (Document Object Model) is a programming interface (API) for HTML and XML documents that represents the structure of a web page as a hierarchical data structure (tree data structure). It allows JavaScript (and other programming languages) to manipulate the web page.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the DOM (Document Object Model)?",
+            "correctAnswer": "A programming interface for HTML and XML documents.",
+            "falseAnswers": [
+              "A database for storing web content.",
+              "A styling language for web pages.",
+              "A server-side scripting language."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "DOM",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je DOM?",
+            "correctAnswer": "DOM (Document Object Model) je programsko sučelje (API) za HTML i XML dokumente koji predstavlja strukturu web stranice u obliku hijerarhijske strukture podataka (strukura podataka stablo). Omogućuje JavaScript-u (i drugim programskim jezicima) da manipulira web stranicom.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je DOM (Document Object Model)?",
+            "correctAnswer": "Programsko sučelje za HTML i XML dokumente.",
+            "falseAnswers": [
+              "Baza podataka za pohranu web sadržaja.",
+              "Jezik za stiliziranje web stranica.",
+              "Skriptni jezik na strani servera."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "23",
+    "lang": {
+      "en": {
+        "topic": "Document object",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the document object?",
+            "correctAnswer": "A specific object in JS that serves as an entry point to the DOM. It represents the entire HTML page loaded in the browser and is available through window.document or just document.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the role of the `document` object in JavaScript?",
+            "correctAnswer": "It serves as the entry point to the DOM and represents the loaded HTML page.",
+            "falseAnswers": [
+              "It represents the browser window.",
+              "It is used for making HTTP requests.",
+              "It stores all global variables."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "document objekt",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je document objekt?",
+            "correctAnswer": "Specifičan objekt u JS-u koji služi kao ulazna točka u DOM. Predstavlja cijelu HTML stranicu koja je učitana u preglednik i dostupan je kroz window.document ili samo document.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je uloga `document` objekta u JavaScript-u?",
+            "correctAnswer": "Služi kao ulazna točka u DOM i predstavlja učitanu HTML stranicu.",
+            "falseAnswers": [
+              "Predstavlja prozor preglednika.",
+              "Koristi se za slanje HTTP zahtjeva.",
+              "Pohranjuje sve globalne varijable."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "24",
+    "lang": {
+      "en": {
+        "topic": "Events",
+        "type": {
+          "singleAnswer": {
+            "question": "What are events in JavaScript?",
+            "correctAnswer": "They represent actions or occurrences in the browser that JavaScript can react to. They allow us to respond to user interactions and other changes on the web page.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What do 'events' represent in JavaScript?",
+            "correctAnswer": "Actions or occurrences in the browser that JavaScript can react to.",
+            "falseAnswers": [
+              "Errors that occur during script execution.",
+              "Functions that are executed automatically.",
+              "Data structures for storing user input."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "events (događaji)",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su događaji (events) u JavaScript-u?",
+            "correctAnswer": "Predstavljaju akcije ili pojave u pregledniku, na koje JavaScript može reagirati. Omogućavaju da reagiramo na interakcije korisnika i druge promjene na web stranici.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što predstavljaju 'događaji' (events) u JavaScript-u?",
+            "correctAnswer": "Akcije ili pojave u pregledniku na koje JavaScript može reagirati.",
+            "falseAnswers": [
+              "Greške koje se javljaju tijekom izvršavanja skripte.",
+              "Funkcije koje se automatski izvršavaju.",
+              "Strukture podataka za pohranu korisničkog unosa."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "25",
+    "lang": {
+      "en": {
+        "topic": "Events",
+        "type": {
+          "singleAnswer": {
+            "question": "What are event listeners?",
+            "correctAnswer": "Functions that 'listen' for specific events on a web page and execute code when those events occur.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the role of event listeners?",
+            "correctAnswer": "To wait for specific events to occur and execute a function.",
+            "falseAnswers": [
+              "To trigger events programmatically.",
+              "To prevent the default action of an event.",
+              "To store event data."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "events (događaji)",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su event listeneri?",
+            "correctAnswer": "Funkcije koje 'osluškuju' određene događaje na web stranici i izvršavaju kod kada se ti događaji dogode.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je uloga event listenera?",
+            "correctAnswer": "Čekanje da se određeni događaji dogode i izvršavanje funkcije.",
+            "falseAnswers": [
+              "Programsko okidanje događaja.",
+              "Sprječavanje zadane akcije događaja.",
+              "Pohrana podataka o događaju."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "26",
+    "lang": {
+      "en": {
+        "topic": "Events",
+        "type": {
+          "singleAnswer": {
+            "question": "What are event handlers?",
+            "correctAnswer": "A function that is executed in response to an event.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is an event handler?",
+            "correctAnswer": "A function that runs when an event occurs.",
+            "falseAnswers": [
+              "An object that stores event information.",
+              "A method for adding event listeners.",
+              "A property that prevents event propagation."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "events (događaji)",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su event handleri?",
+            "correctAnswer": "Funkcija koja se izrvšava kao odgovor na neki događaj.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je event handler?",
+            "correctAnswer": "Funkcija koja se izvršava kada se dogodi događaj.",
+            "falseAnswers": [
+              "Objekt koji pohranjuje informacije o događaju.",
+              "Metoda za dodavanje event listenera.",
+              "Svojstvo koje sprječava propagaciju događaja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "27",
+    "lang": {
+      "en": {
+        "topic": "Event propagation",
+        "type": {
+          "singleAnswer": {
+            "question": "What is event propagation and what phases does it include?",
+            "correctAnswer": "Event propagation is the process of an event moving through the DOM tree. It includes three phases: capturing phase (from root to the target element), target phase (on the target element), and bubbling phase (back from the target element towards the root).",
+            "isEnumeratable": true,
+            "answerItems": ["Capturing phase", "Target phase", "Bubbling phase"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a phase of event propagation in the DOM?",
+            "correctAnswer": "Capturing phase.",
+            "falseAnswers": [
+              "Handling phase.",
+              "Execution phase.",
+              "Listening phase."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "event propagation (propagacija događaja)",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je propagacija događaja (event propagation) i koje faze uključjuje?",
+            "correctAnswer": "Propagacija događaja je proces kretanja događaja kroz DOM stablo. Uključuje tri faze: capturing phase (od root-a do ciljanog elementa), target phase (na ciljanom elementu) i bubbling phase (povratak od ciljanog elementa prema root-u).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Capturing phase (od root-a do ciljanog elementa)",
+              "Target phase (na ciljanom elementu)",
+              "Bubbling phase (povratak od ciljanog elementa prema root-u)"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja od sljedećih je faza propagacije događaja u DOM-u?",
+            "correctAnswer": "Capturing phase.",
+            "falseAnswers": [
+              "Handling phase.",
+              "Execution phase.",
+              "Listening phase."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "28",
+    "lang": {
+      "en": {
+        "topic": "Event propagation",
+        "type": {
+          "singleAnswer": {
+            "question": "By default, in which phases can we listen for events (register event listeners) and how can we change this?",
+            "correctAnswer": "Initially in the target and bubbling phases, but we can set event listeners to listen in the capturing phase by passing the third parameter as true or an object {capture: true} because it is initially false.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "By default, in which phases of event propagation do event listeners fire?",
+            "correctAnswer": "Target and Bubbling phases.",
+            "falseAnswers": [
+              "Capturing phase only.",
+              "Target phase only.",
+              "Bubbling phase only."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "event propagation (propagacija događaja)",
+        "type": {
+          "singleAnswer": {
+            "question": "Po default-u, u kojim fazama možemo osluškivati događaje (registrirati event listnere) i kako to možemo promjeniti?",
+            "correctAnswer": "Inicijanlno u target i bubbling fazi, ali možemo podesiti event listenere da osluškuju i u capturing fazi, ali moramo predati treći parametar true ili objekt {capture: true} jer je inicialno false.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Po zadanim postavkama, u kojim fazama propagacije događaja se okidaju event listeneri?",
+            "correctAnswer": "Target i Bubbling faze.",
+            "falseAnswers": [
+              "Samo Capturing faza.",
+              "Samo Target faza.",
+              "Samo Bubbling faza."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "29",
+    "lang": {
+      "en": {
+        "topic": "Event propagation",
+        "type": {
+          "singleAnswer": {
+            "question": "Do events stop propagating after we have reacted to them?",
+            "correctAnswer": "No, by default, the event will propagate through all three phases unless we stop it.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "After an event listener handles an event, does the event propagation automatically stop?",
+            "correctAnswer": "No, it continues unless explicitly stopped.",
+            "falseAnswers": [
+              "Yes, propagation stops automatically.",
+              "Yes, but only in strict mode.",
+              "It depends on the type of event."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "event propagation (propagacija događaja)",
+        "type": {
+          "singleAnswer": {
+            "question": "Dali događaji staju sa propagacijom nakon što smo reagirali na njega?",
+            "correctAnswer": "Ne, po defaultu događaj će propagirati kroz sve tri faze ako ga ne zaustavimo.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Nakon što event listener obradi događaj, prestaje li automatski propagacija događaja?",
+            "correctAnswer": "Ne, nastavlja se osim ako se eksplicitno ne zaustavi.",
+            "falseAnswers": [
+              "Da, propagacija se automatski zaustavlja.",
+              "Da, ali samo u strict mode.",
+              "Ovisi o vrsti događaja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "30",
+    "lang": {
+      "en": {
+        "topic": "Event propagation",
+        "type": {
+          "singleAnswer": {
+            "question": "How can we stop further event propagation, i.e., prevent the event from propagating further after it has been handled?",
+            "correctAnswer": "We can prevent it by calling the `.stopPropagation()` method on the event object within the event listener method.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which method is used to stop the propagation of an event?",
+            "correctAnswer": "event.stopPropagation().",
+            "falseAnswers": [
+              "event.preventDefault().",
+              "event.stopImmediatePropagation().",
+              "event.cancelBubble = true."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "event propagation (propagacija događaja)",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako možemo zaustaviti daljnju propagaciju događaja, odnosno kada se na događaj odreagira da ne propagira dalje?",
+            "correctAnswer": "Možemo spriječiti pozivom metode .stopPropagation() na event objekt unutar event listener metode.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja se metoda koristi za zaustavljanje propagacije događaja?",
+            "correctAnswer": "event.stopPropagation().",
+            "falseAnswers": [
+              "event.preventDefault().",
+              "event.stopImmediatePropagation().",
+              "event.cancelBubble = true."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "31",
+    "lang": {
+      "en": {
+        "topic": "Event methods",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference between `e.target` and `e.currentTarget`?",
+            "correctAnswer": "`e.target` represents the element that caused the event, while `e.currentTarget` represents the element that caught that event.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In an event handler, what does `e.target` refer to?",
+            "correctAnswer": "The element that originated the event.",
+            "falseAnswers": [
+              "The element to which the event listener is attached.",
+              "The parent element of the target.",
+              "The event object itself."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "event metode",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika između e.target i e.currentTarget?",
+            "correctAnswer": "e.target predstavlja element koji je prouzrokovao događaj, dok e.currentTarget predstavlja element koji je ulovio taj događaj.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U event handleru, na što se odnosi `e.target`?",
+            "correctAnswer": "Element koji je pokrenuo događaj.",
+            "falseAnswers": [
+              "Element na koji je priključen event listener.",
+              "Roditeljski element targeta.",
+              "Sam objekt događaja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "32",
+    "lang": {
+      "en": {
+        "topic": "Loading JS script",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference between the `defer` and `async` attributes when loading a JavaScript script?",
+            "correctAnswer": "`async` allows asynchronous loading of the JS file without blocking HTML parsing, but executes the script as soon as it's ready. `defer` also allows asynchronous loading, but executes the script only after the entire HTML has been parsed, maintaining script order.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which attribute ensures that a JavaScript script is executed only after the HTML document has been fully parsed?",
+            "correctAnswer": "defer.",
+            "falseAnswers": ["async.", "src.", "type."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "učitavanje JS skripte",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika između defer i async atributa kod učitavanja JavaScript skripte?",
+            "correctAnswer": "Async omogućava asinkrono učitavanje JS datoteke bez blokiranja parsiranja HTML-a, ali izvršava skriptu čim je spremna. Defer omogućava asinkrono učitavanje, ali izvršava skriptu tek kad je cijeli HTML parsiran, održavajući redoslijed skripti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji atribut osigurava da se JavaScript skripta izvrši tek nakon što je HTML dokument u potpunosti parsiran?",
+            "correctAnswer": "defer.",
+            "falseAnswers": ["async.", "src.", "type."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "33",
+    "lang": {
+      "en": {
+        "topic": "JIT compilation",
+        "type": {
+          "singleAnswer": {
+            "question": "What is Just-In-Time (JIT) compilation in the context of JavaScript?",
+            "correctAnswer": "JIT is a hybrid approach that combines the benefits of interpretation and compilation. Initially, the code is interpreted, but during program execution, optimizations are performed to speed up execution by translating frequently used parts into machine code.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is Just-In-Time (JIT) compilation in JavaScript?",
+            "correctAnswer": "A hybrid approach combining interpretation and compilation to optimize code execution.",
+            "falseAnswers": [
+              "A process of converting JavaScript code to bytecode before execution.",
+              "A method for debugging JavaScript code in the browser.",
+              "A technique for handling asynchronous operations."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "JIT kompailacija",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je to Just-In-Time (JIT) kompailacija u kontekstu JavaScript-a?",
+            "correctAnswer": "JIT je hibridni pristup koji kombinira prednosti interpretacije i kompilacije. Inicijalno kod se interpretira, ali tokom izvršavanja programa se vrši optimizacija kojima se ubrzava izvođenje programa prevođenjem često korištenih dijelova u strojni kod.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je Just-In-Time (JIT) kompilacija u JavaScript-u?",
+            "correctAnswer": "Hibridni pristup koji kombinira interpretaciju i kompilaciju radi optimizacije izvršavanja koda.",
+            "falseAnswers": [
+              "Proces pretvaranja JavaScript koda u bytecode prije izvršavanja.",
+              "Metoda za debugiranje JavaScript koda u pregledniku.",
+              "Tehnika za rukovanje asinkronim operacijama."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "34",
+    "lang": {
+      "en": {
+        "topic": "Single-threaded language",
+        "type": {
+          "singleAnswer": {
+            "question": "What does it mean that JavaScript is a single-threaded language?",
+            "correctAnswer": "It means that JS can execute only one operation at a time.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does it mean for JavaScript to be single-threaded?",
+            "correctAnswer": "It can execute only one operation at a time.",
+            "falseAnswers": [
+              "It can execute multiple operations simultaneously.",
+              "It uses multiple cores of the CPU.",
+              "It requires a single browser tab to run."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "signle-thread jezik",
+        "type": {
+          "singleAnswer": {
+            "question": "Što znači da je JavaScrip single-threaded jezik?",
+            "correctAnswer": "To znači da JS može izvršavati samo jednu operaciju u jednom trenutku.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što znači da je JavaScript single-threaded?",
+            "correctAnswer": "Može izvršavati samo jednu operaciju u jednom trenutku.",
+            "falseAnswers": [
+              "Može izvršavati više operacija istovremeno.",
+              "Koristi više jezgri CPU-a.",
+              "Zahtijeva samo jedan tab preglednika za pokretanje."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "35",
+    "lang": {
+      "en": {
+        "topic": "Event loop",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the Event loop and what is its role?",
+            "correctAnswer": "The Event Loop is a mechanism that enables asynchronous code execution, creating the illusion of simultaneous execution of multiple tasks. It continuously checks if the Call Stack is empty and moves functions from the Callback Queue to the Call Stack.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary role of the Event Loop in JavaScript?",
+            "correctAnswer": "To manage asynchronous operations and move callbacks to the Call Stack.",
+            "falseAnswers": [
+              "To execute synchronous code line by line.",
+              "To handle memory allocation and garbage collection.",
+              "To parse HTML and build the DOM."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "event loop",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Event loop i koja mu je uloga?",
+            "correctAnswer": "Event Loop je mehanizam koji omogućava asinkrono izvršavanje koda, stvarajući iluziju istovremenog izvršavanja više zadataka. On kontinuirano provjerava je li Call Stack prazan, te premješta funkcije iz Callback Queue-a na Call Stack.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna uloga Event Loopa u JavaScript-u?",
+            "correctAnswer": "Upravljanje asinkronim operacijama i premještanje callbackova na Call Stack.",
+            "falseAnswers": [
+              "Izvršavanje sinkronog koda liniju po liniju.",
+              "Rukovanje dodjelom memorije i garbage collectionom.",
+              "Parsiranje HTML-a i izgradnja DOM-a."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "36",
+    "lang": {
+      "en": {
+        "topic": "JavaScript runtime",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a JavaScript runtime?",
+            "correctAnswer": "A JS runtime is everything we need to use and execute JavaScript.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does a JavaScript runtime environment provide?",
+            "correctAnswer": "Everything needed to use and execute JavaScript code.",
+            "falseAnswers": [
+              "Only the JavaScript engine.",
+              "Only the browser's built-in APIs.",
+              "Only the code editor."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "JavaScript runtime",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je JavaScript runtime?",
+            "correctAnswer": "JS runtime je sve što nam je potrebno da koristimo i izvršavamo JavaScript.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što pruža JavaScript runtime okruženje?",
+            "correctAnswer": "Sve potrebno za korištenje i izvršavanje JavaScript koda.",
+            "falseAnswers": [
+              "Samo JavaScript engine.",
+              "Samo ugrađeni API-ji preglednika.",
+              "Samo uređivač koda."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "37",
+    "lang": {
+      "en": {
+        "topic": "JavaScript engine",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a JavaScript engine?",
+            "correctAnswer": "A program that runs on a computer and executes JavaScript code. Each browser has its own JS engine and implements it.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a JavaScript engine?",
+            "correctAnswer": "A program that executes JavaScript code.",
+            "falseAnswers": [
+              "A library for writing JavaScript.",
+              "A framework for building web applications.",
+              "A tool for managing dependencies."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "JavaScript engine",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je JavaScript engine?",
+            "correctAnswer": "Program koji se vrti na nekom računalu i izvršava JavaScript kod. Svaki preglednik ima svoj JS engine i implmentira ga.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je JavaScript engine?",
+            "correctAnswer": "Program koji izvršava JavaScript kod.",
+            "falseAnswers": [
+              "Biblioteka za pisanje JavaScripta.",
+              "Framework za izgradnju web aplikacija.",
+              "Alat za upravljanje ovisnostima."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "38",
+    "lang": {
+      "en": {
+        "topic": "JavaScript engine",
+        "type": {
+          "singleAnswer": {
+            "question": "What does a JavaScript engine consist of?",
+            "correctAnswer": "Call stack and heap.",
+            "isEnumeratable": true,
+            "answerItems": ["Call stack", "Heap"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which two components are typically part of a JavaScript engine?",
+            "correctAnswer": "Call Stack and Heap.",
+            "falseAnswers": [
+              "Event Loop and Callback Queue.",
+              "Web APIs and Microtasks Queue.",
+              "DOM and CSSOM."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "JavaScript engine?",
+        "type": {
+          "singleAnswer": {
+            "question": "Od čega se sastoji JavaScript engine?",
+            "correctAnswer": "Call stack i heap.",
+            "isEnumeratable": true,
+            "answerItems": ["Call stack", "Heap"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje dvije komponente su tipično dio JavaScript enginea?",
+            "correctAnswer": "Call Stack i Heap.",
+            "falseAnswers": [
+              "Event Loop i Callback Queue.",
+              "Web API-ji i Microtasks Queue.",
+              "DOM i CSSOM."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "39",
+    "lang": {
+      "en": {
+        "topic": "JavaScript runtime",
+        "type": {
+          "singleAnswer": {
+            "question": "What does a JavaScript runtime consist of?",
+            "correctAnswer": "JS engine, web APIs, callback queue (and microtasks queue), and Event Loop.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "JS engine",
+              "Web APIs",
+              "Callback queue (and microtasks queue)",
+              "Event Loop"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is NOT typically part of a JavaScript runtime?",
+            "correctAnswer": "Database server.",
+            "falseAnswers": ["JS engine.", "Web APIs.", "Event Loop."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "JavaScript runtime",
+        "type": {
+          "singleAnswer": {
+            "question": "Od čega se sastoji JavaScript runtime?",
+            "correctAnswer": "JS engine, web APIs, callback queue (i microtasks queue) i Event Loop.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "JS engine",
+              "Web API-ji",
+              "Callback queue (i microtasks queue)",
+              "Event Loop"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih NIJE tipično dio JavaScript runtimea?",
+            "correctAnswer": "Database server.",
+            "falseAnswers": ["JS engine.", "Web API-ji.", "Event Loop."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "40",
+    "lang": {
+      "en": {
+        "topic": "Execution context",
+        "type": {
+          "singleAnswer": {
+            "question": "What is an execution context (EC) and what does it contain?",
+            "correctAnswer": "An Execution Context contains all necessary information for executing a specific piece of code. It contains the variable environment (variables, functions, arguments object), scope chain, and this keyword.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Variable environment (variables, functions, arguments object)",
+              "Scope chain",
+              "this keyword"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is contained within a JavaScript Execution Context?",
+            "correctAnswer": "Scope Chain.",
+            "falseAnswers": [
+              "Global Memory Heap.",
+              "Event Loop.",
+              "Callback Queue."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "execution context",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je execution context (EC) i što sadrži?",
+            "correctAnswer": "Execution Context sadrži sve potrebne informacije za izvršavanje određenog dijela koda. Sadrži variable environment (varijable, funkcije, arguments object), scope chain i this keyword.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Variable environment (varijable, funkcije, arguments object)",
+              "Scope chain",
+              "this keyword"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih je sadržano unutar JavaScript Execution Contexta?",
+            "correctAnswer": "Scope Chain.",
+            "falseAnswers": [
+              "Global Memory Heap.",
+              "Event Loop.",
+              "Callback Queue."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "41",
+    "lang": {
+      "en": {
+        "topic": "Hoisting and TDZ",
+        "type": {
+          "singleAnswer": {
+            "question": "What is hoisting in JavaScript?",
+            "correctAnswer": "Hoisting is a process that allows the use of certain types of declarations (var, function declarations) before they are actually declared in the code. JS lifts their declaration to the top, but not their initialization.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is Hoisting in JavaScript?",
+            "correctAnswer": "A mechanism where variable and function declarations are moved to the top of their scope during compilation.",
+            "falseAnswers": [
+              "A method for preventing variable reassignment.",
+              "A way to handle asynchronous operations.",
+              "A type of error that occurs during runtime."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "hoisting i TDZ",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je hoisting u Javascript-u?",
+            "correctAnswer": "Hoisting je proces koji omogućava korištenje određenih tipova deklaracija (var, function declarations) prije što su zapravo deklarirane u kodu. JS podiže njihovu deklaraciju na vrh, ali ne i inicijalizaciju.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je Hoisting u JavaScript-u?",
+            "correctAnswer": "Mehanizam gdje se deklaracije varijabli i funkcija premještaju na vrh svog opsega tijekom kompilacije.",
+            "falseAnswers": [
+              "Metoda za sprječavanje ponovnog dodjeljivanja varijabli.",
+              "Način rukovanja asinkronim operacijama.",
+              "Vrsta greške koja se javlja tijekom izvršavanja."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "42",
+    "lang": {
+      "en": {
+        "topic": "this keyword",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the `this` keyword in JavaScript?",
+            "correctAnswer": "`this` is a special variable created for each EC and points to the owner of the function (the one who called it). Its value depends on how the function is called.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the `this` keyword refer to in JavaScript?",
+            "correctAnswer": "The owner of the function being executed, depending on the call context.",
+            "falseAnswers": [
+              "The function itself.",
+              "The global object (window in browsers) in all contexts.",
+              "The parent element in the DOM."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "this keyword",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je this keyword u JavaScript-u?",
+            "correctAnswer": "This je specialna varijabla koja se kreira za svaki EC i pokazuje na vlasnika funkcije (onaj koji ju je pozvao). Vrijednost ovisi o načinu pozivanja.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Na što se odnosi ključna riječ `this` u JavaScript-u?",
+            "correctAnswer": "Na vlasnika funkcije koja se izvršava, ovisno o kontekstu poziva.",
+            "falseAnswers": [
+              "Na samu funkciju.",
+              "Na globalni objekt (window u preglednicima) u svim kontekstima.",
+              "Na roditeljski element u DOM-u."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "43",
+    "lang": {
+      "en": {
+        "topic": "this keyword",
+        "type": {
+          "singleAnswer": {
+            "question": "How does `this` behave in different contexts?",
+            "correctAnswer": "In methods, `this` points to the object the method was called on. In simple functions, `this` is undefined (in strict mode). In arrow functions, `this` takes the value from the parent function. In an event listener, `this` points to the DOM element the handler is attached to.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "In methods: points to the object the method was called on",
+              "In simple functions: undefined (in strict mode)",
+              "In arrow functions: takes value from parent function",
+              "In event listeners: points to the DOM element the handler is attached to"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "In a regular function (not a method or arrow function) in strict mode, what does `this` refer to?",
+            "correctAnswer": "undefined.",
+            "falseAnswers": [
+              "The global object (window).",
+              "The function itself.",
+              "The element that triggered an event."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "this keyword",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako se this ponaša u različitim kontekstima?",
+            "correctAnswer": "U metodama htis pokazuje na objekt nad kojim se metoda pozvala. U jednostavim funkcijama this je unefined (u strict modu). U arrow funkcijama this uzima vrijednost iz roditeljske funkcije. U event listeneru this pokazuje na DOM element na koji je handler povezan.",
+            "isEnumeratable": true,
+            "answerItems": [
+              "U metodama: pokazuje na objekt nad kojim se metoda pozvala",
+              "U jednostavnim funkcijama: undefined (u strict modu)",
+              "U arrow funkcijama: uzima vrijednost iz roditeljske funkcije",
+              "U event listeneru: pokazuje na DOM element na koji je handler povezan"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "U običnoj funkciji (ne metodi ili arrow funkciji) u strict mode, na što se odnosi `this`?",
+            "correctAnswer": "undefined.",
+            "falseAnswers": [
+              "Globalni objekt (window).",
+              "Sama funkcija.",
+              "Element koji je pokrenuo događaj."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "44",
+    "lang": {
+      "en": {
+        "topic": "Garbage collector",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a garbage collector?",
+            "correctAnswer": "A mechanism that cleans up old and unused objects from the Heap. It is triggered by the JS engine when it determines it is necessary.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the role of the garbage collector in JavaScript?",
+            "correctAnswer": "To automatically reclaim memory occupied by unused objects.",
+            "falseAnswers": [
+              "To prevent merge conflicts.",
+              "To optimize asynchronous code execution.",
+              "To manage event listeners."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "garbage collector",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je garbage collector?",
+            "correctAnswer": "Mehanizam kojim se čiste stari i nekorišteni objekti s Heap-a. Pokreče ga JS engine kada procjeni da je potrebno.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je uloga garbage collectora u JavaScript-u?",
+            "correctAnswer": "Automatsko oslobađanje memorije koju zauzimaju nekorišteni objekti.",
+            "falseAnswers": [
+              "Sprječavanje konflikata spajanja.",
+              "Optimizacija izvršavanja asinkronog koda.",
+              "Upravljanje event listenerima."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "45",
+    "lang": {
+      "en": {
+        "topic": "Memory leak",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a memory leak in JavaScript?",
+            "correctAnswer": "A memory leak is a phenomenon where a program unintentionally retains references to objects in memory that are no longer needed, preventing the JavaScript engine from freeing up that memory through the garbage collector.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a memory leak in JavaScript?",
+            "correctAnswer": "When a program unintentionally holds onto memory that is no longer needed.",
+            "falseAnswers": [
+              "An error that crashes the browser.",
+              "A performance issue caused by too many loops.",
+              "A security vulnerability in the code."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "memory leak",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je memory leak u JavaScript-u?",
+            "correctAnswer": "Memory leak je pojava gdje program nenamjerno zadržava refernce na objekte u memoriji koji više nisu potrebni, spriječavajući JavaScript engine da oslobodi tu memoriju kroz garabage collector.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što je memory leak u JavaScript-u?",
+            "correctAnswer": "Kada program nenamjerno zadržava memoriju koja više nije potrebna.",
+            "falseAnswers": [
+              "Greška koja ruši preglednik.",
+              "Problem performansi uzrokovan prevelikim brojem petlji.",
+              "Sigurnosna ranjivost u kodu."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "46",
+    "lang": {
+      "en": {
+        "topic": "Destructuring",
+        "type": {
+          "singleAnswer": {
+            "question": "What is destructuring in JavaScript and how is it used for arrays and objects?",
+            "correctAnswer": "Destructuring is a way of unpacking values from data structures into separate variables. For arrays: const [a, b, c] = arr. For objects: const {name} = obj.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of destructuring in JavaScript?",
+            "correctAnswer": "To unpack values from arrays or objects into distinct variables.",
+            "falseAnswers": [
+              "To combine multiple arrays into one.",
+              "To create new objects from existing ones.",
+              "To iterate over the properties of an object."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "destructuring",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je destructuring u JavaScript-u i kako se koristi za nizove i objekte?",
+            "correctAnswer": "Desturcturing je način raspakriavanja vrijednosti iz struktura podataka u druge varijable. Za nizove: const [a, b, c] = arr. Za objekte: const {name} = obj.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha destructuringa u JavaScript-u?",
+            "correctAnswer": "Raspakiranje vrijednosti iz nizova ili objekata u zasebne varijable.",
+            "falseAnswers": [
+              "Kombiniranje više nizova u jedan.",
+              "Kreiranje novih objekata iz postojećih.",
+              "Iteriranje kroz svojstva objekta."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "47",
+    "lang": {
+      "en": {
+        "topic": "Rest pattern and parameters",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the rest pattern and when is it used?",
+            "correctAnswer": "The rest pattern has the opposite function of the spread operator - it collects multiple elements into an array. Examples: const [a, ...others] = arr.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the rest pattern (`...`) do in JavaScript?",
+            "correctAnswer": "It collects multiple elements into an array.",
+            "falseAnswers": [
+              "It spreads elements of an array into individual elements.",
+              "It is used for conditional rendering.",
+              "It defines a default value for a parameter."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "rest pattern i parametri",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je rest pattern i kada se koristi?",
+            "correctAnswer": "Rest pattern ima suprotnu funkciju od spread operatora - sakuplja više elementa u niz. Primjeri: cconst [a, ...others] = arr.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi rest pattern (`...`) u JavaScript-u?",
+            "correctAnswer": "Sakuplja više elemenata u niz.",
+            "falseAnswers": [
+              "Širi elemente niza u pojedinačne elemente.",
+              "Koristi se za uvjetno renderiranje.",
+              "Definira zadanu vrijednost za parametar."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "48",
+    "lang": {
+      "en": {
+        "topic": "Short-circuiting",
+        "type": {
+          "singleAnswer": {
+            "question": "How does short-circuiting work with logical operators?",
+            "correctAnswer": "OR (||) returns the first truthy value or the last value if all are falsy. AND (&&) returns the first falsy value or the last value if all are truthy.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "In JavaScript, what does the OR (||) operator return in short-circuiting?",
+            "correctAnswer": "The first truthy value or the last value if all are falsy.",
+            "falseAnswers": [
+              "Always true if at least one operand is truthy.",
+              "Always false if at least one operand is falsy.",
+              "The result of a boolean comparison."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "short circuting",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako funkcionira short circuting kod logičkih operatora?",
+            "correctAnswer": "OR (||) vraća prvu istinitu vrijednost ili zadnju ako su sve neistinite. AND (&&) vraća prvu neistinitu vrijednost ili zadnju ako su sve istinite.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "U JavaScript-u, što vraća OR (||) operator pri short-circuitingu?",
+            "correctAnswer": "Prvu istinitu vrijednost ili zadnju vrijednost ako su sve neistinite.",
+            "falseAnswers": [
+              "Uvijek true ako je barem jedan operand istinit.",
+              "Uvijek false ako je barem jedan operand neistinit.",
+              "Rezultat boolean usporedbe."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "49",
+    "lang": {
+      "en": {
+        "topic": "Nullish coalescing operator",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the nullish coalescing operator (??) and how does it differ from the OR operator?",
+            "correctAnswer": "The ?? operator works similarly to OR, but it only reacts to nullish values (null, undefined), not to all falsy values (0, \"\", null, undefined).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How does the nullish coalescing operator (??) differ from the OR (||) operator?",
+            "correctAnswer": "It only treats `null` and `undefined` as falsy, while `||` treats all falsy values as falsy.",
+            "falseAnswers": [
+              "It returns the first falsy value, while `||` returns the first truthy value.",
+              "It is used for conditional assignment, while `||` is for boolean logic.",
+              "It can only be used with numbers."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "nulish coalescing operator",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je nullish coalescing operator (??) i kako se razlikuje od OR operatora?",
+            "correctAnswer": "?? operator funkcionira slično kao OR, ali reagira samo na nullish vrijendosti (null, undefined), a ne na sve falsy vrijendosti (0, \"\", null, undefined).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako se nullish coalescing operator (??) razlikuje od OR (||) operatora?",
+            "correctAnswer": "Tretira samo `null` i `undefined` kao neistinite, dok `||` tretira sve falsy vrijednosti kao neistinite.",
+            "falseAnswers": [
+              "Vraća prvu neistinitu vrijednost, dok `||` vraća prvu istinitu vrijednost.",
+              "Koristi se za uvjetno dodjeljivanje, dok je `||` za boolean logiku.",
+              "Može se koristiti samo s brojevima."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "50",
+    "lang": {
+      "en": {
+        "topic": "Optional chaining",
+        "type": {
+          "singleAnswer": {
+            "question": "What is optional chaining and when is it used?",
+            "correctAnswer": "Optional chaining (?.) provides a quick way to check if a property exists within an object before further chaining methods and properties. If the value before ?. is undefined or null, subsequent calls will not proceed.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of optional chaining (?.)?",
+            "correctAnswer": "To safely access nested properties of an object without causing an error if a property is null or undefined.",
+            "falseAnswers": [
+              "To create a new object with default values.",
+              "To iterate over the properties of an object.",
+              "To perform asynchronous operations."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "optional chaining",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je optional chaining i kada se koristi?",
+            "correctAnswer": "Optional chaining (?.) omogućava brz način provjere postoji li neko svojstvo unutar objekta prije daljnjeg ulančavanja metoda i svojstava. Ako je vrijednost prije ?. undefined ili null, neće se nastaviti s pozivima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha optional chaininga (?.)?",
+            "correctAnswer": "Siguran pristup ugniježđenim svojstvima objekta bez izazivanja greške ako je svojstvo null ili undefined.",
+            "falseAnswers": [
+              "Kreiranje novog objekta sa zadanim vrijednostima.",
+              "Iteriranje kroz svojstva objekta.",
+              "Izvođenje asinkronih operacija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "51",
+    "lang": {
+      "en": {
+        "topic": "Iterating through objects",
+        "type": {
+          "singleAnswer": {
+            "question": "How can we iterate through the properties of an object?",
+            "correctAnswer": "We can use: for...in loop, Object.keys(), Object.values(), or Object.entries().",
+            "isEnumeratable": true,
+            "answerItems": [
+              "for...in loop",
+              "Object.keys()",
+              "Object.values()",
+              "Object.entries()"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a valid way to iterate through the properties of a JavaScript object?",
+            "correctAnswer": "for...in loop.",
+            "falseAnswers": [
+              "for...of loop.",
+              "array.forEach().",
+              "object.map()."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "iteriranje kroz objekte",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako sve možemo iterirati kroz svojstva nekog objekta?",
+            "correctAnswer": "Možemo preko: for...in petlje, Object.keys(), Object.values() ili Object.entries().",
+            "isEnumeratable": true,
+            "answerItems": [
+              "for...in petlje",
+              "Object.keys()",
+              "Object.values()",
+              "Object.entries()"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih je valjan način iteriranja kroz svojstva JavaScript objekta?",
+            "correctAnswer": "for...in petlja.",
+            "falseAnswers": [
+              "for...of petlja.",
+              "array.forEach().",
+              "object.map()."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "52",
+    "lang": {
+      "en": {
+        "topic": "Sets",
+        "type": {
+          "singleAnswer": {
+            "question": "What are sets and what are their characteristics?",
+            "correctAnswer": "Sets are data structures similar to arrays, but they cannot contain duplicates and do not remember the order of elements.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a key characteristic of JavaScript Sets?",
+            "correctAnswer": "They cannot contain duplicate values.",
+            "falseAnswers": [
+              "They store data in key-value pairs.",
+              "They maintain the order of elements.",
+              "They can only store primitive values."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "setovi",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su setovi i koje su njihove karakteristike?",
+            "correctAnswer": "Setovi su strukture podataka slične nizovima, ali ne mogu sadržavati duplikate i ne pamte poredak elemenata.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je ključna karakteristika JavaScript Setova?",
+            "correctAnswer": "Ne mogu sadržavati duplicirane vrijednosti.",
+            "falseAnswers": [
+              "Pohranjuju podatke u parovima ključ-vrijednost.",
+              "Zadržavaju redoslijed elemenata.",
+              "Mogu pohraniti samo primitivne vrijednosti."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "53",
+    "lang": {
+      "en": {
+        "topic": "Maps",
+        "type": {
+          "singleAnswer": {
+            "question": "What are maps and how do they differ from objects?",
+            "correctAnswer": "Maps are data structures that store data in key-value pairs. The difference between maps and objects is that keys in maps can be any data type.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a key difference between JavaScript Maps and Objects?",
+            "correctAnswer": "Map keys can be any data type, while Object keys are limited to strings and Symbols.",
+            "falseAnswers": [
+              "Objects can contain duplicate keys, while Maps cannot.",
+              "Maps are used for synchronous operations, while Objects are for asynchronous.",
+              "Objects maintain insertion order, while Maps do not."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "mape",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su mape i kako se razlikuju od objekata?",
+            "correctAnswer": "Mape su strukture podataka koje spremaju podatke u obliku ključ-vrijednost. Razlika između mapa i objekata je ta da ključevi u mapama mogu biti bilo koji tip podatka.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je ključna razlika između JavaScript Mapa i Objekata?",
+            "correctAnswer": "Ključevi u Mapama mogu biti bilo koji tip podataka, dok su ključevi u Objektima ograničeni na stringove i Symbole.",
+            "falseAnswers": [
+              "Objekti mogu sadržavati duplicirane ključeve, dok Mape ne mogu.",
+              "Mape se koriste za sinkrone operacije, dok su Objekti za asinkrone.",
+              "Objekti zadržavaju redoslijed umetanja, dok Mape ne."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "54",
+    "lang": {
+      "en": {
+        "topic": "Synchronous vs asynchronous code",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference between synchronous and asynchronous code?",
+            "correctAnswer": "Synchronous code executes line by line, where a new line starts execution only after the previous one finishes. Asynchronous code executes only after a background task is completed, without blocking the execution of the main code.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a characteristic of synchronous code execution?",
+            "correctAnswer": "Code is executed line by line, blocking further execution until the current line is complete.",
+            "falseAnswers": [
+              "Code executes in the background without blocking the main thread.",
+              "Tasks can be executed simultaneously.",
+              "It always involves Promises or callbacks."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "sinkroni vs asinkroni kod",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika između sinkronog i asinkronog koda?",
+            "correctAnswer": "Sinkroni kod se izvršava liniju po liniju, gdje nova linija počinje izvršavanje tek kada se prethodna završi. Asinkroni kod se izvršava tek kada se neki zadatak u pozadini završi, ne blokirajući izvođenje glavnog koda.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je karakteristika izvršavanja sinkronog koda?",
+            "correctAnswer": "Kod se izvršava liniju po liniju, blokirajući daljnje izvršavanje dok se trenutna linija ne završi.",
+            "falseAnswers": [
+              "Kod se izvršava u pozadini bez blokiranja glavne niti.",
+              "Zadaci se mogu izvršavati istovremeno.",
+              "Uvijek uključuje Promise ili callbackove."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "55",
+    "lang": {
+      "en": {
+        "topic": "AJAX",
+        "type": {
+          "singleAnswer": {
+            "question": "What is AJAX?",
+            "correctAnswer": "AJAX (Asynchronous JavaScript And XML) allows communication with a remote server asynchronously. Using AJAX calls, we can request data from a remote server dynamically.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does AJAX enable?",
+            "correctAnswer": "Asynchronous communication with a remote server.",
+            "falseAnswers": [
+              "Synchronous execution of JavaScript code.",
+              "Defining the structure of HTML documents.",
+              "Styling web pages."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "AJAX",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je AJAX?",
+            "correctAnswer": "AJAX (Asynchronous JavaScript And XML) omogućava komuniciranje s udaljenim serverom na asinkroni način. Pomoću AJAX poziva možemo zatražiti podatke s udaljenog servera dinamički.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što omogućuje AJAX?",
+            "correctAnswer": "Asinkronu komunikaciju s udaljenim serverom.",
+            "falseAnswers": [
+              "Sinkrono izvršavanje JavaScript koda.",
+              "Definiranje strukture HTML dokumenata.",
+              "Stiliziranje web stranica."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "56",
+    "lang": {
+      "en": {
+        "topic": "API",
+        "type": {
+          "singleAnswer": {
+            "question": "What is an API and what is a Web API?",
+            "correctAnswer": "An API (Application Programming Interface) is a piece of software that other software can use to communicate with each other. A Web API is an application on a server that receives data requests and sends responses.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of an API (Application Programming Interface)?",
+            "correctAnswer": "To allow different software systems to communicate with each other.",
+            "falseAnswers": [
+              "To style web pages.",
+              "To define the structure of HTML documents.",
+              "To manage databases."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "API",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je API i što je Web API?",
+            "correctAnswer": "API (Application Programming Interface) je komad softvera koji može koristiti drugi softver za međusobnu komunikaciju. Web API je aplikacija na serveru koja prima zahtjeve za podacima i šalje odgovore.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha API-ja (Application Programming Interface)?",
+            "correctAnswer": "Omogućavanje komunikacije između različitih softverskih sustava.",
+            "falseAnswers": [
+              "Stiliziranje web stranica.",
+              "Definiranje strukture HTML dokumenata.",
+              "Upravljanje bazama podataka."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "57",
+    "lang": {
+      "en": {
+        "topic": "Promise",
+        "type": {
+          "singleAnswer": {
+            "question": "What is a Promise in JavaScript?",
+            "correctAnswer": "A Promise is an object used to store future data, i.e., data that is expected to become available from asynchronous operations.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is a Promise in JavaScript used for?",
+            "correctAnswer": "To handle the result of asynchronous operations.",
+            "falseAnswers": [
+              "To define a variable that cannot be reassigned.",
+              "To create a new HTML element.",
+              "To iterate over an array."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "promise",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Promise u JavaScript-u?",
+            "correctAnswer": "Promise je objekt koji se koristi za spremanje budućih podataka, odnosno podataka koji se tek trebaju pojaviti iz asinkronih operacija.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Za što se koristi Promise u JavaScript-u?",
+            "correctAnswer": "Za rukovanje rezultatom asinkronih operacija.",
+            "falseAnswers": [
+              "Za definiranje varijable koja se ne može ponovno dodijeliti.",
+              "Za kreiranje novog HTML elementa.",
+              "Za iteriranje kroz niz."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "58",
+    "lang": {
+      "en": {
+        "topic": "Promise lifecycle",
+        "type": {
+          "singleAnswer": {
+            "question": "What are the states in the lifecycle of a Promise?",
+            "correctAnswer": "Pending (before the future value is available), Settled (the asynchronous task has completed), which is either Fulfilled (successfully completed) or Rejected (unsuccessfully completed).",
+            "isEnumeratable": true,
+            "answerItems": ["Pending", "Settled (Fulfilled or Rejected)"]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which of the following is a state in the lifecycle of a Promise?",
+            "correctAnswer": "Pending.",
+            "falseAnswers": ["Executing.", "Completed.", "Waiting."]
+          }
+        }
+      },
+      "hr": {
+        "topic": "promise lifecycle",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja su stanja u životnom ciklusu Promise-a?",
+            "correctAnswer": "Pending (prije nego je buduća vrijednost dostupna), Settled (asinkroni zadatak se izvršio), te Fulfilled (uspješno izvršeno) ili Rejected (neuspješno izvršeno).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Pending (prije nego je buduća vrijednost dostupna)",
+              "Settled (asinkroni zadatak se izvršio)",
+              "Fulfilled (uspješno izvršeno)",
+              "Rejected (neuspješno izvršeno)"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koje od sljedećih je stanje u životnom ciklusu Promise-a?",
+            "correctAnswer": "Pending.",
+            "falseAnswers": ["Executing.", "Completed.", "Waiting."]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "59",
+    "lang": {
+      "en": {
+        "topic": ".then method",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `.then()` method do and what functions do we pass as arguments?",
+            "correctAnswer": "The `.then()` method is called on a Promise object. We pass two functions to it: the first is executed if the promise is fulfilled (successfully completed), and the second if the promise is rejected (unsuccessfully completed).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the purpose of the `.then()` method on a Promise?",
+            "correctAnswer": "To handle the fulfillment or rejection of a Promise.",
+            "falseAnswers": [
+              "To create a new Promise.",
+              "To stop Promise execution.",
+              "To perform asynchronous operations."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": ".then metoda",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi .then() metoda i koje funkcije primamo kao argumente?",
+            "correctAnswer": "Metoda .then() se poziva na Promise objektu. U nju predajemo dvije funkcije: prva se pokreće ako je promise fulfilled (uspješno izvršen), a druga ako je promise rejected (neuspješno izvršen).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha metode `.then()` na Promise-u?",
+            "correctAnswer": "Rukovanje ispunjenjem ili odbijanjem Promise-a.",
+            "falseAnswers": [
+              "Kreiranje novog Promise-a.",
+              "Zaustavljanje izvršavanja Promise-a.",
+              "Izvođenje asinkronih operacija."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "60",
+    "lang": {
+      "en": {
+        "topic": ".then method",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the default parameter in the fulfillment function of the `.then()` method when using fetch?",
+            "correctAnswer": "The default parameter is an object representing the response. To access the data, we need to call the `.json()` method on that object, which returns a new Promise with the data.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "When using `fetch()`, what is the default argument passed to the fulfillment handler in `.then()`?",
+            "correctAnswer": "A Response object.",
+            "falseAnswers": [
+              "The JSON data directly.",
+              "An Error object.",
+              "The status code of the response."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": ".then metoda",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je defaultni parametar u fulfillment funkciji .then() metode kada koristimo fetch?",
+            "correctAnswer": "Defaultni parametar je objekt koji predstavlja response. Da bismo došli do podataka, trebamo pozvati .json() metodu nad tim objektom, što vraća novi Promise s podacima.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Prilikom korištenja `fetch()`, koji je zadani argument prosljeđen handleru za ispunjenje u `.then()`?",
+            "correctAnswer": "Response objekt.",
+            "falseAnswers": [
+              "Direktno JSON podaci.",
+              "Error objekt.",
+              "Statusni kod odgovora."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "61",
+    "lang": {
+      "en": {
+        "topic": ".catch method",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the purpose of the `.catch()` method for Promises?",
+            "correctAnswer": "The `.catch()` method serves as a central place for catching errors, so we don't have to pass a function to handle errors in every `.then()`.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary purpose of the `.catch()` method on a Promise?",
+            "correctAnswer": "To handle rejected Promises (errors).",
+            "falseAnswers": [
+              "To handle fulfilled Promises.",
+              "To execute code regardless of the Promise outcome.",
+              "To create a new Promise."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": ".catch metoda",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je svrha .catch() metode kod Promise-a?",
+            "correctAnswer": "Metoda .catch() služi kao centralno mjesto za hvatanje grešaka, tako da ne moramo u svaki .then() predavati funkciju koja se pokreće kada se pojavi greška.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna svrha metode `.catch()` na Promise-u?",
+            "correctAnswer": "Rukovanje odbijenim Promise-ima (greškama).",
+            "falseAnswers": [
+              "Rukovanje ispunjenim Promise-ima.",
+              "Izvršavanje koda bez obzira na ishod Promise-a.",
+              "Kreiranje novog Promise-a."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "62",
+    "lang": {
+      "en": {
+        "topic": ".finally method",
+        "type": {
+          "singleAnswer": {
+            "question": "When is the `.finally()` method called and what is its purpose?",
+            "correctAnswer": "The `.finally()` method is called last in the Promise handling process and contains code that we want to always execute, regardless of whether the Promise was successfully fulfilled or rejected.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "When does the `.finally()` method of a Promise execute?",
+            "correctAnswer": "After the Promise is settled (either fulfilled or rejected).",
+            "falseAnswers": [
+              "Only if the Promise is fulfilled.",
+              "Only if the Promise is rejected.",
+              "Before the Promise starts executing."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": ".finally metoda",
+        "type": {
+          "singleAnswer": {
+            "question": "Kada se poziva .finally() metoda i čemu služi?",
+            "correctAnswer": "Metoda .finally() poziva se zadnja u procesu obrade Promise-a i sadrži kod koji želimo da se uvijek izvrši, bez obzira je li Promise uspješno izvršen ili ne.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kada se izvršava metoda `.finally()` Promise-a?",
+            "correctAnswer": "Nakon što je Promise settled (bilo ispunjen ili odbijen).",
+            "falseAnswers": [
+              "Samo ako je Promise ispunjen.",
+              "Samo ako je Promise odbijen.",
+              "Prije nego što se Promise počne izvršavati."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "63",
+    "lang": {
+      "en": {
+        "topic": "Concurrency model",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the Concurrency model in JavaScript?",
+            "correctAnswer": "The Concurrency model is the way JavaScript manages multiple tasks that are executing at the same time.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the Concurrency model in JavaScript describe?",
+            "correctAnswer": "How JavaScript handles multiple tasks executing concurrently.",
+            "falseAnswers": [
+              "How to write parallel code in JavaScript.",
+              "The syntax for defining asynchronous functions.",
+              "The process of garbage collection."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Concurrency model",
+        "type": {
+          "singleAnswer": {
+            "question": "Što je Concurrency model u JavaScript-u?",
+            "correctAnswer": "Concurrency model je način na koji JavaScript upravlja s više zadataka koji se izvršavaju u isto vrijeme.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što opisuje Concurrency model u JavaScript-u?",
+            "correctAnswer": "Kako JavaScript rukuje s više zadataka koji se izvršavaju konkurentno.",
+            "falseAnswers": [
+              "Kako pisati paralelni kod u JavaScript-u.",
+              "Sintaksu za definiranje asinkronih funkcija.",
+              "Proces garbage collectiona."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "64",
+    "lang": {
+      "en": {
+        "topic": "Callback Queue vs Microtasks Queue",
+        "type": {
+          "singleAnswer": {
+            "question": "What is the difference between the Callback Queue and the Microtasks Queue?",
+            "correctAnswer": "The Microtasks Queue is intended only for callbacks related to Promises, while the Callback Queue is for other asynchronous operations. The Microtasks Queue has priority over the Callback Queue.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Which queue has priority in the Event Loop?",
+            "correctAnswer": "Microtasks Queue.",
+            "falseAnswers": [
+              "Callback Queue.",
+              "Both have equal priority.",
+              "The priority is determined by the browser."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Callback Queue vs Microtasks Queue",
+        "type": {
+          "singleAnswer": {
+            "question": "Koja je razlika između Callback Queue i Microtasks Queue?",
+            "correctAnswer": "Microtasks Queue je namijenjen samo za callbackove koji imaju veze s Promise-ima, a Callback Queue za ostale asinkrone operacije. Microtasks Queue ima prednost nad Callback Queue-om.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koji red ima prednost u Event Loopu?",
+            "correctAnswer": "Microtasks Queue.",
+            "falseAnswers": [
+              "Callback Queue.",
+              "Oba imaju jednaku prednost.",
+              "Prednost određuje preglednik."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "65",
+    "lang": {
+      "en": {
+        "topic": "Async/await",
+        "type": {
+          "singleAnswer": {
+            "question": "What are async/await keywords in JavaScript?",
+            "correctAnswer": "Async/await is a new way (since ES2017) to handle Promises. It's syntactic 'sugar' over the .then() method. The `async` keyword defines an asynchronous function, and `await` pauses the execution of that function until a Promise is resolved.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the primary purpose of `async`/`await`?",
+            "correctAnswer": "To simplify working with Promises.",
+            "falseAnswers": [
+              "To define synchronous functions.",
+              "To prevent event propagation.",
+              "To perform type coercion."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Async/await",
+        "type": {
+          "singleAnswer": {
+            "question": "Što su async/await ključne riječi u JavaScript-u?",
+            "correctAnswer": "Async/await je novi način (od ES2017) za rukovanje Promise-ima. To je sintaktički 'sugar' iznad .then() metode. Ključna riječ async definira asinkronu funkciju, a await pauzira izvršavanje te funkcije dok se Promise ne riješi.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je primarna svrha `async`/`await`?",
+            "correctAnswer": "Pojednostavljenje rada s Promise-ima.",
+            "falseAnswers": [
+              "Definiranje sinkronih funkcija.",
+              "Sprječavanje propagacije događaja.",
+              "Izvođenje type coerciona."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "66",
+    "lang": {
+      "en": {
+        "topic": "async function",
+        "type": {
+          "singleAnswer": {
+            "question": "What does a function defined with the `async` keyword return?",
+            "correctAnswer": "A function defined with the `async` keyword always returns a Promise, which is initially in the pending state. The value we return from that function becomes the fulfillment value of that Promise.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does an `async` function always return?",
+            "correctAnswer": "A Promise.",
+            "falseAnswers": [
+              "A regular value.",
+              "Undefined.",
+              "An Error object."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "async funkcija",
+        "type": {
+          "singleAnswer": {
+            "question": "Što vraća funkcija definirana s async ključnom riječi?",
+            "correctAnswer": "Funkcija definirana ključnom riječju async uvijek vraća Promise, koji je inicijalno u stanju pending. Vrijednost koju vratimo iz te funkcije postaje fulfillment vrijednost tog Promise-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što `async` funkcija uvijek vraća?",
+            "correctAnswer": "Promise.",
+            "falseAnswers": [
+              "Običnu vrijednost.",
+              "Undefined.",
+              "Error objekt."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "67",
+    "lang": {
+      "en": {
+        "topic": "Await keyword",
+        "type": {
+          "singleAnswer": {
+            "question": "What happens when the `await` keyword is used?",
+            "correctAnswer": "Await pauses the execution of the asynchronous function until the Promise is resolved (resolved or rejected). The function is moved off the Call Stack and later placed on the Microtasks Queue where it resumes execution when the Call Stack becomes empty.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does the `await` keyword do?",
+            "correctAnswer": "Pauses the execution of an async function until a Promise is settled.",
+            "falseAnswers": [
+              "Executes a Promise immediately.",
+              "Defines an asynchronous function.",
+              "Handles errors in a Promise."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Await ključna riječ",
+        "type": {
+          "singleAnswer": {
+            "question": "Što se događa kada se koristi await ključna riječ?",
+            "correctAnswer": "Await pauzira izvršavanje asinkrone funkcije sve dok se Promise ne riješi (resolve ili reject). Funkcija se miče s Call Stack-a i kasnije se stavlja na Microtasks Queue gdje se nastavlja izvršavati kada Call Stack postane prazan.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što radi ključna riječ `await`?",
+            "correctAnswer": "Pauzira izvršavanje asinkrone funkcije dok se Promise ne riješi.",
+            "falseAnswers": [
+              "Odmah izvršava Promise.",
+              "Definira asinkronu funkciju.",
+              "Rukuje greškama u Promise-u."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "68",
+    "lang": {
+      "en": {
+        "topic": "Parallel Promise execution",
+        "type": {
+          "singleAnswer": {
+            "question": "How can we achieve parallel execution of Promises with async/await?",
+            "correctAnswer": "A Promise starts executing as soon as the function creates/calls it. We can create multiple Promises simultaneously and then use `await` to fetch their results, allowing parallel execution.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "How can you execute multiple Promises in parallel using `async`/`await`?",
+            "correctAnswer": "Start all Promises before awaiting their results.",
+            "falseAnswers": [
+              "Use a `for...await` loop.",
+              "Use `Promise.all()` within the async function.",
+              "Chain `.then()` calls sequentially."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Paralelno izvršavanje Promise-a",
+        "type": {
+          "singleAnswer": {
+            "question": "Kako možemo postići paralelno izvršavanje Promise-a s async/await?",
+            "correctAnswer": "Promise se počinje izvršavati čim ga funkcija kreira/pozove. Možemo kreirati više Promise-a istovremeno i onda koristiti await za dohvaćanje njihovih rezultata, omogućujući paralelno izvršavanje.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kako možete izvršavati više Promise-a paralelno koristeći `async`/`await`?",
+            "correctAnswer": "Pokrenite sve Promise-e prije nego što awaitate njihove rezultate.",
+            "falseAnswers": [
+              "Koristite `for...await` petlju.",
+              "Koristite `Promise.all()` unutar async funkcije.",
+              "Sekvencijalno lančajte `.then()` pozive."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "69",
+    "lang": {
+      "en": {
+        "topic": "Promise.all()",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `Promise.all()` method do?",
+            "correctAnswer": "Promise.all() waits until all included Promises are resolved. If any of the Promises fail (reject), the entire Promise.all() will fail.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What is the behavior of `Promise.all()`?",
+            "correctAnswer": "It resolves when all input Promises resolve, or rejects if any input Promise rejects.",
+            "falseAnswers": [
+              "It resolves or rejects as soon as the first input Promise settles.",
+              "It resolves when all input Promises settle (regardless of fulfillment or rejection).",
+              "It returns the result of the first fulfilled Promise."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Promise.all()",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Promise.all() metoda?",
+            "correctAnswer": "Promise.all() čeka dok se svi ubačeni Promise-i riješe (resolve). Ako bilo koji od Promise-a ne uspije (reject), cijeli Promise.all() neće uspjeti.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kakvo je ponašanje metode `Promise.all()`?",
+            "correctAnswer": "Rješava se kada se svi ulazni Promise-i riješe (resolve), ili se odbija (reject) ako se bilo koji ulazni Promise odbije.",
+            "falseAnswers": [
+              "Rješava se ili odbija čim se prvi ulazni Promise settled.",
+              "Rješava se kada se svi ulazni Promise-i settled (bez obzira na ispunjenje ili odbijanje).",
+              "Vraća rezultat prvog ispunjenog Promise-a."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "70",
+    "lang": {
+      "en": {
+        "topic": "Promise.race()",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `Promise.race()` method do?",
+            "correctAnswer": "Promise.race() returns the result of the first settled (resolved or rejected) Promise.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `Promise.race()` return?",
+            "correctAnswer": "The result of the first Promise that settles (either resolves or rejects).",
+            "falseAnswers": [
+              "An array of results from all resolved Promises.",
+              "An array of results from all settled Promises.",
+              "The result of the first fulfilled Promise."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Promise.race()",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Promise.race() metoda?",
+            "correctAnswer": "Promise.race() vraća rezultat prvog riješenog (resolved) ili odbijenog (rejected) Promise-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što vraća metoda `Promise.race()`?",
+            "correctAnswer": "Rezultat prvog Promise-a koji se settled (bilo riješi ili odbije).",
+            "falseAnswers": [
+              "Niz rezultata svih riješenih Promise-a.",
+              "Niz rezultata svih settled Promise-a.",
+              "Rezultat prvog ispunjenog Promise-a."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "71",
+    "lang": {
+      "en": {
+        "topic": "Promise.allSettled()",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `Promise.allSettled()` method do?",
+            "correctAnswer": "Promise.allSettled() waits until all Promises are settled (either successfully or unsuccessfully) and returns the status of each individual Promise.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `Promise.allSettled()` return?",
+            "correctAnswer": "An array of objects describing the outcome of each Promise (fulfilled or rejected).",
+            "falseAnswers": [
+              "An array of results from only the fulfilled Promises.",
+              "The result of the first settled Promise.",
+              "An error if any of the Promises are rejected."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Promise.allSettled()",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Promise.allSettled() metoda?",
+            "correctAnswer": "Promise.allSettled() čeka dok se svi Promise-i završe (bilo uspješno ili neuspješno) i vraća svaki pojedini status Promise-a.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što vraća metoda `Promise.allSettled()`?",
+            "correctAnswer": "Niz objekata koji opisuju ishod svakog Promise-a (ispunjen ili odbijen).",
+            "falseAnswers": [
+              "Niz rezultata samo ispunjenih Promise-a.",
+              "Rezultat prvog settled Promise-a.",
+              "Grešku ako je bilo koji od Promise-a odbijen."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
+  },
+  {
+    "id": "72",
+    "lang": {
+      "en": {
+        "topic": "Promise.any()",
+        "type": {
+          "singleAnswer": {
+            "question": "What does the `Promise.any()` method do?",
+            "correctAnswer": "Promise.any() returns the first successfully fulfilled Promise. It only fails if all Promises fail.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "What does `Promise.any()` return?",
+            "correctAnswer": "The result of the first fulfilled Promise.",
+            "falseAnswers": [
+              "The result of the first settled Promise (fulfilled or rejected).",
+              "An array of results from all fulfilled Promises.",
+              "An error if any of the Promises are rejected."
+            ]
+          }
+        }
+      },
+      "hr": {
+        "topic": "Promise.any()",
+        "type": {
+          "singleAnswer": {
+            "question": "Što radi Promise.any() metoda?",
+            "correctAnswer": "Promise.any() vraća prvi uspješno završeni Promise. Ne uspije jedino kada svi Promise-i ne uspiju.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što vraća metoda `Promise.any()`?",
+            "correctAnswer": "Rezultat prvog ispunjenog Promise-a.",
+            "falseAnswers": [
+              "Rezultat prvog settled Promise-a (ispunjenog ili odbijenog).",
+              "Niz rezultata svih ispunjenih Promise-a.",
+              "Grešku ako je bilo koji od Promise-a odbijen."
+            ]
+          }
+        }
+      }
+    },
+    "has_been_drawn": false
   }
 ]
