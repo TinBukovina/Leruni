@@ -73,6 +73,8 @@ export function QuizDataProvider({ children }: QuizDataProviderProps) {
   }, [questionFileObject, questionIndex, initialCatch, correctAnswers]);
 
   useEffect(() => {
+    setInitialCatch(true);
+
     try {
       if (typeof window === "undefined" || !window.localStorage) {
         throw new Error("localStorage is not available.");
@@ -81,7 +83,7 @@ export function QuizDataProvider({ children }: QuizDataProviderProps) {
       const lsQuestionObjString = localStorage.getItem("leruni_quiz_object");
 
       if (!lsQuestionObjString) {
-        return;
+        throw new Error("There is no leruni_quiz_object in local storage.");
       }
 
       let lsQuestionObj;
@@ -98,7 +100,6 @@ export function QuizDataProvider({ children }: QuizDataProviderProps) {
       setQuestionFileObject(lsQuestionObj.questionFileObject);
       setQuestionIndex(lsQuestionObj.questionIndex);
       setCorrectAnswers(lsQuestionObj.correctAnswers);
-      setInitialCatch(true);
     } catch (err) {
       console.log(err);
     }

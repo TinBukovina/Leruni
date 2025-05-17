@@ -47,6 +47,7 @@ const JsonFileUploader = () => {
       p={"2xl"}
       w={"360px"}
       maxW={"400px"}
+      height={"386px"}
       bg={"surface.s1"}
       borderRadius={"md"}
     >

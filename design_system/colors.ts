@@ -25,6 +25,7 @@ export const colors: SemanticTokens["colors"] = {
   base: {
     white: { value: { base: "#fff", _dark: "#fff" } },
     black: { value: { base: "#141414", _dark: "#141414" } },
+    gray: { value: { base: "#969696", _dark: "#969696" } },
   },
   actions: {
     postive: {
