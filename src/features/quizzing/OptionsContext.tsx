@@ -1,8 +1,9 @@
 import React, { ReactNode, useContext, useEffect, useState } from "react";
+import { ListOfAllovedLanguageAbriviations } from "./QuizDataContext";
 
 export type ListOfAllowedLanguagesType = "croatian" | "english";
 export type ListOfAllowedQuestionOrderType = "default" | "random";
-export type ListOfAllowedModeType = "multiple_choice" | "input_answer";
+export type ListOfAllowedModeType = "multipleChoiceAnswer" | "inputAnswer";
 
 interface GameOptionsInterface {
   language: ListOfAllowedLanguagesType;
@@ -13,6 +14,7 @@ interface GameOptionsInterface {
 interface OptionsContextInterface {
   gameOptions: GameOptionsInterface;
   setGameOptions: React.Dispatch<React.SetStateAction<GameOptionsInterface>>;
+  getLanguage: () => ListOfAllovedLanguageAbriviations;
 }
 
 const OptionsContext = React.createContext<OptionsContextInterface | null>(
@@ -25,7 +27,7 @@ interface OptionsProviderProps {
 
 const defaultOptions: GameOptionsInterface = {
   language: "croatian",
-  mode: "input_answer",
+  mode: "inputAnswer",
   questionOrder: "default",
 };
 
@@ -77,9 +79,18 @@ export function OptionsProvider({ children }: OptionsProviderProps) {
     }
   }, []);
 
+  const getLanguage = (): ListOfAllovedLanguageAbriviations => {
+    if (gameOptions.language === "croatian") {
+      return "hr";
+    }
+
+    return "en";
+  };
+
   const value = {
     gameOptions,
     setGameOptions,
+    getLanguage,
   };
 
   return (

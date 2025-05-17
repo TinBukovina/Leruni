@@ -18,7 +18,7 @@ export default function MainMenu() {
     useState<boolean>(false);
   const [isOptionsDisplayed, setIsOptionDisplayed] = useState<boolean>(false);
 
-  const { questionFileObject, setQuestionIndex } = useQuizDataContext();
+  const { questionFileObject, resetQuizData } = useQuizDataContext();
   const { addNewToast } = useToast();
   const { addNewPopupWindow } = usePopupWindowContext();
 
@@ -78,14 +78,14 @@ export default function MainMenu() {
                     },
                     onClickNo: () => {
                       localStorage.removeItem("leruni_started_quiz");
-                      setQuestionIndex(0);
+                      resetQuizData();
                       navigation("/play");
                     },
                   });
 
                   return;
                 } else {
-                  setQuestionIndex(0);
+                  resetQuizData();
                 }
               }
 

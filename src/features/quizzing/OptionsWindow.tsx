@@ -7,6 +7,7 @@ import {
   ListOfAllowedQuestionOrderType,
   useOptionsContext,
 } from "./OptionsContext";
+import { useQuizDataContext } from "./QuizDataContext";
 
 const OptionPropertyTitle = styled("div", {
   base: {
@@ -26,19 +27,20 @@ const mappedValues = {
     false: "default" as ListOfAllowedQuestionOrderType,
   },
   mode: {
-    true: "multiple_choice" as ListOfAllowedModeType,
-    false: "input_answer" as ListOfAllowedModeType,
+    true: "multipleChoiceAnswer" as ListOfAllowedModeType,
+    false: "inputAnswer" as ListOfAllowedModeType,
   },
 };
 
 export default function OptionsWindow() {
   const { gameOptions, setGameOptions } = useOptionsContext();
+  const { resetQuizData } = useQuizDataContext();
 
   const [langValue, setLangValue] = useState<boolean>(
     gameOptions.language === "english"
   );
   const [quizModeValue, setQuizModeValue] = useState<boolean>(
-    gameOptions.mode === "multiple_choice"
+    gameOptions.mode === "multipleChoiceAnswer"
   );
   const [questionOrderValue, setQuestionOrderValue] = useState<boolean>(
     gameOptions.questionOrder === "random"
@@ -50,7 +52,16 @@ export default function OptionsWindow() {
       mode: mappedValues.mode[`${quizModeValue}`],
       questionOrder: mappedValues.questionOrder[`${questionOrderValue}`],
     });
-  }, [langValue, questionOrderValue, quizModeValue, setGameOptions]);
+
+    resetQuizData();
+    localStorage.removeItem("leruni_started_quiz");
+  }, [
+    langValue,
+    questionOrderValue,
+    quizModeValue,
+    setGameOptions,
+    resetQuizData,
+  ]);
 
   return (
     <Flex
@@ -64,13 +75,6 @@ export default function OptionsWindow() {
       bg={"surface.s1"}
       borderRadius={"md"}
     >
-      <button
-        onClick={() => {
-          console.log(gameOptions);
-        }}
-      >
-        gi
-      </button>
       <Flex
         direction={"column"}
         textAlign={"left"}
