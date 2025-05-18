@@ -1,4 +1,5 @@
 import { Flex, styled } from "../../../styled-system/jsx";
+import { usePopupWindowContext } from "../popupWindow/PopupWindowContext";
 import { useQuizDataContext } from "./QuizDataContext";
 
 const IconButtonStyle = styled("div", {
@@ -37,8 +38,10 @@ const IconButtonStyle = styled("div", {
 
 export default function PredefinedQuizeses() {
   const { setQuestionFileObject, questionFileObject } = useQuizDataContext();
+  const { setDisplayLoadingWindow } = usePopupWindowContext();
 
   const handleQuestionFetch = (questionUrl: string, fileName: string) => {
+    setDisplayLoadingWindow(true);
     fetch(questionUrl)
       .then((response) => {
         if (!response.ok) {
@@ -53,6 +56,9 @@ export default function PredefinedQuizeses() {
           fileName,
           question_object: data,
         });
+      })
+      .finally(() => {
+        setDisplayLoadingWindow(false);
       });
   };
 

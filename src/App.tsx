@@ -6,9 +6,10 @@ import AppLayout from "./pages/AppLayout";
 import { useToast } from "./features/toasts/ToastContext";
 import Toast from "./features/toasts/Toast";
 import EndScreen from "./features/quizzing/EndScreen";
-import { Flex } from "../styled-system/jsx";
+import { Box, Flex } from "../styled-system/jsx";
 import PopupWindow from "./features/popupWindow/PopupWindow";
 import { usePopupWindowContext } from "./features/popupWindow/PopupWindowContext";
+import SpinnerLoader from "./components/SpinnerLoader";
 
 const router = createBrowserRouter([
   {
@@ -33,12 +34,31 @@ const router = createBrowserRouter([
 
 function App() {
   const { toasts, handleToastComplete } = useToast();
-  const { popupWindowData } = usePopupWindowContext();
+  const { popupWindowData, displayLoadingWindow } = usePopupWindowContext();
   document.documentElement.classList.add("dark");
 
   return (
     <QuizDataProvider>
-      <>
+      <Box position={"relative"}>
+        {displayLoadingWindow ? (
+          <Box
+            position={"absolute"}
+            left={"0"}
+            top={"0"}
+            right={"0"}
+            bottom={"0"}
+            bg={"rgba(0, 0, 0, 0.5)"}
+            zIndex={"6"}
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+          >
+            <SpinnerLoader />
+          </Box>
+        ) : (
+          <Box></Box>
+        )}
+
         {toasts.map((toast) => (
           <Toast
             key={toast.id}
@@ -76,7 +96,7 @@ function App() {
           ""
         )}
         <RouterProvider router={router} />
-      </>
+      </Box>
     </QuizDataProvider>
   );
 }

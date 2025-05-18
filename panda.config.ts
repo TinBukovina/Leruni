@@ -4,6 +4,7 @@ import { colors } from "./design_system/colors";
 import { spacings } from "./design_system/spacings";
 import { fontSizes } from "./design_system/typografy";
 import { radii } from "./design_system/radii";
+import { keyframes } from "./design_system/keyframes";
 
 export default defineConfig({
   // Whether to use css reset
@@ -19,6 +20,7 @@ export default defineConfig({
   theme: {
     extend: {
       breakpoints,
+      keyframes: keyframes,
     },
     semanticTokens: {
       colors,

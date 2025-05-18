@@ -11,6 +11,8 @@ interface PopupWindowContextInterface {
   popupWindowData: PopupWindowInterface[];
   addNewPopupWindow: (popupWindowData: PopupWindowInterface) => void;
   removeLastPopupWindow: () => void;
+  displayLoadingWindow: boolean;
+  setDisplayLoadingWindow: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const PopupWindowContext =
@@ -24,6 +26,8 @@ export function PopupWindowProvider({ children }: PopupWindowProviderProps) {
   const [popupWindowData, setPopupWindowData] = useState<
     PopupWindowInterface[]
   >([]);
+  const [displayLoadingWindow, setDisplayLoadingWindow] =
+    useState<boolean>(false);
 
   const addNewPopupWindow = (popupWindowData: PopupWindowInterface) => {
     setPopupWindowData((prev) => [...prev, popupWindowData]);
@@ -37,6 +41,8 @@ export function PopupWindowProvider({ children }: PopupWindowProviderProps) {
     popupWindowData,
     addNewPopupWindow,
     removeLastPopupWindow,
+    displayLoadingWindow,
+    setDisplayLoadingWindow,
   };
 
   return (
