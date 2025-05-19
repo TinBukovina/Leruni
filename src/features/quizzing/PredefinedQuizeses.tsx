@@ -1,4 +1,6 @@
+import { css } from "../../../styled-system/css";
 import { Flex, styled } from "../../../styled-system/jsx";
+import { useWindowWidth } from "../../customHooks/useWindowWidth";
 import { usePopupWindowContext } from "../popupWindow/PopupWindowContext";
 import { useQuizDataContext } from "./QuizDataContext";
 
@@ -9,6 +11,9 @@ const IconButtonStyle = styled("div", {
     alignItems: "center",
 
     padding: "0.75rem",
+    height: "fit-content",
+    minW: "54px",
+    minH: "54px",
 
     bg: "surface.s0",
     borderRadius: "999",
@@ -37,6 +42,8 @@ const IconButtonStyle = styled("div", {
 });
 
 export default function PredefinedQuizeses() {
+  const windowWidth = useWindowWidth();
+
   const { setQuestionFileObject, questionFileObject } = useQuizDataContext();
   const { setDisplayLoadingWindow } = usePopupWindowContext();
 
@@ -64,16 +71,35 @@ export default function PredefinedQuizeses() {
 
   return (
     <Flex
-      position={"absolute"}
+      position={windowWidth > 600 ? "absolute" : ""}
       left={"calc(-32px - 4rem)"}
-      direction={"column"}
+      direction={windowWidth > 600 ? "column" : "row"}
+      justifyContent={windowWidth > 600 ? "start" : "center"}
       gap={"1rem"}
       bg={"surface.s1"}
       p={"0.5rem"}
-      w={"fit-content"}
-      height={"386px"}
+      w={windowWidth > 600 ? "fit-content" : "100%"}
+      maxW={"360px"}
+      height={windowWidth > 600 ? "386px" : "fit-content"}
       borderRadius={"md"}
+      overflow={"auto"}
       zIndex={"1"}
+      className={css({
+        // WebKit stilovi
+        "&::-webkit-scrollbar": {
+          height: "4px", // Pokušajte ponovno s ovim
+        },
+        "&::-webkit-scrollbar-track": {
+          background: "transparent",
+        },
+        "&::-webkit-scrollbar-thumb": {
+          background: "primaryClr", // Koristite Panda token ako je moguće, npr. token(colors.primaryClr)
+          borderRadius: "4px",
+        },
+        "&::-webkit-scrollbar-button": {
+          display: "none",
+        },
+      })}
     >
       <IconButtonStyle
         style={{

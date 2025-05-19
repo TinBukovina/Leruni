@@ -13,7 +13,6 @@ import OptionsWindow from "./OptionsWindow";
 
 export default function MainMenu() {
   const navigation = useNavigate();
-
   const [isPredefinedQuizesDisplayed, setIsPredefinedQuizesDisplayed] =
     useState<boolean>(false);
   const [isOptionsDisplayed, setIsOptionDisplayed] = useState<boolean>(false);
