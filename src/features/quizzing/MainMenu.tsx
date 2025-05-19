@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Flex } from "../../../styled-system/jsx";
+import { Box, Container, Flex } from "../../../styled-system/jsx";
 import Button from "../../components/Button";
 import { appsSvgPath, settingSvgInfo } from "../../utils/svgPaths";
 
@@ -23,9 +23,13 @@ export default function MainMenu() {
 
   return (
     <Flex flexDirection={"column"} gap={"lg"} w={"800px"}>
-      <Container fontSize={"h1"} fontWeight={"bold"}>
-        Leruni
-      </Container>
+      {!isPredefinedQuizesDisplayed ? (
+        <Container fontSize={"h1"} fontWeight={"bold"}>
+          Leruni
+        </Container>
+      ) : (
+        <Box />
+      )}
 
       <Flex
         position={"relative"}

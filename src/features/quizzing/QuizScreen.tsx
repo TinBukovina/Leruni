@@ -14,6 +14,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useOptionsContext } from "./OptionsContext";
 import { css } from "../../../styled-system/css";
+import { useWindowWidth } from "../../customHooks/useWindowWidth";
 
 export interface LocalStoregeQuestionObjInterface {
   startTime: number | null;
@@ -38,6 +39,8 @@ const QuestionAnswerElement = styled("div", {
 });
 
 export default function QuizScreen() {
+  const windowWidth = useWindowWidth();
+
   const [showAnswerMode, setShowAnswerMode] = useState<boolean>(false);
   const [currentCorrectAnswer, setCurrentCorrectAnswer] = useState<
     boolean | null
@@ -171,12 +174,13 @@ export default function QuizScreen() {
 
   return (
     <Flex
+      maxH={"100dvh"}
       direction={"column"}
       justifyContent={"start"}
       alignItems={"center"}
-      gap={"2xl"}
+      gap={["0.5rem", "0.5rem", "1rem", "2xl"]}
       p={["0", "0.5rem", "1rem"]}
-      minW={"400px"}
+      minW={"360px"}
       w={"80vw"}
       maxW={"900px"}
     >
@@ -199,8 +203,8 @@ export default function QuizScreen() {
         <ProgressBar fill={pregressBarFill} />
         <Flex
           direction={"column"}
-          gap={"3xl"}
-          p={"1.5rem"}
+          gap={["1rem", "1rem", "3xl"]}
+          p={["1rem", "1rem", "1.5rem"]}
           bg={"surface.s1"}
           border={"2px solid token(colors.border)"}
           borderStyle={currentCorrectAnswer != null ? "dashed" : "solid"}
@@ -267,12 +271,17 @@ export default function QuizScreen() {
               {gameOptions.mode === "multipleChoiceAnswer" &&
               !showAnswerMode ? (
                 <Grid
-                  gridTemplateRows={"repeat(2, 1fr)"}
-                  gridTemplateColumns={"repeat(2, 1fr)"}
+                  gridTemplateColumns={
+                    windowWidth > 900 ? "repeat(2, 1fr)" : "repeat(1, 1fr)"
+                  }
                   justifyContent={"center"}
                   alignItems={"center"}
                   gap={"1rem"}
                   w={"100%"}
+                  overflow={"auto"}
+                  maxH={windowWidth < 600 ? "200px" : ""}
+                  py={"0.25rem"}
+                  paddingRight={"0.5rem"}
                 >
                   {questionAnswers.map((el: string, idx: number) => (
                     <QuestionAnswerElement
