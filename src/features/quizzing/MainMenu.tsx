@@ -10,9 +10,12 @@ import { useNavigate } from "react-router-dom";
 import { useToast } from "../toasts/ToastContext";
 import { usePopupWindowContext } from "../popupWindow/PopupWindowContext";
 import OptionsWindow from "./OptionsWindow";
+import { useWindowWidth } from "../../customHooks/useWindowWidth";
 
 export default function MainMenu() {
   const navigation = useNavigate();
+  const windowWidth = useWindowWidth();
+
   const [isPredefinedQuizesDisplayed, setIsPredefinedQuizesDisplayed] =
     useState<boolean>(false);
   const [isOptionsDisplayed, setIsOptionDisplayed] = useState<boolean>(false);
@@ -23,7 +26,11 @@ export default function MainMenu() {
 
   return (
     <Flex flexDirection={"column"} gap={"lg"} w={"800px"}>
-      {!isPredefinedQuizesDisplayed ? (
+      {windowWidth > 600 ? (
+        <Container fontSize={"h1"} fontWeight={"bold"}>
+          Leruni
+        </Container>
+      ) : !isPredefinedQuizesDisplayed ? (
         <Container fontSize={"h1"} fontWeight={"bold"}>
           Leruni
         </Container>

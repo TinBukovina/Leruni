@@ -137,7 +137,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is the basic concept of React?",
-            "correctAnswer": "The basic concept of React is that we describe how components look and how they work using declarative syntax, specifically JSX.",
+            "correctAnswer": "We describe how components look and function in a declarative way by using declarative syntax, specifically JSX.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -157,7 +157,7 @@
         "type": {
           "singleAnswer": {
             "question": "Koji je osnovni koncept React-a?",
-            "correctAnswer": "Osnovni koncept React-a je taj, da mi opisujemo kako komponente izgledaju i kako rade korištenjem deklarativne sintakse, odnosno JSX-a.",
+            "correctAnswer": "Mi opisujemo kako komponente izgledaju i kako rade na deklarativan način koristeći deklarativnu sintaksu, odnosno JSX.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -183,7 +183,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is meant by saying that React has a declarative approach?",
-            "correctAnswer": "In React, we never directly touch the DOM. Everything is abstract; we state that we want a change, but not how it is implemented.",
+            "correctAnswer": "We don't directly manipulate the DOM; everything is abstract. We state that we want a change, but not how that change is implemented.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -203,7 +203,7 @@
         "type": {
           "singleAnswer": {
             "question": "Pod šta se misli kada se kaže da React ima deklarativan pristup?",
-            "correctAnswer": "U React-u mi nikada ne diramo DOM, sve je apstraktno, govorimo da hoćemo promjenu, ali ne i kako se ona realizira.",
+            "correctAnswer": "Ne diramo DOM; sve je apstraktno. Mi kažemo da želimo promjenu, ali ne i kako se ona realizira.",
             "isEnumeratable": false,
             "answerItems": []
           },
