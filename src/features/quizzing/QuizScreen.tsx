@@ -10,7 +10,7 @@ import {
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 import { QuestionInterface, useQuizDataContext } from "./QuizDataContext";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useOptionsContext } from "./OptionsContext";
 import { css } from "../../../styled-system/css";
@@ -52,6 +52,8 @@ export default function QuizScreen() {
   const [questionAnswers, setQuestionAnswers] = useState<string[]>([]);
   const [fakeQuestionIndex, setFakeQuestionIndex] = useState<string>("");
 
+  const inputAnswerRef = useRef<HTMLInputElement>(null);
+
   const navigate = useNavigate();
 
   const {
@@ -65,6 +67,18 @@ export default function QuizScreen() {
   } = useQuizDataContext();
 
   const { gameOptions, getLanguage } = useOptionsContext();
+
+  // Effect to focus input answer
+  useEffect(() => {
+    if (
+      inputAnswerRef.current &&
+      gameOptions.mode === "inputAnswer" &&
+      !showAnswerMode
+    ) {
+      console.log("Fokusiranje inputa za novo pitanje");
+      inputAnswerRef.current.focus();
+    }
+  }, [questionIndex, gameOptions.mode, showAnswerMode]);
 
   // Effect to navigate to end screen when quiz is over
   useEffect(() => {
@@ -168,7 +182,6 @@ export default function QuizScreen() {
   // --- Render logic (if no early return) ---
   // At this point, questionFileObject, questions, and questionIndex are valid for rendering.
   const currentQuestion = questions[questionIndex];
-  console.log(currentQuestion);
   const pregressBarFill =
     numberOfQuestions > 0
       ? Math.floor((questionIndex / numberOfQuestions) * 100)
@@ -334,6 +347,7 @@ export default function QuizScreen() {
                   <>
                     {gameOptions.mode !== "multipleChoiceAnswer" ? (
                       <Input
+                        ref={inputAnswerRef}
                         value={inputValue}
                         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
                           setInputValue(e.target.value)
