@@ -308,6 +308,8 @@ export default function QuizScreen() {
                     handleOnClick={() => {
                       setShowAnswerMode(false);
                       setIsLastQuestionSkipped(false);
+                      setInputValue("");
+                      setCurrentCorrectAnswer(null);
                     }}
                   />
                 ) : (

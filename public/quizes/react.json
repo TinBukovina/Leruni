@@ -7,7 +7,7 @@
         "type": {
           "singleAnswer": {
             "question": "What do frontend frameworks enable us to do?",
-            "correctAnswer": "They allow us to maintain user interfaces synchronized with incoming data in a much simpler way than using vanilla JS alone.",
+            "correctAnswer": "They allow us to synchronize the user interface with incoming data in a simpler way than with 'vanilla' JS.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -27,7 +27,7 @@
         "type": {
           "singleAnswer": {
             "question": "Šta nam omogućavaju frontend okviri?",
-            "correctAnswer": "Omogućavaju da održavamo korisnička sučelja sinkronizirana s nadolazećim podacima na puno jednostavniji način nego korištenje samoga vanilla JS-a.",
+            "correctAnswer": "Omogućuju nam sinkronizaciju korisničkog sučelja s nadolazećim podacima na jednostavniji način nego s vanilla JS-om.",
             "isEnumeratable": false,
             "answerItems": []
           },
