@@ -50,6 +50,7 @@ export default function QuizScreen() {
   const [inputValue, setInputValue] = useState<string>("");
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [questionAnswers, setQuestionAnswers] = useState<string[]>([]);
+  const [fakeQuestionIndex, setFakeQuestionIndex] = useState<string>("");
 
   const navigate = useNavigate();
 
@@ -167,6 +168,7 @@ export default function QuizScreen() {
   // --- Render logic (if no early return) ---
   // At this point, questionFileObject, questions, and questionIndex are valid for rendering.
   const currentQuestion = questions[questionIndex];
+  console.log(currentQuestion);
   const pregressBarFill =
     numberOfQuestions > 0
       ? Math.floor((questionIndex / numberOfQuestions) * 100)
@@ -200,7 +202,23 @@ export default function QuizScreen() {
         Leruni
       </Box>
       <Flex direction={"column"} w={"100%"} gap={"xl"}>
-        <ProgressBar fill={pregressBarFill} />
+        <Flex gap={"1rem"}>
+          <Input
+            value={fakeQuestionIndex}
+            onChange={(e) => {
+              const newIndex = Number(e.target.value);
+              console.log(newIndex, questionFileObject.question_object.length);
+              if (!newIndex) return setFakeQuestionIndex("");
+              if (newIndex < 0) return;
+              if (newIndex > questionFileObject.question_object.length) return;
+
+              setFakeQuestionIndex(newIndex + "");
+              return setQuestionIndex(newIndex - 1);
+            }}
+            styles={{ width: "90px", textAlign: "center" }}
+          />
+          <ProgressBar fill={pregressBarFill} />
+        </Flex>
         <Flex
           direction={"column"}
           gap={["1rem", "1rem", "3xl"]}

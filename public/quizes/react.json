@@ -183,7 +183,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is meant by saying that React has a declarative approach?",
-            "correctAnswer": "We don't directly manipulate the DOM; everything is abstract. We state that we want a change, but not how that change is implemented.",
+            "correctAnswer": "We don't directly manipulate the DOM, everything is abstract. We state that we want a change, but not how that change is implemented.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -203,7 +203,7 @@
         "type": {
           "singleAnswer": {
             "question": "Pod šta se misli kada se kaže da React ima deklarativan pristup?",
-            "correctAnswer": "Ne diramo DOM; sve je apstraktno. Mi kažemo da želimo promjenu, ali ne i kako se ona realizira.",
+            "correctAnswer": "Ne diramo DOM, sve je apstraktno. Mi kažemo da želimo promjenu, ali ne i kako se ona realizira.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -229,7 +229,7 @@
         "type": {
           "singleAnswer": {
             "question": "What does a React application consist of and what do components represent?",
-            "correctAnswer": "React applications are entirely made up of components. They represent the building blocks of the user interface in React.",
+            "correctAnswer": "Components, they represent the building blocks of the user interface in React.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -249,7 +249,7 @@
         "type": {
           "singleAnswer": {
             "question": "Od čega se sastoji React aplikacije i što one točno predstavljaju?",
-            "correctAnswer": "React aplikacije su u cjelovitosti napravljene od komponenti. One predstavljaju gradivne blokove korisničkog sučelja u React-u.",
+            "correctAnswer": "Komponenti, one predstavljaju gradivne blokove korisničkog sučelja u React-u.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -321,7 +321,7 @@
         "type": {
           "singleAnswer": {
             "question": "What are the rules for writing components?",
-            "correctAnswer": "1. Component names start with a capital letter. 2. Components must return some 'markup', most often JSX, but can also return null. 3. They are declared in top-level code.",
+            "correctAnswer": "1. Component names start with a capital letter, 2. Components must return some 'markup' (most often JSX) or null, 3. They are declared in top-level code.",
             "isEnumeratable": true,
             "answerItems": [
               "Names start with a capital letter",
@@ -345,7 +345,7 @@
         "type": {
           "singleAnswer": {
             "question": "Koja su pravila kod pisanja komponenti?",
-            "correctAnswer": "1. Imena komponenti započinju velikim slovom. 2. Komponente moraju vratiti niki 'markup' najčešće JSX, ali može i null vrijednost. 3. Deklariraju se u top-level kodu.",
+            "correctAnswer": "1. Imena komponenti započinju velikim slovom, 2. Komponente moraju vratiti niki 'markup' (najčešće JSX) ili null vrijednost, 3. Deklariraju se u top-level kodu.",
             "isEnumeratable": true,
             "answerItems": [
               "Imena komponenti započinju velikim slovom",
@@ -374,7 +374,7 @@
         "topic": "Components",
         "type": {
           "singleAnswer": {
-            "question": "How can components be created and which method is used almost exclusively today? Also, what is meant when a component is used?",
+            "question": "How can components be created and which method is used almost exclusively today? Also, what we mean when we talk about component?",
             "correctAnswer": "They can be created using functions and classes. Today, they are mostly created using functions. So, when we talk about a component, we mean a function that is named with a capital initial letter and returns some JSX (or null value).",
             "isEnumeratable": false,
             "answerItems": []
@@ -394,7 +394,7 @@
         "topic": "komponente(components)",
         "type": {
           "singleAnswer": {
-            "question": "Kako možemo kreirati komponente i koji način se danas skoro uvijek koristi? Također kada se koristi komponenta na šta se tu točno misli?",
+            "question": "Kako možemo kreirati komponente i koji način se danas skoro uvijek koristi? Također kada pričamo o komponenti na šta se tu točno misli?",
             "correctAnswer": "Možemo ih kreirati preko funkcija i klasa. Danas se većinski kreiraju preko funkcija. Tako da kada pričamo o komponenti mi mislimo na neku funkciju koja je imenovana velikim početnim slovom i vača neki JSX (ili null vrijendost).",
             "isEnumeratable": false,
             "answerItems": []
@@ -421,7 +421,7 @@
         "type": {
           "singleAnswer": {
             "question": "What does the component tree display?",
-            "correctAnswer": "It displays the hierarchy between components that build the graphical interface.",
+            "correctAnswer": "It displays the hierarchy between components, according to which it builds the graphical interface.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -441,7 +441,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što prikazuje stablo komponenti?",
-            "correctAnswer": "Prikazuje hijerarhiju između komponenti koja izgrađuje grafičko sučelje.",
+            "correctAnswer": "Prikazuje hijerarhiju između komponenti prema kojoj se izgrađuje grafičko sučelje.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -467,7 +467,7 @@
         "type": {
           "singleAnswer": {
             "question": "What must React components return?",
-            "correctAnswer": "They must return a block of JSX.",
+            "correctAnswer": "They must return a JSX (or null value).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -483,7 +483,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što moraju vraćati React komponente?",
-            "correctAnswer": "Moraju vratiti blok JSX-a.",
+            "correctAnswer": "Moraju vratiti JSX (ili null vrijednost).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -4657,25 +4657,25 @@
             ]
           }
         }
-      }
-    },
-    "hr": {
-      "topic": "useRef",
-      "type": {
-        "singleAnswer": {
-          "question": "Za koje podatke služe refovi i koje je pravilo za njih?",
-          "correctAnswer": "Služe za podatke koji se ne prikazuju (u render logici). U pravilu, ne bi smijeli pisati ili čitati .current svojstvo u render logici (za to bi se trebalo koristiti state).",
-          "isEnumeratable": false,
-          "answerItems": []
-        },
-        "multipleChoiceAnswer": {
-          "question": "Kada biste prvenstveno trebali koristiti `useRef` hook?",
-          "correctAnswer": "Za pohranu vrijednosti koje ne trebaju pokrenuti ponovno renderiranje kada se promijene.",
-          "falseAnswers": [
-            "Za upravljanje podacima koji direktno utječu na izlaz komponente.",
-            "Za izvođenje nuspojava poput dohvaćanja podataka.",
-            "Za definiranje početnog statea komponente."
-          ]
+      },
+      "hr": {
+        "topic": "useRef",
+        "type": {
+          "singleAnswer": {
+            "question": "Za koje podatke služe refovi i koje je pravilo za njih?",
+            "correctAnswer": "Služe za podatke koji se ne prikazuju (u render logici). U pravilu, ne bi smijeli pisati ili čitati .current svojstvo u render logici (za to bi se trebalo koristiti state).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Kada biste prvenstveno trebali koristiti `useRef` hook?",
+            "correctAnswer": "Za pohranu vrijednosti koje ne trebaju pokrenuti ponovno renderiranje kada se promijene.",
+            "falseAnswers": [
+              "Za upravljanje podacima koji direktno utječu na izlaz komponente.",
+              "Za izvođenje nuspojava poput dohvaćanja podataka.",
+              "Za definiranje početnog statea komponente."
+            ]
+          }
         }
       }
     },
@@ -5217,28 +5217,29 @@
             ]
           }
         }
-      }
-    },
-    "hr": {
-      "topic": "memoizacija",
-      "type": {
-        "singleAnswer": {
-          "question": "Šta znači dependency array u useMemo i useCallback-u?",
-          "correctAnswer": "Ako se neka vrijednost promijeni u dependency array-u, ponovno će se kreirati ta vrijednost i spremit će se u memoriju.",
-          "isEnumeratable": false,
-          "answerItems": []
-        },
-        "multipleChoiceAnswer": {
-          "question": "Koja je svrha dependency arraya u `useMemo` i `useCallback`?",
-          "correctAnswer": "Određivanje kada bi se memoizirana vrijednost ili funkcija trebala ponovno izračunati.",
-          "falseAnswers": [
-            "Definiranje početne vrijednosti memoizirane stavke.",
-            "Sprječavanje promjene memoizirane stavke.",
-            "Pohrana rezultata memoizirane funkcije."
-          ]
+      },
+      "hr": {
+        "topic": "memoizacija",
+        "type": {
+          "singleAnswer": {
+            "question": "Šta znači dependency array u useMemo i useCallback-u?",
+            "correctAnswer": "Ako se neka vrijednost promijeni u dependency array-u, ponovno će se kreirati ta vrijednost i spremit će se u memoriju.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je svrha dependency arraya u `useMemo` i `useCallback`?",
+            "correctAnswer": "Određivanje kada bi se memoizirana vrijednost ili funkcija trebala ponovno izračunati.",
+            "falseAnswers": [
+              "Definiranje početne vrijednosti memoizirane stavke.",
+              "Sprječavanje promjene memoizirane stavke.",
+              "Pohrana rezultata memoizirane funkcije."
+            ]
+          }
         }
       }
     },
+
     "has_been_drawn": false
   },
   {
@@ -5267,29 +5268,29 @@
             ]
           }
         }
-      }
-    },
-    "hr": {
-      "topic": "memoizacija",
-      "type": {
-        "singleAnswer": {
-          "question": "U kojim situaijama koristimo useMemo i useCallback?",
-          "correctAnswer": "1. Memoiziranje props-ova da se spriječi nepotrebna renderiranja, 2. Memoiziranje vrijednosti da se izbjegne teške rekalkulacije na svakom renderiranju, 3. Memoiziranje vrijednosti koje se koriste u dependency array-u nekog hook-a (da bi se spriječila beskonačna petlja pri renderiranju).",
-          "isEnumeratable": true,
-          "answerItems": [
-            "Memoiziranje props-ova za sprječavanje nepotrebnih renderiranja",
-            "Memoiziranje vrijednosti za izbjegavanje teških rekalkulacija",
-            "Memoiziranje vrijednosti koje se koriste u dependency array-ima hookova"
-          ]
-        },
-        "multipleChoiceAnswer": {
-          "question": "Koja je situacija dobar primjer upotrebe `useMemo` ili `useCallback`?",
-          "correctAnswer": "Memoizacija složenog izračuna koji se izvodi pri svakom renderu.",
-          "falseAnswers": [
-            "Upravljanje jednostavnim stateom komponente.",
-            "Izvođenje nuspojava poput dohvaćanja podataka.",
-            "Definiranje početne vrijednosti varijable statea."
-          ]
+      },
+      "hr": {
+        "topic": "memoizacija",
+        "type": {
+          "singleAnswer": {
+            "question": "U kojim situaijama koristimo useMemo i useCallback?",
+            "correctAnswer": "1. Memoiziranje props-ova da se spriječi nepotrebna renderiranja, 2. Memoiziranje vrijednosti da se izbjegne teške rekalkulacije na svakom renderiranju, 3. Memoiziranje vrijednosti koje se koriste u dependency array-u nekog hook-a (da bi se spriječila beskonačna petlja pri renderiranju).",
+            "isEnumeratable": true,
+            "answerItems": [
+              "Memoiziranje props-ova za sprječavanje nepotrebnih renderiranja",
+              "Memoiziranje vrijednosti za izbjegavanje teških rekalkulacija",
+              "Memoiziranje vrijednosti koje se koriste u dependency array-ima hookova"
+            ]
+          },
+          "multipleChoiceAnswer": {
+            "question": "Koja je situacija dobar primjer upotrebe `useMemo` ili `useCallback`?",
+            "correctAnswer": "Memoizacija složenog izračuna koji se izvodi pri svakom renderu.",
+            "falseAnswers": [
+              "Upravljanje jednostavnim stateom komponente.",
+              "Izvođenje nuspojava poput dohvaćanja podataka.",
+              "Definiranje početne vrijednosti varijable statea."
+            ]
+          }
         }
       }
     },

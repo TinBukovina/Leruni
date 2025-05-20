@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { CSSProperties, useEffect, useState } from "react";
 import { inputCva } from "../styles/InputStyles";
 
 interface InputProps {
@@ -6,6 +6,8 @@ interface InputProps {
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   isDisabled?: boolean;
   handleOnClick?: () => void;
+  styles?: CSSProperties;
+  type?: string;
 }
 
 export default function Input({
@@ -13,6 +15,8 @@ export default function Input({
   onChange,
   isDisabled = false,
   handleOnClick,
+  styles,
+  type,
 }: InputProps) {
   const [isHover, setIsHover] = useState<boolean>(false);
   const [isActive, setIsActive] = useState<boolean>(false);
@@ -75,6 +79,8 @@ export default function Input({
       className={inputCva({ type: "default", state: styleState })}
       value={value}
       onChange={onChange}
+      style={styles}
+      type={type}
     />
   );
 }
