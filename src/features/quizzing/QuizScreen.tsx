@@ -53,6 +53,7 @@ export default function QuizScreen() {
   const [fakeQuestionIndex, setFakeQuestionIndex] = useState<string>("");
 
   const inputAnswerRef = useRef<HTMLInputElement>(null);
+  const inputSkipQuestions = useRef<HTMLInputElement>(null);
 
   const navigate = useNavigate();
 
@@ -71,6 +72,7 @@ export default function QuizScreen() {
   // Effect to focus input answer
   useEffect(() => {
     if (
+      !(inputSkipQuestions.current === document.activeElement) &&
       inputAnswerRef.current &&
       gameOptions.mode === "inputAnswer" &&
       !showAnswerMode
@@ -217,6 +219,7 @@ export default function QuizScreen() {
       <Flex direction={"column"} w={"100%"} gap={"xl"}>
         <Flex gap={"1rem"}>
           <Input
+            ref={inputSkipQuestions}
             value={fakeQuestionIndex}
             onChange={(e) => {
               const newIndex = Number(e.target.value);

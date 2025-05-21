@@ -157,7 +157,7 @@
         "type": {
           "singleAnswer": {
             "question": "Koji je osnovni koncept React-a?",
-            "correctAnswer": "Mi opisujemo kako komponente izgledaju i kako rade na deklarativan način koristeći deklarativnu sintaksu, odnosno JSX.",
+            "correctAnswer": "Mi opisujemo kako komponente izgledaju i rade na deklarativan način koristeći deklarativnu sintaksu, odnosno JSX.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -375,7 +375,7 @@
         "type": {
           "singleAnswer": {
             "question": "How can components be created and which method is used almost exclusively today? Also, what we mean when we talk about component?",
-            "correctAnswer": "They can be created using functions and classes. Today, they are mostly created using functions. So, when we talk about a component, we mean a function that is named with a capital initial letter and returns some JSX (or null value).",
+            "correctAnswer": "They can be created using functions and classes. Today, they are mostly created using functions. So, when we talk about a component, we mean a function that is named with a capital initial letter and returns some JSX (or null).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -395,7 +395,7 @@
         "type": {
           "singleAnswer": {
             "question": "Kako možemo kreirati komponente i koji način se danas skoro uvijek koristi? Također kada pričamo o komponenti na šta se tu točno misli?",
-            "correctAnswer": "Možemo ih kreirati preko funkcija i klasa. Danas se većinski kreiraju preko funkcija. Tako da kada pričamo o komponenti mi mislimo na neku funkciju koja je imenovana velikim početnim slovom i vača neki JSX (ili null vrijendost).",
+            "correctAnswer": "Možemo ih kreirati preko funkcija i klasa. Danas se većinski kreiraju preko funkcija. Tako da kada pričamo o komponenti mi mislimo na neku funkciju koja je imenovana velikim početnim slovom i vača neki JSX (ili null).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -467,9 +467,9 @@
         "type": {
           "singleAnswer": {
             "question": "What must React components return?",
-            "correctAnswer": "They must return a JSX (or null value).",
+            "correctAnswer": "Some markup, JSX (or null).",
             "isEnumeratable": false,
-            "answerItems": []
+            "answerItems": ["JSX", "markup"]
           },
           "multipleChoiceAnswer": {
             "question": "What is the required return value of a React component function?",
@@ -483,9 +483,9 @@
         "type": {
           "singleAnswer": {
             "question": "Što moraju vraćati React komponente?",
-            "correctAnswer": "Moraju vratiti JSX (ili null vrijednost).",
+            "correctAnswer": "Neki markup, JSX (ili null).",
             "isEnumeratable": false,
-            "answerItems": []
+            "answerItems": ["JSX", "markup"]
           },
           "multipleChoiceAnswer": {
             "question": "Koji je obavezni povratni tip funkcije React komponente?",
