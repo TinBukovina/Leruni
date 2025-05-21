@@ -421,7 +421,7 @@
         "type": {
           "singleAnswer": {
             "question": "What does the component tree display?",
-            "correctAnswer": "It displays the hierarchy between components, according to which it builds the graphical interface.",
+            "correctAnswer": "It displays the hierarchy between components, according to which the graphical interface is built. This is the way we, as developers, organize components to construct the user interface.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -441,7 +441,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što prikazuje stablo komponenti?",
-            "correctAnswer": "Prikazuje hijerarhiju između komponenti prema kojoj se izgrađuje grafičko sučelje.",
+            "correctAnswer": "Prikazuje hijerarhiju među komponentama prema kojoj se izgrađuje grafičko sučelje. To je način na koji mi, developeri, organiziramo komponente kako bismo izgradili korisničko sučelje.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -551,7 +551,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is each JSX element converted into and describe the process?",
-            "correctAnswer": "Each JSX element is converted into JavaScript via the Babel library, which runs when calling the create-react-app command. The process looks like this: JSX is converted into React.createElement(), which takes three parameters (1) element type, 2) props, 3) children). The result of this function is a JavaScript object (React element) that React uses to create the virtual DOM.",
+            "correctAnswer": "Each JSX element is converted into JavaScript object via the Babel library, which runs when calling the create-react-app command. The process looks like this: JSX is converted into React.createElement(), which takes three parameters: 1) element type, 2) props, 3) children. The result of this function is a JavaScript object (React element) that React uses to create the virtual DOM.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -571,7 +571,7 @@
         "type": {
           "singleAnswer": {
             "question": "U šta se pretvara svaki JSX element i opiši mi proces kako to izgleda?",
-            "correctAnswer": "Svaki JSX element se pretvara u JavaScript preko Babel biblioteke koja se pokreće pri pozivanju komande create-react-app. Proces izgleda ovako: JSX se pretvara u React.create, koja prima tri parametra (1) tip elementa, 2) props, 3) djecu), rezultat te funkcije je JavaScript objekt (React element) kojega React koristi za stvaranje virtualnog DOM-a.",
+            "correctAnswer": "Svaki JSX element se pretvara u JavaScript objekt preko Babel biblioteke koja se pokreće pri pozivanju komande create-react-app. Proces izgleda ovako: JSX se pretvara u React.createElement(), koja prima tri parametra: 1) tip elementa, 2) props, 3) djecu, rezultat te funkcije je JavaScript objekt (React element) kojega React koristi za stvaranje virtualnog DOM-a.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -597,7 +597,7 @@
         "type": {
           "singleAnswer": {
             "question": "Which attribute do we use to add styles to components and why?",
-            "correctAnswer": "We use the `className` attribute to add styles to components because the keyword `class` is already reserved in JavaScript (same as `for`, `forHtml`).",
+            "correctAnswer": "We use the `className` attribute because the keyword `class` is already reserved in JavaScript (same as `for`, `forHtml`).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -616,8 +616,8 @@
         "topic": "stiliziranje komponenti",
         "type": {
           "singleAnswer": {
-            "question": "Prko kojeg atributa dodajemo stilove na komponente i zašto?",
-            "correctAnswer": "Preko atributa className dodajemo stilove na komponente jer je ključna riječ class već rezervirana u JavaScript-u (isto kao i for, forHtml).",
+            "question": "Preko kojeg atributa dodajemo stilove na komponente i zašto?",
+            "correctAnswer": "Preko atributa className jer je ključna riječ class već rezervirana u JavaScript-u (isto kao i for, forHtml).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -689,7 +689,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is specific about props compared to other data sources in a component?",
-            "correctAnswer": "They are specific because they come from outside and can only be updated externally in the parent component (or that is how it should be).",
+            "correctAnswer": "They are specific because they come from outside and can only be updated in the parent component (or that is how it should be).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -703,25 +703,25 @@
             ]
           }
         }
-      }
-    },
-    "hr": {
-      "topic": "props",
-      "type": {
-        "singleAnswer": {
-          "question": "Po čemu su props-ovi specifični u odnosu na ostale izvore podataka u komponenti?",
-          "correctAnswer": "Specifični su po tome jer dolaze izvana i mogu biti ažurirani samo izvan u roditeljskoj komponenti (ili tako treba biti).",
-          "isEnumeratable": false,
-          "answerItems": []
-        },
-        "multipleChoiceAnswer": {
-          "question": "Što čini props-ove jedinstvenima u usporedbi s drugim izvorima podataka u komponenti?",
-          "correctAnswer": "Prosljeđuju se od roditelja i unutar djeteta bi se trebali smatrati vanjskima i nepromjenjivima.",
-          "falseAnswers": [
-            "Mogu se ažurirati direktno unutar djeteta komponente.",
-            "Koriste se za upravljanje unutarnjim stanjem komponente.",
-            "Koriste se samo za stiliziranje."
-          ]
+      },
+      "hr": {
+        "topic": "props",
+        "type": {
+          "singleAnswer": {
+            "question": "Po čemu su props-ovi specifični u odnosu na ostale izvore podataka u komponenti?",
+            "correctAnswer": "Specifični su po tome jer dolaze izvana i mogu biti ažurirani samo u roditeljskoj komponenti (ili tako treba biti).",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Što čini props-ove jedinstvenima u usporedbi s drugim izvorima podataka u komponenti?",
+            "correctAnswer": "Prosljeđuju se od roditelja i unutar djeteta bi se trebali smatrati vanjskima i nepromjenjivima.",
+            "falseAnswers": [
+              "Mogu se ažurirati direktno unutar djeteta komponente.",
+              "Koriste se za upravljanje unutarnjim stanjem komponente.",
+              "Koriste se samo za stiliziranje."
+            ]
+          }
         }
       }
     },
@@ -804,7 +804,7 @@
         "type": {
           "singleAnswer": {
             "question": "Koja su dva razloga zašto su props-ovi nepromjenjivi, odnosno ne bi ih smjeli mijenjati?",
-            "correctAnswer": "Prvi je taj da je props običan objekt te kada promijenimo taj objekt, promjeni će se i u svim roditeljskim funkcijama koje ga koriste. Drugi razlog je taj što u Reactu poštujemo pravilo, odnosno pišemo 'pure function', tj. funkcije bez nuspojava (side effects). To znači da funkcije ne mijenjaju vrijednosti koje se nalaze izvan njih samih.",
+            "correctAnswer": "Prvi je taj da je props običan objekt te kada promijenimo taj objekt, promjeni će se i u svim roditeljskim funkcijama koje ga koriste. Drugi razlog je taj što u Reactu poštujemo pravilo, odnosno pišemo 'pure functions', tj. funkcije bez nuspojava (side effects). To znači da funkcije ne mijenjaju vrijednosti koje se nalaze izvan njih samih.",
             "isEnumeratable": true,
             "answerItems": [
               "Promjena props objekta utječe na roditeljske komponente",
@@ -985,25 +985,25 @@
             ]
           }
         }
-      }
-    },
-    "hr": {
-      "topic": "događaji(events)",
-      "type": {
-        "singleAnswer": {
-          "question": "Zašto ne koristimo .addEventListener u React-u?",
-          "correctAnswer": "Ne koristimo ih jer je to imperativni način rukovanja događajima. Dok u React-u koristimo deklarativne sintakse.",
-          "isEnumeratable": false,
-          "answerItems": []
-        },
-        "multipleChoiceAnswer": {
-          "question": "Zašto se `addEventListener` općenito izbjegava u React komponentama?",
-          "correctAnswer": "To je imperativni način rukovanja događajima, dok React preferira deklarativni pristup.",
-          "falseAnswers": [
-            "Ima loše performanse u React-u.",
-            "Nije kompatibilan s JSX-om.",
-            "Može se koristiti samo s klasnim komponentama."
-          ]
+      },
+      "hr": {
+        "topic": "događaji(events)",
+        "type": {
+          "singleAnswer": {
+            "question": "Zašto ne koristimo .addEventListener u React-u?",
+            "correctAnswer": "Ne koristimo ih jer je to imperativni način rukovanja događajima. Dok u React-u koristimo deklarativne sintakse.",
+            "isEnumeratable": false,
+            "answerItems": []
+          },
+          "multipleChoiceAnswer": {
+            "question": "Zašto se `addEventListener` općenito izbjegava u React komponentama?",
+            "correctAnswer": "To je imperativni način rukovanja događajima, dok React preferira deklarativni pristup.",
+            "falseAnswers": [
+              "Ima loše performanse u React-u.",
+              "Nije kompatibilan s JSX-om.",
+              "Može se koristiti samo s klasnim komponentama."
+            ]
+          }
         }
       }
     },
@@ -1037,7 +1037,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što je state u React-u?",
-            "correctAnswer": "Podaci kokje komponenta drži kroz vrijeme, odnosno životni vijek aplikacije. Memorija komponente.",
+            "correctAnswer": "Podaci koje komponenta drži kroz vrijeme, odnosno životni vijek aplikacije. Memorija komponente.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1109,7 +1109,7 @@
         "type": {
           "singleAnswer": {
             "question": "What happens when we change or update state?",
-            "correctAnswer": "When we do that, we trigger React to re-render that component.",
+            "correctAnswer": "We trigger React to re-render that component.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1129,7 +1129,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što se događa kada mijenjamo ili ažuriramo state?",
-            "correctAnswer": "Kada to radimo, trigeramo React da ponovno učita tu komponentu.",
+            "correctAnswer": "Trigreamo React da ponovno učita tu komponentu.",
             "isEnumeratable": false,
             "answerItems": []
           },
