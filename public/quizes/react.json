@@ -467,13 +467,13 @@
         "type": {
           "singleAnswer": {
             "question": "What must React components return?",
-            "correctAnswer": "Some markup, JSX (or null).",
+            "correctAnswer": "Some markup (JSX) or null.",
             "isEnumeratable": false,
             "answerItems": ["JSX", "markup"]
           },
           "multipleChoiceAnswer": {
             "question": "What is the required return value of a React component function?",
-            "correctAnswer": "JSX (or null).",
+            "correctAnswer": "Some markup (JSX) or null.",
             "falseAnswers": ["A string.", "An object.", "A number."]
           }
         }
@@ -483,7 +483,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što moraju vraćati React komponente?",
-            "correctAnswer": "Neki markup, JSX (ili null).",
+            "correctAnswer": "Neki markup (JSX) ili null.",
             "isEnumeratable": false,
             "answerItems": ["JSX", "markup"]
           },
@@ -781,7 +781,7 @@
         "type": {
           "singleAnswer": {
             "question": "What are the two reasons why props are immutable, or why we shouldn't change them?",
-            "correctAnswer": "The first is that a prop is a regular object, and when we change that object, it will also change in all parent functions that use it. The second reason is that in React, we follow the rule of writing 'pure functions', i.e., functions without side effects. This means that functions do not change values located outside themselves.",
+            "correctAnswer": "First, if we mutate an object passed as a prop, it will also change in any parent components using that same object, potentially leading to unpredictable behavior. Second, React encourages writing 'pure functions,' which are functions without side effects. This means they don't modify values outside their own scope.",
             "isEnumeratable": true,
             "answerItems": [
               "Changing the prop object affects parent components",
@@ -804,7 +804,7 @@
         "type": {
           "singleAnswer": {
             "question": "Koja su dva razloga zašto su props-ovi nepromjenjivi, odnosno ne bi ih smjeli mijenjati?",
-            "correctAnswer": "Prvi je taj da je props običan objekt te kada promijenimo taj objekt, promjeni će se i u svim roditeljskim funkcijama koje ga koriste. Drugi razlog je taj što u Reactu poštujemo pravilo, odnosno pišemo 'pure functions', tj. funkcije bez nuspojava (side effects). To znači da funkcije ne mijenjaju vrijednosti koje se nalaze izvan njih samih.",
+            "correctAnswer": "Prvi je taj da kada mijenjamo neki objekt koji je predan kao prop, promjeni će se i u svim roditeljskim funkcijama koje ga koriste što može dovesti do nepredvidivog ponašanja. Drugi razlog je taj što u Reactu poštujemo pravilo, odnosno pišemo 'pure functions', tj. funkcije bez nuspojava (side effects). To znači da funkcije ne mijenjaju vrijednosti koje se nalaze izvan njih samih.",
             "isEnumeratable": true,
             "answerItems": [
               "Promjena props objekta utječe na roditeljske komponente",
@@ -1037,7 +1037,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što je state u React-u?",
-            "correctAnswer": "Podaci koje komponenta drži kroz vrijeme, odnosno životni vijek aplikacije. Memorija komponente.",
+            "correctAnswer": "Podaci koje komponenta drži kroz vrijeme, odnosno svoj životni vijek. Memorija komponente.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1154,7 +1154,7 @@
         "topic": "State",
         "type": {
           "singleAnswer": {
-            "question": "Describe the process of creating state in a React component?",
+            "question": "With what function we create state, what we pass to that function, and what does it return?",
             "correctAnswer": "The state is created using the `useState()` function, into which we pass the initial value of the state. This function returns an array of two elements: the first is the state value itself, while the second is the function to change the state value.",
             "isEnumeratable": false,
             "answerItems": []
@@ -1174,7 +1174,7 @@
         "topic": "state",
         "type": {
           "singleAnswer": {
-            "question": "Opiši mi postupak kreiranja state-a u React komponenti?",
+            "question": "Pomoću koje funkcije kreiramo state, šta predajemo u tu funkciju i šta ona vraća?",
             "correctAnswer": "State se kreira pomoću funkcije useState(), u koju predajemo inicialnu vrijednost state-a. Ta funkcija vraća niz od dva elementa, prvi je sama vrijednost state-a, dok je druga funkcija kojom mijenjamo vrijednost state-a.",
             "isEnumeratable": false,
             "answerItems": []
@@ -1246,8 +1246,8 @@
         "topic": "State",
         "type": {
           "singleAnswer": {
-            "question": "What is the rule if we change state based on an existing value?",
-            "correctAnswer": "We must not change the previous object (if the state is an object or array), but instead create a new object and use copies of the values from the old object (e.g., setItems(prevItems => [...prevItems, newItem])).",
+            "question": "What is the rule if we change state based on an existing value and that state is object?",
+            "correctAnswer": "We must not change the previous object (previous state), but instead create a new object and use copies of the values from the old object (e.g., setItems(prevItems => [...prevItems, newItem])).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1266,8 +1266,8 @@
         "topic": "state",
         "type": {
           "singleAnswer": {
-            "question": "Koje je pravilo ako mijenjamo state prema postojećoj vrijednosti?",
-            "correctAnswer": "Ne smijemo mijenjati prethodni objekt (ako je taj state objekt ili niz), nego trebamo stvoriti novi objekt i koristiti kopije vrijednosti tog starog objekta (npr. setItems(prevItems => [...prevItems, newItem]))",
+            "question": "Koje je pravilo ako mijenjamo state prema postojećoj vrijednosti i state je neki objekt?",
+            "correctAnswer": "Ne smijemo mijenjati taj prethodni objekt (prethodni state), nego trebamo stvoriti novi objekt i koristiti kopije vrijednosti tog starog objekta (npr. setItems(prevItems => [...prevItems, newItem]))",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1293,7 +1293,7 @@
         "type": {
           "singleAnswer": {
             "question": "Where is state (and ref) never changed and why?",
-            "correctAnswer": "State is never changed in top-level code because it causes an infinite loop that constantly re-renders the component.",
+            "correctAnswer": "State is never changed in top-level code because it causes an infinite re-renders of that component (or many of them).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1313,7 +1313,7 @@
         "type": {
           "singleAnswer": {
             "question": "Gdje se state (ni ref) nikada ne mijenja i zašto?",
-            "correctAnswer": "State se nikada ne mijenja u top-level kodu jer to izaziva beskonačnu petlju koja stalno re-renderira (ponovno učitava) komponentu.",
+            "correctAnswer": "State se nikada ne mijenja u top-level kodu jer to izaziva beskonačno re-renderiranje (ponovno učitava) komponente (ili više njih).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1358,7 +1358,7 @@
         "topic": "react hukovi",
         "type": {
           "singleAnswer": {
-            "question": "Kako prepoznajemo React hukova i koje je pravilo vrijedi za njih kod pozivanja?",
+            "question": "Kako prepoznajemo React hukove i koje je pravilo vrijedi za njih kod pozivanja?",
             "correctAnswer": "React hukovi počinju sa riječ 'use' i njihovo pozivanje je dozvoljeno samo u top-level kodu.",
             "isEnumeratable": false,
             "answerItems": []
@@ -1385,7 +1385,7 @@
         "type": {
           "singleAnswer": {
             "question": "When do we use state in components?",
-            "correctAnswer": "We use it when we want the component to change dynamically based on data and when we want the component to remember data within the component (we don't want every re-render to re-declare and re-initialize some data, preserving values across re-renders).",
+            "correctAnswer": "We use it when we want the component to change dynamically based on data and when we want the component to remember data through re-renders (we don't want every re-render to re-declare and re-initialize some data, preserving values across re-renders).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1405,7 +1405,7 @@
         "type": {
           "singleAnswer": {
             "question": "Kada koristimo state u komponentama?",
-            "correctAnswer": "Koristimo kada želimo da se komponenta dinamički mijenja ovisno o podacima i kada želimo da komponenta pamti podatke u komponenti (ne želimo da svako ponovno učitavanje komponente ponovno deklarira i inicijalizira neki podataka, čuvanje vrijednosti kroz re-renderanje).",
+            "correctAnswer": "Koristimo kada želimo da se komponenta dinamički mijenja ovisno o podacima i kada želimo da komponenta pamti podatke kroz re-rendere (ne želimo da svako ponovno učitavanje komponente ponovno deklarira i inicijalizira neki podataka, čuvanje vrijednosti kroz re-renderanje).",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1431,7 +1431,7 @@
         "type": {
           "singleAnswer": {
             "question": "What are controlled elements in React, and why did the need for them arise?",
-            "correctAnswer": "Controlled elements are form elements whose value is controlled by React state. This is necessary because input elements by default store their state (data) directly in the DOM. React does not want this because it wants all data to be in one central place, i.e., in the React application, not within the DOM.",
+            "correctAnswer": "Controlled elements are form elements whose value is controlled by React state. This is necessary because input elements by default store their state (data) directly in the DOM. React does not want this because it wants all data to be in the React application, not within the DOM.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1451,7 +1451,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što su kontrolirani elementi (controller elements) u React-u, i zbog čega se javila njihova potreba?",
-            "correctAnswer": "Kontrolirani elementi su form elementi čija je vrijednost kontrolirana React state-om. To je potrebno jer input elementi po default-u  pamte svoj state (podatke) u samom DOM-u. React to ne želi jer on želi sve podatke imati na jednom centralnom mjestu, odnosno u React aplikaciji, a ne unutar DOM-a.",
+            "correctAnswer": "Kontrolirani elementi su form elementi čija je vrijednost kontrolirana React state-om. To je potrebno jer input elementi po default-u  pamte svoj state (podatke) u samom DOM-u. React to ne želi jer on želi sve podatke imati u React aplikaciji, a ne unutar DOM-a.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1577,7 +1577,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is local state?",
-            "correctAnswer": "State that is needed only in one component; it can only be accessed from the component where it is defined and from its children.",
+            "correctAnswer": "State that is defined and managed within a single component, primarily for its own needs. Values from this local state, as well as functions to update it, can optionally be passed down to its direct child components via props.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1597,7 +1597,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što je to local state?",
-            "correctAnswer": "State koji je potreban samo u jednoj komponenti, može mu se pristupati samo iz komponente u kojoj je definiran i iz djece te komponente.",
+            "correctAnswer": "State koji se definira i njime se upravlja iz jedne komponente, prvenstveno za njene vlastite potrebe. Vrijednosti iz tog lokalnog state-a, kao i funkcije za njegovo ažuriranje, mogu se po potrebi proslijediti njezinim direktnim dječjim komponentama putem props-ova. ",
             "isEnumeratable": false,
             "answerItems": []
           },
