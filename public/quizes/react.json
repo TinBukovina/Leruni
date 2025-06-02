@@ -1623,7 +1623,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is global state?",
-            "correctAnswer": "State that is needed in multiple different components throughout the entire application. This state is available in every component within the application.",
+            "correctAnswer": "State that is needed in multiple different components throughout the entire application. This state can be available in every component within the application.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1643,7 +1643,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što je to globalni state?",
-            "correctAnswer": "State koji je potreban u više različitih komponenti kroz cijelu aplikaciju. Ovaj state je dostupan u svakoj komponenti unutar aplikacije.",
+            "correctAnswer": "State koji je potreban u više različitih komponenti kroz cijelu aplikaciju. Ovaj state može biti dostupan u svakoj komponenti unutar aplikacije.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1903,7 +1903,7 @@
         "type": {
           "singleAnswer": {
             "question": "List the differences between components, component instances, and React elements?",
-            "correctAnswer": "Components are functions (blueprints) that describe a part of the user interface and return a React element, usually via JSX format.\n Component instances are created when we use the components themselves (call component functions) and they represent the physical representation of the component that contains state and props. They have their own lifecycle.\n A React element is the result of calling the React.createElement() function, obtained by translating the JSX syntax returned from the component function. It contains all the necessary data to create a DOM element.",
+            "correctAnswer": "Components are blueprints that describe a part of the user interface, defining how the user interface will look and behave. A React element is the result of calling the React.createElement() function, which is obtained by translating the JSX syntax returned from a component. It contains all the necessary data to create a DOM element. In other words, a React element is a lightweight JavaScript object that describes what should be rendered in the actual DOM.A component instance is created from a React element, and it represents the physical representation of the component, containing state and props. They themselves have a lifecycle.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -1923,7 +1923,7 @@
         "type": {
           "singleAnswer": {
             "question": "Navedi mi razlike između komponenti, instanca komponente i React elemenata?",
-            "correctAnswer": "Komponente su funkcije (nacrt) koji opisuje dio korisničkog sučelja i vraća React element, obično preko JSX formata.\n Instanca komponente se kreira kada koristimo same komponente (pozivamo funkcije komponente) i one predstavljaju fizičku reprezentaciju komponente koja sadrži state i props-ove. One same po sebi imaju životni vijek.\n React element je rezultat pozivanja React.createElement() funkcije koje se dobiva prevođenjem JSX sintakse koja se vraća iz funkcije komponente. Ona sadrži sve potrebne podatke za kreiranje DOM elementa.",
+            "correctAnswer": "Komponente su nacrti koji opisuju dio korisničkog sučelja, definira kako će korisničko sučelje izgledati i ponašati se.\n React element je nepromijenjivi lagani JavaScript objekt koji opisuje što treba renderirati u pravom DOM-u. Dobiva se kao rezultat pozivanja React.createElement() funkcije koje se dobiva prevođenjem JSX sintakse koja se vraća iz komponente. Ona sadrži sve potrebne podatke za kreiranje DOM elementa. \n Instanca komponente se kreira iz React elementa i ona predstavljaju fizičku reprezentaciju komponente koja sadrži state i props-ove. One same po sebi imaju životni vijek.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -2066,7 +2066,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što sve uzrokuje renderiranje komponente?",
-            "correctAnswer": "Inicialno pokretanje aplikacije, ažuriranje state-a, promijena context-a na koji je komponenta preplaćena, re-renderiranje roditelja.",
+            "correctAnswer": "Inicialno pokretanje aplikacije, ažuriranje state-a, promijena context-a na koji je komponenta preptlaćena, re-renderiranje roditelja.",
             "isEnumeratable": true,
             "answerItems": [
               "Inicialno pokretanje aplikacije",
