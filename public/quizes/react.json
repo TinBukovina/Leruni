@@ -2097,13 +2097,13 @@
         "type": {
           "singleAnswer": {
             "question": "What is the virtual DOM?",
-            "correctAnswer": "A lightweight JavaScript object, or a tree structure, consisting of all React elements obtained from React component instances.",
+            "correctAnswer": "A tree-like structure consisting of all React elements (immutable, lightweight JavaScript objects).",
             "isEnumeratable": false,
             "answerItems": []
           },
           "multipleChoiceAnswer": {
             "question": "What is the Virtual DOM in React?",
-            "correctAnswer": "A lightweight JavaScript representation of the actual DOM.",
+            "correctAnswer": "A tree-like structure consisting of all React elements.",
             "falseAnswers": [
               "The actual DOM tree in the browser.",
               "A database for storing component data.",
@@ -2117,13 +2117,13 @@
         "type": {
           "singleAnswer": {
             "question": "Što je virtualni DOM?",
-            "correctAnswer": "Lagani JavaScript objekt, odnosno stablasta struktura koja se sastoji od svih React elemenata dobivenih iz instanci React komponenti.",
+            "correctAnswer": "Stablasta struktura koja se sastoji od svih React elemenata (nepromijenjivi lagani JavaScript objekti).",
             "isEnumeratable": false,
             "answerItems": []
           },
           "multipleChoiceAnswer": {
             "question": "Što je Virtualni DOM u Reactu?",
-            "correctAnswer": "Lagana JavaScript reprezentacija stvarnog DOM-a.",
+            "correctAnswer": "Stablasta struktura koja se sastoji od svih React elemenata.",
             "falseAnswers": [
               "Stvarno DOM stablo u pregledniku.",
               "Baza podataka za pohranu podataka komponenti.",
@@ -2143,7 +2143,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is the purpose of the virtual DOM, explain?",
-            "correctAnswer": "It is used for performance optimization when updating the user interface. When re-rendering, React does not recreate the entire DOM because that would severely impact performance (most often only a small part of the DOM needs to be updated when some state changes). The virtual DOM is fast and efficient to create and is used by React to detect only the necessary changes that need to be made to the actual DOM to display the changes in the application. This happens in the Reconciliation process.",
+            "correctAnswer": "It is used for performance optimization when updating the user interface. When updating UI, React does not recreate the entire DOM because that would severely impact performance (most often only a small part of the DOM needs to be updated when some state changes). The virtual DOM is fast and efficient to create and is used by React to detect only the necessary changes that need to be made to the actual DOM to display the changes in the application. This happens in the Reconciliation process.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -2163,7 +2163,7 @@
         "type": {
           "singleAnswer": {
             "question": "Čemu služi virtualni DOM, objasni?",
-            "correctAnswer": "Služi za optimizaciju performansi prilikom ažuriranja korisničkog sučelja. Prilikom re-renderiranja React ne kreira cijli DOM iznova jer bi to jako naškodilo performansama (najčešće je potrebno samo mali dio DOM-a da se ažurira kada se neki state promijeni). Virtualni dom je brzo i efikasno kreirati i on se koristi kako bi React otkrio samo nužne promijene koje mora napraviti nad DOM-om kako bi prikazao nastale promjene u aplikaciji. To se događa u procesu Reconciliation-a.",
+            "correctAnswer": "Služi za optimizaciju performansi prilikom ažuriranja korisničkog sučelja. Prilikom ažuriranja korisničkog sučelja React ne kreira cijli DOM iznova jer bi to jako naškodilo performansama (najčešće je potrebno samo mali dio DOM-a da se ažurira kada se neki state promijeni). Virtualni dom je brzo i efikasno kreirati i on se koristi kako bi React otkrio samo nužne promijene koje mora napraviti nad DOM-om kako bi prikazao nastale promjene u aplikaciji. To se događa u procesu Reconciliation-a.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -2189,7 +2189,7 @@
         "type": {
           "singleAnswer": {
             "question": "What is re-rendered (in the virtual DOM) when the state changes in a component?",
-            "correctAnswer": "When a component is re-rendered in the virtual DOM, all its children are also re-rendered in the virtual DOM. However, this does not necessarily mean they will change in the actual DOM due to the process called reconciliation.",
+            "correctAnswer": "When a component is re-rendered, it and all its children are also re-rendered. However, this does not necessarily mean they will change in the actual DOM due to the process called reconciliation.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -2208,8 +2208,8 @@
         "topic": "virutalni DOM (virtual DOM)",
         "type": {
           "singleAnswer": {
-            "question": "Šta se re-renderira (u virtualnom DOM-u) prilikom pomjena state-a u nekoj komponenti?",
-            "correctAnswer": "Kada se neka komponente re-renderira u virutalnom DOM-u, onda se i sva njena djeca re-renderiraju u virtualnom DOM. No to ne znači nužno da će se promijeniti u samom DOM zbog procesa zvan reconciliation.",
+            "question": "Šta se re-renderira prilikom pomjena state-a u nekoj komponenti?",
+            "correctAnswer": "Kada se neka komponente re-renderira, onda se ona i sva njena djeca re-renderiraju. No to ne znači nužno da će se promijeniti u samom DOM zbog procesa zvan reconciliation.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -2241,7 +2241,7 @@
           },
           "multipleChoiceAnswer": {
             "question": "What is the purpose of Reconciliation in React?",
-            "correctAnswer": "To determine the minimal set of changes needed to update the actual DOM to match the Virtual DOM.",
+            "correctAnswer": "To determine the minimal set of changes needed to update the actual DOM to match the changes created in the app.",
             "falseAnswers": [
               "To create the Virtual DOM from the component tree.",
               "To handle asynchronous operations.",
@@ -2255,13 +2255,13 @@
         "type": {
           "singleAnswer": {
             "question": "Što je reconciliation?",
-            "correctAnswer": "Proces u kojem se odlučuje koji DOM elementi zapravo trebaju biti promijenjeni, dodani ili maknuti da odraze promijene koje su se dogodili u aplikaciji. Vraća niz naredbi koji ",
+            "correctAnswer": "Proces u kojem se odlučuje koji DOM elementi zapravo trebaju biti promijenjeni, dodani ili maknuti da odraze promjene koje su se dogodile u aplikaciji. Vraća niz naredbi koje React zatim koristi za efikasno ažuriranje stvarnog DOM-a.",
             "isEnumeratable": false,
             "answerItems": []
           },
           "multipleChoiceAnswer": {
             "question": "Koja je svrha Reconciliationa u Reactu?",
-            "correctAnswer": "Određivanje minimalnog skupa promjena potrebnih za ažuriranje stvarnog DOM-a kako bi odgovarao Virtualnom DOM-u.",
+            "correctAnswer": "Određivanje minimalnog skupa promjena potrebnih za ažuriranje stvarnog DOM-a kako bi nastalim promijenama.",
             "falseAnswers": [
               "Kreiranje Virtualnog DOM-a iz stabla komponenti.",
               "Rukovanje asinkronim operacijama.",
@@ -2393,7 +2393,7 @@
         "type": {
           "singleAnswer": {
             "question": "Što je fiber tree?",
-            "correctAnswer": "Interna nepromjenjiva (kreira se samo na incialnom renderu, a ažurira se kroz vijek aplikacije) struktura podataka (povezana lista) koja sadrži fiber za svaku instancu DOM elemnta.",
+            "correctAnswer": "Interna nepromjenjiva (kreira se samo na incialnom renderu, a ažurira se kroz vijek aplikacije) struktura podataka (specializirana implementacija stablaste strukture koja koristi mehanizme slične povezanim listama) koja sadrži fiber za svaku instancu DOM elemnta.",
             "isEnumeratable": false,
             "answerItems": []
           },
@@ -2419,13 +2419,13 @@
         "type": {
           "singleAnswer": {
             "question": "What does a fiber represent within the fiber tree?",
-            "correctAnswer": "They represent an instance of a DOM element and are not recreated for each render, but are only changed throughout the application's life. For this reason, they store states, props, hooks, side effects, etc.",
+            "correctAnswer": "They represent React's internal representation of an individual DOM element. They are not recreated on every render; instead, they are modified throughout the application's lifecycle (as React strives to reuse existing Fibers whenever possible), and information such as state, props, hooks, side effects, etc., is stored in them.",
             "isEnumeratable": false,
             "answerItems": []
           },
           "multipleChoiceAnswer": {
             "question": "What does a 'Fiber' represent in React's Fiber tree?",
-            "correctAnswer": "An instance of a component or DOM element.",
+            "correctAnswer": "React's internal representation of an individual DOM element.",
             "falseAnswers": [
               "A single Virtual DOM node.",
               "A CSS rule.",
@@ -2439,13 +2439,13 @@
         "type": {
           "singleAnswer": {
             "question": "Što predstavlja fiber unutar fiber stabla?",
-            "correctAnswer": "Oni predstavljaju instancu DOM elementa i nisu rekreirani za svaki render, nego se samo mijenjaju kroz vijek apliakcije i zbog tog razloga se u njima spremaju state-ovi, props-ovi, hook-ovi, side efekti, itd...",
+            "correctAnswer": "Oni predstavljaju Reactovu internu reprezentaciju pojedinog DOM elementa i nisu rekreirani za svaki render , nego se samo mijenjaju kroz vijek apliakcije (react se trudi koristiti prethodne fibere koliko je moguće) i u njima se spremaju state-ovi, props-ovi, hook-ovi, side efekti, itd...",
             "isEnumeratable": false,
             "answerItems": []
           },
           "multipleChoiceAnswer": {
             "question": "Što predstavlja 'Fiber' u Reactovom Fiber stablu?",
-            "correctAnswer": "Instancu komponente ili DOM elementa.",
+            "correctAnswer": "Reactovu internu reprezentaciju pojedinog DOM elementa.",
             "falseAnswers": [
               "Jedan čvor Virtualnog DOM-a.",
               "CSS pravilo.",
